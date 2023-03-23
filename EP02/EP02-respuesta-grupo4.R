@@ -11,6 +11,7 @@ setwd("C:/Users/david/OneDrive/Escritorio/universidad/10mo Semestre/IME/activida
 #Importar dplyr y ggpubr para utlizar funcionalidades del paquete.
 library(dplyr)
 library(ggpubr)
+library(tidyr)
 
 #Leer datos del archivo csv, se importará con read.csv2() porque el archivo está en español.
 
@@ -28,53 +29,17 @@ contadorRural <- datosRural %>% count(ch1)
 
 tabla <-table(datosHombre[["zona"]],datosHombre[["ch1"]])
 
-#tabla <-table(datosHombre[["ch1"]],datosHombre[["zona"]])
-tablaFrecuencia <- data.frame(tabla) %>% group_by(Var2)
+tablaFrecuencia <- data.frame(tabla) 
 
-# g1 <- gghistogram(contadorUrbano,
-#                   x = "n",
-#                   bins=4)
-# print(g1)
-# mis_colores <- c("blue", "red", "green", "purple")
-# g1 <- ggbarplot(data = contadorUrbano,
-#                 x = "ch1",
-#                 y = "n",
-#                 fill = mis_colores,
-#                 title = "Ocupación en zona urbana (Hombres)",
-#                 xlabel = "Ocupación",
-#                 ylabel = "Cantidad")
-# le pedí ayuda al chat gpt y me dijo lo mismo q ya tenía hecho, pero no encuentro el error KJDNKJBDF
+f <- ggplot(tablaFrecuencia, aes(x = Var2, y = Freq, fill = Var1)) +
+  geom_bar(stat = "identity", position = "stack") +
+  labs(x = "Situación Laboral", y = "Frecuencia", fill = "Zona")
 
-# mis_colores <- c("blue", "red", "green", "purple")
-# g1 <- ggbarplot(contadorUrbano,
-#                 x = "ch1",
-#                 y = "n",
-#                 fill = mis_colores,
-#                 title = "Ocupación en zona urbana (Hombres)",
-#                 xlabel = "Ocupación",
-#                 ylabel = "Cantidad")
+f <- theme_pubr()
 
-
-# g2 <- ggbarplot(contadorRural,
-#                 x = "ch1",
-#                 y = "n",
-#                 title = "Ocupación en zona rural (Hombres)",
-#                 xlabel = "Ocupación",
-#                 ylabel = "Cantidad")
-# 
-# 
-# print(g1)
-# print(g2)
-
-g3 <- ggplot(tablaFrecuencia, aes(fill=Var1,y=Freq,x=Var2))
-# g3 <- g3 + labs(y="proporción") + ggtitle("aaaaa")
-# g3 <- g3 + theme_pubr()
-
-print(g3)
+print(f)
 # ¿Se distribuye de igual manera la situación ocupacional de los hombres que viven en áreas rurales y quienes
 # viven en áreas urbanas de la RM?
-
-# creo q igual necesitariamos ver los porcentajes o no? aaaaaa podría ser aplicar una distribución normal no sé djndkjb tiren ideas
-
-
-
+  
+# Observando el gráfico y la tabla de frecuencia, podemos concluir que la distribución de la 
+# situación ocupacional de los hombres es diferente en las áreas rurales y urbanas de la RM. 
