@@ -15,8 +15,26 @@ sd.ingreso <- sqrt (sum((ingreso.podado - media.ingreso)^2) / tamano.podado )
 set.seed(420)
 ingreso.normal <- rnorm(5000, mean = media.ingreso, sd = sd.ingreso)
 
-#generar distribucion Z
+# generar distribucion Z
+# z = x - u / sd
+disZ <- (ingreso.normal - media.ingreso) / sd.ingreso
 
+# generar distribucion chi cuadrado
+
+# definir grados de libertad
+k = 24
+
+# elevar cada elemento al cuadrado
+ingreso.cuadrado <- ingreso.normal ^ 2
+
+# sumar elementos
+chi <- sum(ingreso.cuadrado)
+
+#obtener distribucion
+chiMuestras <- replicate(5000,chi)
+
+library(ggpubr)
+gghistogram(chiMuestras,)
 
 
 
