@@ -1,3 +1,6 @@
+#Grupo4: Agustin Henriquez, Jaime Carrasco, David Valero
+
+library(ggpubr)
 basename <- "EP03 Datos.csv"
 #file <- file.path(dir, basename)
 setwd("C:/Users/agust/Desktop/Ramos 2023/IME/EP02/IME-2023/EP03")
@@ -19,10 +22,10 @@ ingreso.normal <- rnorm(5000, mean = media.ingreso, sd = sd.ingreso)
 # z = x - u / sd
 disZ <- (ingreso.normal - media.ingreso) / sd.ingreso
 
-# generar distribucion chi cuadrado
+#------generar distribucion chi cuadrado---------
 
 # definir grados de libertad
-k = 24
+k = 16
 
 # elevar cada elemento al cuadrado
 ingreso.cuadrado <- ingreso.normal ^ 2
@@ -33,7 +36,7 @@ chi <- sum(ingreso.cuadrado)
 #obtener distribucion
 chiMuestras <- replicate(5000,chi)
 
-library(ggpubr)
+
 gghistogram(chiMuestras,)
 
 
