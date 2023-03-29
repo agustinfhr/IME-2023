@@ -25,25 +25,18 @@ disZ <- (ingreso.normal - media.ingreso) / sd.ingreso
 #------generar distribucion chi cuadrado---------
 
 # definir grados de libertad
-k = 16
+k = 6
+k2 = 10
 
-# elevar cada elemento al cuadrado
-ingreso.cuadrado <- ingreso.normal ^ 2
+xi2 = disZ^((k/2)-1)*exp(1)^(-disZ/2)/2^(disZ/2)*gamma(k/2)
+print (xi2)
 
-# sumar elementos
-chi <- sum(ingreso.cuadrado)
-
-#obtener distribucion
-chiMuestras <- replicate(5000,chi)
-
-
-gghistogram(chiMuestras,)
+xi2.1 = disZ^((k2/2)-1)*exp(1)^(-disZ/2)/2^(disZ/2)*gamma(k2/2)
+print (xi2.1)
 
 
 
-set.seed(133)
-n.repeticiones <- 20
-ensayo <- function(x)
-  ifelse(sample(poblacion[["sexo"]], 1) == "Mujer", 1, 0)
-veinte.repeticiones <- sapply(1:n.repeticiones, ensayo)
+#--------generar distribucion F---------------
 
+f <- (x2.1/grado1)/(x2.2/grado2)
+print (f)
