@@ -1,8 +1,16 @@
+# # Grupo 2
+# Integrantes: 
+#   - Angel Vilches
+#   - Nicolas Valdes
+#   - Agustín Henríquez
 
 #Definir ruta/directorio de trabajo
 setwd("C:/Users/agust/Desktop/REPO IME/IME-2023/EP04")
 
 # pregunta 1 ////////////////////////////////////////////////////////////////////
+
+# 1. El criador a cargo del estudio cree que el peso medio de los pollitos alimentados con maravilla, a los 14 días
+# de nacidos, es superior a 154,5 gramos. ¿Soportan los datos esta afirmación?
 
 # Hipótesis nula: El peso medio de los pollitos alimentados con maravilla, 
 # a los 14 días de nacidos, es igual a 154,5 gramos.
@@ -46,5 +54,33 @@ print(prueba)
 # lo que significa que el valor de t calculado es mayor que el valor crítico, 
 # lo que sugiere que hay suficiente evidencia para rechazar la hipótesis nula 
 # de que la media poblacional es menor o igual a 154.5
+
+
+# pregunta 2 ////////////////////////////////////////////////////////////////////
+
+# 2. ¿Sugieren los datos que, en promedio, los pollitos alimentados con soya aumentan su peso en menos de
+# 10,5 gramos a 2 días desde su nacimiento?
+
+# Hipótesis nula: el peso promedio de los pollitos alimentados con soya 
+# a los 2 días desde su nacimiento es igual a 10,5 gramos.
+# 
+# Hipótesis alternativa: el peso promedio de los pollitos alimentados con soya 
+# a los 2 días desde su nacimiento es menor a 10,5 gramos.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
