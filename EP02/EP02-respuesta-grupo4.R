@@ -5,7 +5,7 @@
 
 
 #Definir ruta/directorio de trabajo
-setwd("C:/Users/david/OneDrive/Escritorio/universidad/10mo Semestre/IME/actividades semanales/IME-2023/EP02")
+setwd("C:/Users/agust/Desktop/REPO IME/IME-2023/EP02")
 
 
 #Importar dplyr y ggpubr para utlizar funcionalidades del paquete.
