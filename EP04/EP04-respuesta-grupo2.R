@@ -30,12 +30,11 @@ datos <- read.csv2("EP04 Datos.csv",stringsAsFactors = TRUE)
 # Selección de los datos de interés
 datos_maravilla <- subset(datos, DIETA == "Maravilla" & DIA == 14)$PESO
 
-# Verificar distribuci ón muestral usando la prueba de normalidad
-
+# Verificar distribución muestral usando la prueba de normalidad
 # de Shapiro - Wilk .
 normalidad <- shapiro.test(datos_maravilla)
 print(normalidad)
-# resultados arrojan datos con distribucion normal 
+# resultados arrojan datos con distribución normal 
 
 
 # Fijar un nivel de significación.
@@ -58,22 +57,32 @@ print(prueba)
 
 # pregunta 2 ////////////////////////////////////////////////////////////////////
 
-# 2. ¿Sugieren los datos que, en promedio, los pollitos alimentados con soya aumentan su peso en menos de
-# 10,5 gramos a 2 días desde su nacimiento?
+# 2. ¿Sugieren los datos que, en promedio, los pollitos alimentados con soya
+#    aumentan su peso en menos de 10,5 gramos a 2 días desde su nacimiento?
 
 # Hipótesis nula: el peso promedio de los pollitos alimentados con soya 
 # a los 2 días desde su nacimiento es igual a 10,5 gramos.
 # 
 # Hipótesis alternativa: el peso promedio de los pollitos alimentados con soya 
-# a los 2 días desde su nacimiento es menor a 10,5 gramos.
+# a los 2 días desde su nacimiento es mayor a 10,5 gramos.
 
+# Se seleccionan los datos de interes, estos son, el peso cuya dieta considera Soya en día 2
+datos_soya <- subset(datos, DIETA == "Soya" & DIA == 2)$PESO
+normalidad <- shapiro.test(datos_soya)
+print(normalidad)
+# De acuerdo con un p-valor igual a 0.06112 > alpha (0.05)
+alfa <- 0.05
+valor_nulo <- 10.5
 
+prueba <- t.test(datos_soya,
+                 alternative = "less",
+                 mu = valor_nulo,
+                 conf.level = 1 - alfa)
 
-
-
-
-
-
+print(prueba)
+# De acuerdo con los resultados obtenidos, se rechaza la hipótesis nula en favor
+# de la hipótesis alternativa que señala un peso mayor a 10.5 gramos a dos días
+# desde su nacimiento con una dieta basada en soya
 
 
 
