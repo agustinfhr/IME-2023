@@ -68,28 +68,25 @@ print(prueba)
 
 # Se seleccionan los datos de interes, estos son, el peso cuya dieta considera Soya en día 2
 datos_soya <- subset(datos, DIETA == "Soya" & DIA == 2)$PESO
+# En este sentido, la media aritmética y desviación estándar corresponden a:
+media_datos_soya <- mean(datos_soya, na.rm = TRUE)              # 50.4
+desviacion_estandar_datos_soya <- sd(datos_soya, na.rm = TRUE)  # 2.412928
+
+# A continuación, y dada una muestra pequeña se emplea la distribución t de 
+# Student para probar la veracidad de la hipótesis nula. Sin embargo, debemos
+# veríficar la normalidad de la muestra
 normalidad <- shapiro.test(datos_soya)
 print(normalidad)
-# De acuerdo con un p-valor igual a 0.06112 > alpha (0.05)
+# Luego, empleando un nivel de significancia de 0.05
 alfa <- 0.05
 valor_nulo <- 10.5
-
 prueba <- t.test(datos_soya,
                  alternative = "less",
                  mu = valor_nulo,
                  conf.level = 1 - alfa)
-
 print(prueba)
 # De acuerdo con los resultados obtenidos, se rechaza la hipótesis nula en favor
-# de la hipótesis alternativa que señala un peso mayor a 10.5 gramos a dos días
-# desde su nacimiento con una dieta basada en soya
-
-
-
-
-
-
-
-
-
-
+# de la hipótesis alternativa que señala un peso menor a 10.5 gramos a dos días
+# desde su nacimiento con una dieta basada en soya. Esto dada la variabilidad
+# evindenciada entre el valor t, media y valor de hipótesis, sumando al p valor
+# que sugiere una probabilidad de diferencia de promedio atípico del 100%.
