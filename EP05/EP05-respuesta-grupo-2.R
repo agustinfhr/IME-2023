@@ -44,14 +44,15 @@ SE = s / sqrt (n)
 
 # Hipotesis
 # H0: m = 110
-# H1: m < 110
+# H1: m != 110
 
 # Calcular la probabilidad de cometer un error de tipo I
 # usar función pnorm para calcular la probabilidad acumulada de una variable aleatoria normal estándar en un punto específico de la distribución
-cola_inferior <- pnorm(mean = 110, sd = SE, q = 108, lower.tail = TRUE)
+cola_inferior <- pnorm(mean = 110, sd = SE, q = 108.5, lower.tail = TRUE)
+cola_superior <- pnorm(mean = 110, sd = SE, q = 111.5, lower.tail = FALSE)
 
 # Como se trata de una prueba unilateral, el nivel de significacion es igual la cola superior
-alfa = cola_inferior
+alfa = cola_inferior + cola_superior
 
 print(alfa)
 
@@ -63,19 +64,31 @@ x <- seq(110 - s*SE,110 + s*SE,0.01)
 y <- dnorm(x, mean = 110 , sd = SE)
 g <- ggplot(data = data.frame(x,y), aes(x))
 g <- g + stat_function(
-  fun = dnorm ,
-  n = 100,
+  fun = dnorm,
+  n = 300,
   args = list(mean = 110 , sd = SE),
   colour = "steelblue", size = 1)
 g <- g + ylab("Densidad")
 g <-g + xlab("Dureza")
 g <-g + labs(title = "Área Error tipo 1")
 g <- g + theme_pubr()
-g <- g + geom_area(data = subset(data.frame(x,y), x < 108), 
+g <- g + geom_area(data = subset(data.frame(x,y), x < 108.5), 
                    aes(y = y),
                    colour = "red",
                    fill = "red",
                    alpha = 0.5)
+
+
+g <- g + geom_area(data = subset(data.frame(x,y), x > 111.5), 
+                   aes(y = y),
+                   colour = "red",
+                   fill = "red",
+                   alpha = 0.5)
+
+# Agregar una línea vertical para el valor nulo .
+g <- g + geom_vline(aes(xintercept = 110) ,
+                           color = "steelblue", linetype = 1)
+
 print(g)
 
 
