@@ -8,7 +8,6 @@
 
 library(tidyr)
 library (ggpubr)
-library (ggpubr)
 library(ggplot2)
 library (dplyr)
 library(pwr)
@@ -39,9 +38,9 @@ SE = s / sqrt (n)
 # ////////////////////////// PREGUNTA 1 //////////////////////////
 
 
-# El agricultor est? seguro de que el verdadero peso medio no puede ser superior a 110 gramos y piensa
-# rechazar la hip?tesis nula cuando la muestra presente un peso medio menor a 108 gramos. Determine,
-# usando herramientas gr?ficas, la probabilidad de que cometa un error de tipo I.
+# El agricultor piensa rechazar la hipótesis nula cuando la muestra presente un peso medio menor a 108,5
+# gramos o mayor a 111,5 gramos. Determine, usando herramientas gráficas, la probabilidad de que cometa
+# un error de tipo I.
 
 # Hipotesis
 # H0: m = 110
@@ -136,14 +135,107 @@ poderPrueba <- power.t.test(n = tamanioMuestra, delta = (mediaHipotetica - media
 # 1-poderPrueba = 0.9415 o 94.15% de que el agricultor no detecte una diferencia real en los pesos de las manzanas y acepte incorrectamente la hipÃ³tesis nula
 
 
-ggplot(data.frame(x = c(-4, 4)), aes(x)) + 
+g2 <- ggplot(data.frame(x = c(-4, 4)), aes(x)) + 
   stat_function(fun = dt, args = list(df = gradosLibertad)) +
   geom_vline(xintercept = valorCritico, linetype = "dashed") +
   labs(x = "Valor t", y = "Densidad", title = "Diagrama t de Student") +
   theme_bw()
+
+print(g2)
 
 # De acuerdo a lo calculado y graficado, la prueba tiene un poder bajo, es decir, existe una alta
 # probabilidad de comenter un error de tipo II, vale decir, no rechazar H0 cuando HA es verdadera.
 # Por lo tanto, el agricultor tiene una baja probabilidad de detectar que el peso medio de sus manzanas
 # es menor a 110 gramos.
              
+
+# ////////////////////////// PREGUNTA 3 //////////////////////////
+
+
+# Teniendo en cuenta que en realidad no se conoce el verdadero peso medio, genere ahora un gráfico del
+# poder teniendo en cuenta que el agricultor piensa rechazar la hipótesis nula si la muestra presenta un peso
+# medio menor a 108,5 gramos o mayor a 111,5 gramos, pero suponiendo ahora que el peso volumen medio
+# podría variar entre 109,5 y 110,5 gramos.
+
+
+# Desviaci?n Est?ndar
+desv_estandar <- 15
+
+# Tama?o de la muestra
+n <- 300
+
+
+alfa <- 0.05
+
+medias <- seq(109.5, 110.5, 0.01)
+media_nula <- 110 # (109.5 + 110.5) / 2
+
+
+# Cálculo del efecto
+efecto <- (medias - media_nula) / desv_estandar
+
+# Cálculo del poder
+resultado <- power.t.test(n = n, 
+                          delta = efecto, 
+                          sd = desv_estandar, 
+                          sig.level = alfa, 
+                          type = "one.sample", 
+                          alternative = "two.sided")$power
+
+
+# Se define el gráfico
+datos <- data.frame(efecto, resultado)
+datos <- datos %>% pivot_longer(!"efecto", 
+                                names_to = "fuente", 
+                                values_to = "poder")
+niveles <- c("resultado")
+etiquetas <- c("resultado")
+datos[["fuente"]] <- factor(datos[["fuente"]], 
+                            levels = niveles, 
+                            labels = etiquetas)
+
+g3 <- ggplot (datos, aes(efecto, poder, colour = factor (fuente)))
+g3 <- g3 + geom_line()
+g3 <- g3 + labs ( colour = "")
+g3 <- g3 + ylab ("Poder estadístico")
+g3 <- g3 + xlab ("Tamaño del efecto")
+
+# Título para el gráfico
+g3 <- g3 + theme_pubr ()
+g3 <- g3 + ggtitle ("Poder v/s tamaño del efecto pesos")
+g3 <- g3 + geom_vline ( xintercept = 0, linetype = "dashed")
+
+print(g3)
+
+# El grafico muestra cómo el poder estadístico cambia a medida que el tamaño del efecto cambia. 
+# Cuanto mayor es el tamaño del efecto, mayor es el poder estadístico. 
+# Por lo tanto, si el gráfico muestra que el poder estadístico es alto para tamaños de efecto en el rango de 109.5 a 110.5, 
+# esto quiere decir que el agricultor tiene una alta probabilidad de detectar si el peso medio de las manzanas cae dentro de ese rango, 
+# dado su condicion de rechazo de la hipótesis nula. Si el poder estadístico es bajo, esto sugiere que el agricultor tiene una baja 
+# probabilidad de detectar si el peso medio de las manzanas cae dentro de ese rango.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
