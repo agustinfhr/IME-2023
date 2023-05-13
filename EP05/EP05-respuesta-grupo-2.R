@@ -38,8 +38,8 @@ SE = s / sqrt (n)
 # ////////////////////////// PREGUNTA 1 //////////////////////////
 
 
-# El agricultor piensa rechazar la hip�tesis nula cuando la muestra presente un peso medio menor a 108,5
-# gramos o mayor a 111,5 gramos. Determine, usando herramientas gr�ficas, la probabilidad de que cometa
+# El agricultor piensa rechazar la hip?tesis nula cuando la muestra presente un peso medio menor a 108,5
+# gramos o mayor a 111,5 gramos. Determine, usando herramientas gr?ficas, la probabilidad de que cometa
 # un error de tipo I.
 
 # Hipotesis
@@ -152,10 +152,10 @@ print(g2)
 # ////////////////////////// PREGUNTA 3 //////////////////////////
 
 
-# Teniendo en cuenta que en realidad no se conoce el verdadero peso medio, genere ahora un gr�fico del
-# poder teniendo en cuenta que el agricultor piensa rechazar la hip�tesis nula si la muestra presenta un peso
+# Teniendo en cuenta que en realidad no se conoce el verdadero peso medio, genere ahora un gr?fico del
+# poder teniendo en cuenta que el agricultor piensa rechazar la hip?tesis nula si la muestra presenta un peso
 # medio menor a 108,5 gramos o mayor a 111,5 gramos, pero suponiendo ahora que el peso volumen medio
-# podr�a variar entre 109,5 y 110,5 gramos.
+# podr?a variar entre 109,5 y 110,5 gramos.
 
 
 # Desviaci?n Est?ndar
@@ -171,10 +171,10 @@ medias <- seq(109.5, 110.5, 0.01)
 media_nula <- 110 # (109.5 + 110.5) / 2
 
 
-# C�lculo del efecto
+# C?lculo del efecto
 efecto <- (medias - media_nula) / desv_estandar
 
-# C�lculo del poder
+# C?lculo del poder
 resultado <- power.t.test(n = n, 
                           delta = efecto, 
                           sd = desv_estandar, 
@@ -183,7 +183,7 @@ resultado <- power.t.test(n = n,
                           alternative = "two.sided")$power
 
 
-# Se define el gr�fico
+# Se define el gr?fico
 datos <- data.frame(efecto, resultado)
 datos <- datos %>% pivot_longer(!"efecto", 
                                 names_to = "fuente", 
@@ -197,45 +197,44 @@ datos[["fuente"]] <- factor(datos[["fuente"]],
 g3 <- ggplot (datos, aes(efecto, poder, colour = factor (fuente)))
 g3 <- g3 + geom_line()
 g3 <- g3 + labs ( colour = "")
-g3 <- g3 + ylab ("Poder estad�stico")
-g3 <- g3 + xlab ("Tama�o del efecto")
+g3 <- g3 + ylab ("Poder estad?stico")
+g3 <- g3 + xlab ("Tama?o del efecto")
 
-# T�tulo para el gr�fico
+# T?tulo para el gr?fico
 g3 <- g3 + theme_pubr ()
-g3 <- g3 + ggtitle ("Poder v/s tama�o del efecto pesos")
+g3 <- g3 + ggtitle ("Poder v/s tama?o del efecto pesos")
 g3 <- g3 + geom_vline ( xintercept = 0, linetype = "dashed")
 
 print(g3)
 
-# El grafico muestra c�mo el poder estad�stico cambia a medida que el tama�o del efecto cambia. 
-# Cuanto mayor es el tama�o del efecto, mayor es el poder estad�stico. 
-# Por lo tanto, si el gr�fico muestra que el poder estad�stico es alto para tama�os de efecto en el rango de 109.5 a 110.5, 
+# El grafico muestra c?mo el poder estad?stico cambia a medida que el tama?o del efecto cambia. 
+# Cuanto mayor es el tama?o del efecto, mayor es el poder estad?stico. 
+# Por lo tanto, si el gr?fico muestra que el poder estad?stico es alto para tama?os de efecto en el rango de 109.5 a 110.5, 
 # esto quiere decir que el agricultor tiene una alta probabilidad de detectar si el peso medio de las manzanas cae dentro de ese rango, 
-# dado su condicion de rechazo de la hip�tesis nula. Si el poder estad�stico es bajo, esto sugiere que el agricultor tiene una baja 
+# dado su condicion de rechazo de la hip?tesis nula. Si el poder estad?stico es bajo, esto sugiere que el agricultor tiene una baja 
 # probabilidad de detectar si el peso medio de las manzanas cae dentro de ese rango.
 
 
+# ////////////////////////// PREGUNTA 4 //////////////////////////
+# 
+# Considerando un peso medio verdadero de 109,5 gramos, calcule usando funciones de R (o alguno de sus
+# paquetes) cuántas manzanas deberían revisarse para conseguir un poder estadístico de 0,85 y un nivel de
+# significación de 0,05.
 
+# Para la resolución de la presente interrogante, ha de considerarse la función pwr.norm.test() dado que
+# permitiría el cumplimiento de las condiciones establecidas de acuerdo a parámetros que consideran un
+# delta ((media verdadera-media de la muestra)/sd/sqrt(nOriginal)), sd (desviación estándar), sig.level (nivel de significación
+# deseado), power (poder estadístico deseado) y n como el tamaño de la muestra, entendiendose que este valor
+# es desconocido. En este sentido:
 
+# Tamaño de muestra necesario para alcanzar un poder estadístico de 0.85
+# y un nivel de significación de 0.05 para una prueba de hipótesis con
+# media poblacional de 109.5 g y desviación estándar poblacional de 15 g.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+pwr <- pwr.norm.test(n = NULL, d = (109.5 - 110)/(15/sqrt(300)), sig.level = 0.05, power = 0.85)
+cat("Por lo tanto, el número de manzanas quedeberían revisarse para conseguir un poder estadístico de 0,85 y un nivel de significación de 0,05 es de: ")
+print(pwr)
+cat("donde n es aproximadamente 27, es decir, 27 manzanas son requeridas para obtener los parámetros establecidos")
 
 
 
