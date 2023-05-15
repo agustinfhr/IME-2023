@@ -45,13 +45,40 @@ print(pruebaWilson)
 # Por lo tanto, los datos respaldan que mÃ¡s del 40% de los hombres encuestados son
 # fanÃ¡ticos moderados
 
+# ////////////////////////// Pregunta 2 //////////////////////////
 
+# Según estos datos, ¿es igual la proporción de fanáticos (sean moderados o extremos) en hombres y en
+# mujeres?
 
+# Se plantea la hipótesis nula y alternativa con respectiva notación matemática:
+# H0: La proporción de fanáticos en hombres es igual a la de mujeres.
+# H1: La proporción de fanáticos en hombres no es igual a la de mujeres.
 
+# H0: p1 = p2
+# H1: p1 ??? p2
 
+# Con respecto a las verificaciones, ya se cumplen para la pregunta 1, por lo cual se cumplen para la pregunta 2
 
+# Declarar variables conocidas:
+nHombres    <- 422 + 502 + 396  # Cantidad total de hombres 
+nMujeres    <- 158 + 291 + 431  # Cantidad total de mujeres
+nTotal      <- nHombres + nMujeres
+alfa        <- 0.05  # Nivel de significación
 
+# Utilizar la prueba de proporciones de dos muestras:
+exitosHombres <- 422 + 502 # hombres que son fanáticos
+exitosMujeres <- 158 + 291 # mujeres que son fanáticos
 
+pruebaProporciones <- prop.test(c(exitosHombres, exitosMujeres), 
+                                n=c(nHombres, nMujeres), 
+                                alternative="two.sided", 
+                                conf.level=1-alfa)
+print(pruebaProporciones)
 
-
+# De acuerdo con los resultados obtenidos:
+# El valor p es extremadamente pequeño, menor que el nivel de significancia (0.05),
+# esto significa que se puede rechazar la hipótesis nula de que las proporciones de 
+# fanáticos entre hombres y mujeres son iguales. Por lo tanto, hay una diferencia significativa
+# entre las proporciones de fanáticos entre hombres y mujeres, es decir, la proporción de fanáticos de Star Wars  
+# no es la misma para hombres y mujeres, siendo más alta para los hombres.
 
