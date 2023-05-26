@@ -1,3 +1,8 @@
+# # Grupo 2 EP07
+# Integrantes: 
+#   - Angel Vilches
+#   - Nicolas Valdes
+#   - Agustín Henríquez
 
 
 
@@ -50,3 +55,61 @@ print(prueba_fisher)
 # asignado (0.05) fallamos en rechazar la hipótesis nula. Por lo tanto, se
 # concluye con un 95% de confianza que la preferencia por Harry Potter es 
 # independiente del rango de edad (niños y adolescentes).
+
+
+
+######################################################################
+############################# Pregunta 2 #############################
+######################################################################
+
+# El gerente comercial de una importante plataforma de streaming está seguro de que a el interés por una
+# serie de Star Trek cambió muchísimo durante la emisión de la segunda temporada. Sin embargo, ha
+# preguntado a 20 personas si les ha gustado cada una de las temporadas, con el siguiente resultado:
+#   
+# ▪ A 4 personas les gustan ambas temporadas.
+# ▪ A 11 personas solo les gusta la primera temporada.
+# ▪ A 2 personas solo les gusta la segunda temporada.
+# ▪ A 3 personas no les gusta ninguna temporada.
+# 
+# ¿Soportan estos datos la creencia del gerente comercial?
+
+
+# Se pide determinar si hay un cambio significativo en el interés 
+# por la serie de Star Trek entre la primera y la segunda temporada.
+
+# H0: No hay un cambio significativo en el interés por la serie entre la primera y la segunda temporada.
+# HA: Existe un cambio significativo en el interés por la serie entre la primera y la segunda temporada.
+# 
+# H0: p1 = p2
+# HA: p1 ≠ p2
+# siento p la proporción.
+
+# Al tratarse de una prueba de hipótesis para datos pareados, 
+# la prueba de McNemar sería apropiada para este caso.
+
+# Los datos se presentan en forma de tabla de contingencia de 2x2, donde
+# cada entrada corresponde a la cantidad de personas que presentan una 
+# cierta combinación de preferencias.
+
+tabla <- matrix(c(4, 11, 2, 3), nrow = 2)
+
+# Nombres de las filas y columnas.
+colnames(tabla) <- c("Le gusta", "No le gusta")
+rownames(tabla) <- c("Temporada 1", "Temporada 2")
+
+# Prueba de McNemar
+mcnemar_test <- mcnemar.test(tabla)
+
+# Resultados
+print(mcnemar_test)
+
+# La prueba de McNemar se obtuvo un valor p de 0.0265. 
+# Dado que este valor es menor que el nivel de significancia 0.05, 
+# podemos rechazar la hipótesis nula en favor de la hipótesis alternativa.
+# 
+# Por lo tanto, con un 95% de confianza, podemos concluir que existe una diferencia significativa 
+# entre la proporción de personas a las que les gustó la Temporada 1 
+# en comparación con la Temporada 2 de Star Trek.
+
+
+
