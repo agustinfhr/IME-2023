@@ -77,6 +77,7 @@ print(prueba_fisher)
 # Se pide determinar si hay un cambio significativo en el interés 
 # por la serie de Star Trek entre la primera y la segunda temporada.
 
+# Se procede al planteamiento de la hipótesis nula y alternativa:
 # H0: No hay un cambio significativo en el interés por la serie entre la primera y la segunda temporada.
 # HA: Existe un cambio significativo en el interés por la serie entre la primera y la segunda temporada.
 # 
@@ -110,6 +111,61 @@ print(mcnemar_test)
 # Por lo tanto, con un 95% de confianza, podemos concluir que existe una diferencia significativa 
 # entre la proporción de personas a las que les gustó la Temporada 1 
 # en comparación con la Temporada 2 de Star Trek.
+
+
+######################################################################
+############################# Pregunta 3 #############################
+######################################################################
+
+# Minerva McGonagall, actual directora del Colegio Hogwarts de Magia y Hechicería, está haciendo un
+# seguimiento de las actividades laborales y académicas de los egresados más recientes del colegio. Desea
+# saber si los estudiantes de sanación son representan adecuadamente a los egresados del colegio ¿Qué
+# puede inferir a partir de los siguientes datos?
+  
+#               Ravenclaw Slytherin Hufflepuff Gryffindor
+# Sanación      38        14        43         5
+# Egresados     387       171       400        238
+
+# Se pide determinar si la proporción de estudiantes de sanación 
+# entre los egresados es consistente en todas las casas de Hogwarts.
+
+# Se procede al planteamiento de la hipótesis nula y alternativa:
+# H0: La proporción de estudiantes de sanación es la misma en todas las casas de Hogwarts.
+# HA: La proporción de estudiantes de sanación no es la misma en todas las casas de Hogwarts.
+
+# Crear tabla de contingencia
+sanacion <- c(38, 14, 43, 5)
+total_egresados <- c(387, 171, 400, 238)
+
+tabla <- as.table(rbind(sanacion,total_egresados))
+
+dimnames(tabla)<-list(grupo = c("sanacion "," total_egresados"),
+                      casa = c("Ravenclaw", "Slytherin", "Hufflepuff", "Gryffindor"))
+
+print(tabla)
+
+# Verificar si se esperan más de 5 observaciones por cada grupo .
+n_total_egresados <- sum(total_egresados)
+n_muestra <- 100
+proporciones <- round(total_egresados/n_total_egresados, 3)
+esperados <- round(proporciones*n_total_egresados, 3)
+print(esperados)
+
+# Hacer prueba chi - cuadrado de homogeneidad .
+prueba <- chisq.test(tabla, correct = FALSE)
+print(prueba)
+
+# El resultado de la prueba Chi-cuadrado de Pearson indica que el valor del estadístico 
+# Chi-cuadrado es 14.293 con 3 grados de libertad y un valor p de 0.002532.
+#  
+# El valor p es 0.002532, menor que 0.05
+# 
+# Por lo tanto, se rechaza la hipótesis nula, que afirma que la proporción de estudiantes 
+# de sanación es la misma en todas las casas de Hogwarts. por lo que hay evidencia 
+# suficiente para sugerir que la proporción de estudiantes de sanación no es la misma en todas 
+# las casas de Hogwarts.
+
+
 
 
 
