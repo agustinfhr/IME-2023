@@ -5,6 +5,7 @@
 #   - AgustÃ­n HenrÃ­quez
 
 # Librerias
+library(pwr)
 
 if(!require(Hmisc)){
   install.packages("Hmisc",dependencies = TRUE)
@@ -47,12 +48,12 @@ print(pruebaWilson)
 
 # ////////////////////////// Pregunta 2 //////////////////////////
 
-# Según estos datos, ¿es igual la proporción de fanáticos (sean moderados o extremos) en hombres y en
+# Seg?n estos datos, ?es igual la proporci?n de fan?ticos (sean moderados o extremos) en hombres y en
 # mujeres?
 
-# Se plantea la hipótesis nula y alternativa con respectiva notación matemática:
-# H0: La proporción de fanáticos en hombres es igual a la de mujeres.
-# H1: La proporción de fanáticos en hombres no es igual a la de mujeres.
+# Se plantea la hip?tesis nula y alternativa con respectiva notaci?n matem?tica:
+# H0: La proporci?n de fan?ticos en hombres es igual a la de mujeres.
+# H1: La proporci?n de fan?ticos en hombres no es igual a la de mujeres.
 
 # H0: p1 = p2
 # H1: p1 ??? p2
@@ -63,11 +64,11 @@ print(pruebaWilson)
 nHombres    <- 422 + 502 + 396  # Cantidad total de hombres 
 nMujeres    <- 158 + 291 + 431  # Cantidad total de mujeres
 nTotal      <- nHombres + nMujeres
-alfa        <- 0.05  # Nivel de significación
+alfa        <- 0.05  # Nivel de significaci?n
 
 # Utilizar la prueba de proporciones de dos muestras:
-exitosHombres <- 422 + 502 # hombres que son fanáticos
-exitosMujeres <- 158 + 291 # mujeres que son fanáticos
+exitosHombres <- 422 + 502 # hombres que son fan?ticos
+exitosMujeres <- 158 + 291 # mujeres que son fan?ticos
 
 pruebaProporciones <- prop.test(c(exitosHombres, exitosMujeres), 
                                 n=c(nHombres, nMujeres), 
@@ -76,9 +77,45 @@ pruebaProporciones <- prop.test(c(exitosHombres, exitosMujeres),
 print(pruebaProporciones)
 
 # De acuerdo con los resultados obtenidos:
-# El valor p es extremadamente pequeño, menor que el nivel de significancia (0.05),
-# esto significa que se puede rechazar la hipótesis nula de que las proporciones de 
-# fanáticos entre hombres y mujeres son iguales. Por lo tanto, hay una diferencia significativa
-# entre las proporciones de fanáticos entre hombres y mujeres, es decir, la proporción de fanáticos de Star Wars  
-# no es la misma para hombres y mujeres, siendo más alta para los hombres.
+# El valor p es extremadamente peque?o, menor que el nivel de significancia (0.05),
+# esto significa que se puede rechazar la hip?tesis nula de que las proporciones de 
+# fan?ticos entre hombres y mujeres son iguales. Por lo tanto, hay una diferencia significativa
+# entre las proporciones de fan?ticos entre hombres y mujeres, es decir, la proporci?n de fan?ticos de Star Wars  
+# no es la misma para hombres y mujeres, siendo m?s alta para los hombres.
 
+# ////////////////////////// Pregunta 3 //////////////////////////
+
+# Existe la creencia de que hay mÃ¡s fanÃ¡ticos extremos entre los hombres que entre las mujeres y que dicha
+# diferencia supera el 25%. Â¿A cuÃ¡ntas personas (hombres y mujeres) se deberÃ­a encuestar para obtener un
+# intervalo de confianza del 97,5% y poder estadÃ­stico de 80%, si se intenta mantener aproximadamente la
+# misma proporciÃ³n de gente estudiada en cada caso?
+
+int_confianza = 0.975
+poder = 0.80
+
+# Para poder desarrollar este ejercicio primero se debe calcular cual es la proporciÃ³n tanto para fanÃ¡ticos 
+# extremos hombres como mujeres, los cuales se calcular de la siguiente forma:
+
+prop_ext_mujeres <- 158 / (158 + 422)
+prop_ext_hombres <- 422 / (158 + 422)
+
+# Ahora se debe establecer una proporciÃ³n esperada, para ello restaremos las proporciones de fanÃ¡ticos hombres
+# y mujeres, mostramos en pantalla su resultado para comprobar de que es mayor a 25%
+
+prop_esperada = abs(prop_ext_hombres - prop_ext_mujeres)
+cat("Valor esperado de proporciÃ³n: ")
+print(prop_esperada)
+
+# Una vez calculada la proporcion esperada y rectificada de que sea mayor a 0.25, se utilizada la funciÃ³n 
+# pwr.2p.test para calcular la cantidad de personas que se deben encuestar
+n_3 <- pwr.2p.test(h = prop_esperada,
+                   power = poder,
+                   sig.level = 1 - int_confianza)$n
+
+# En este caso h representa la diferencia de proporciones esperada, en este caso 45% aproximadamente,
+# sig.level representa el nivel de significancia y power el poder
+
+print(n_3)
+  
+# Observando los resultados anteriores se tiene que la cantidad de personas (hombres y mujeres) que se deben 
+# encuestar para conservar una proporciÃ³n mayor a 25%, un intervalo de confianza de 97,5% y un poder de 80%, es aproximadamente de 92 personas

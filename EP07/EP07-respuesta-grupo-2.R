@@ -4,7 +4,9 @@
 #   - Nicolas Valdes
 #   - Agustín Henríquez
 
-
+library(tidyverse)
+library(RVAideMemoire)
+library(rcompanion)
 
 ######################################################################
 ############################# Pregunta 1 #############################
@@ -165,7 +167,39 @@ print(prueba)
 # suficiente para sugerir que la proporción de estudiantes de sanación no es la misma en todas 
 # las casas de Hogwarts.
 
+######################################################################
+############################# Pregunta 4 #############################
+######################################################################
 
+# El Departamento de Educación Mágica del Ministerio de Magia desea saber si existen diferencias
+# significativas en el desempeño de los estudiantes del Colegio Hogwarts de Magia y Hechicería en los TIMOS
+# de asignaturas esenciales: Pociones, Defensa Contra las Artes Oscuras, Transformaciones y Encantamientos.
+# Para ello, le ha entregado un archivo de datos que, para dichas asignaturas, indica si cada estudiante
+# registrado obtuvo una Matrícula de Honor en Brujería (MHB) o falló (F). ¿Qué puede concluir el encargado
+# del Departamento de Educación Mágica? Indicación: obtenga, a partir del archivo EP07 Datos.csv, una
+# muestra de 100 estudiantes usando la semilla 1403.
 
+#Hipotesis establecidas
+#H0: La proporciOn de estudiantes aprobados es igual en todos los ramos
+#H1: La proporcion de estudiantes aprobados es distinta en al menos un ramo
 
+data4 <- read.csv2(file = 'C:/Users/Ekayn/Desktop/IME-2023/EP07/EP07 Datos.csv',
+                      encoding = "UTF-8",
+                      sep = ";")
+set.seed(1403)
+datos4<-sample_n(data4,100)
 
+datos4<-datos4%>%pivot_longer(c("Pociones", "Defensa", "Transformaciones", "Encantamientos"),
+                               names_to="Asignatura",
+                               values_to="Estado")
+datos4[["Asignatura"]]<-factor(datos4[["Asignatura"]])
+datos4[["Estado"]]<-factor(datos4[["Estado"]])
+
+prueba4<-cochran.qtest(Estado~Asignatura|Id,data=datos4,alpha=0.05)
+cat("Resultado de prueba de Cochran: ")
+print(prueba4)
+
+# El resultado de las prueba de Cochran nos arroja un p-value = 0.06078, por lo que, con un nivel de confianza del 
+# 95%, existe suficiente evidencia para rechazar la hipótesis alternativa a favor de la hipotesis nula. Por lo 
+# anterior, se concluye que la proporción de aprovación de los ramos esenciales del Colegio Hogwarts de Magia 
+# y Hechicería son similares.

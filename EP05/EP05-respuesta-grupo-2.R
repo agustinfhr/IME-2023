@@ -237,4 +237,22 @@ print(pwr)
 cat("donde n es aproximadamente 27, es decir, 27 manzanas son requeridas para obtener los parámetros establecidos")
 
 
+# ////////////////////////// PREGUNTA 5 //////////////////////////
+#
+# Repita el ejercicio de la pregunta anterior, suponiendo ahora que el agricultor es muy exigente y desea
+# reducir la probabilidad de cometer un error de tipo I a un 1% solamente?
 
+# Para éste ejercicio se tiene que el nivel de significancia sig.level es de 0.01 para que se cumpla con lo solicitado
+# se repite el mismo procedimiento teniendo un delta ((media verdadera-media de la muestra)/sd/sqrt(nOriginal)), sig.level
+# de 0.01, un poder de 0.85 y n como la variable incógnita
+
+pwr_5 <- pwr.norm.test(n = NULL,
+                     d = (109.5 - 110)/(15/sqrt(300)),
+                     sig.level = 0.01,
+                     power = 0.85)
+
+print(pwr_5)
+
+# Con lo anterior se tiene que la cantidad de manzanas que deberían revisarse para conseguir un 
+# poder estadistico de 85% y que solo haya un 1% de probabilidad de cometer un error de tipo I es de
+# aproximadamente 39 manzanas 
