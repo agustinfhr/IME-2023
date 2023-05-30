@@ -58,21 +58,19 @@ SE = s / sqrt(n)
 # Igualmente considerar que se trata de una prueba bilateral al considerar:
 # "un peso medio menor a 108.5 gramos o mayor a 111.5"
 
-###### CORREGIR DESDE ACÁ
-
 # Cálcular la probabilidad de cometer un error de tipo I
 # Usar función pnorm para cálcular la probabilidad acumulada de una variable
 # aleatoria normal estándar en un punto específico de la distribución
 cola_inferior <- pnorm(mean = 110, sd = SE, q = 108.5, lower.tail = TRUE)
 cola_superior <- pnorm(mean = 110, sd = SE, q = 111.5, lower.tail = FALSE)
 
-# Como se trata de una prueba unilateral, el nivel de significacion es igual la cola superior
+# Como se trata de una prueba bilateral, el nivel de significacion es igual la cola inferior más la cola superior
 alfa = cola_inferior + cola_superior
 
 print(alfa)
 
-# R: El nivel de significaci?n corresponde a 0,01046 aproximadamente, lo
-# que equivale a un 1,694% de probabilidad de cometer un error de tipo 1.
+# R: El nivel de significación corresponde a 0,08326 aproximadamente, lo
+# que equivale a un 8,326% de probabilidad de cometer un error de tipo 1.
 
 # Gr?fico ?rea error tipo 1
 x <- seq(110 - s*SE,110 + s*SE,0.01)
