@@ -4,7 +4,7 @@
 #   - Nicolas Valdes
 #   - Agustín Henríquez
 
-# Librerias
+# Librerías
 
 library(tidyr)
 library (ggpubr)
@@ -15,39 +15,54 @@ library (tidyverse)
 
 # ////////////////////////// Enunciado //////////////////////////
 
-# El proceso de selecci?n de manzanas para exportaci?n no es sencillo, pues se deben descartar aquellas que
-# est?n muy maduras, muy verdes o da?adas. Adicionalmente, cada fruta debe cumplir con un determinado
-# calibre, establecido por el mercado, para ser considerada apta para la venta. El calibre de una fruta puede ser
-# determinado tanto por su peso como por su di?metro m?ximo ecuatorial. En el caso de las manzanas, el calibre
-# m?nimo aceptable es de 60 mm si se mide por el di?metro o de 90 g si se mide por el peso.
+# El proceso de selección de manzanas para exportación no es sencillo, pues se
+# deben descartar aquellas que están muy maduras, muy verdes o dañadas.
+# Adicionalmente, cada fruta debe cumplir con un determinado calibre,
+# establecido por el mercado, para ser considerada apta para la venta.
+# El calibre de una fruta puede ser determinado tanto por su peso como por su
+# diámetro máximo ecuatorial. En el caso de las manzanas, el calibre mínimo
+# aceptable es de 60 mm si se mide por el diámetro o de 90 g si se mide por
+# el peso.
 # 
-# Un agricultor dedicado a la producci?n de manzanas desea determinar, usando una muestra aleatoria de 300
-# manzanas, si sus frutas tienen un peso medio de 110 g. Se sabe que el peso de ?stas sigue una distribuci?n
-# normal con desviaci?n est?ndar de 15 g
+# Un agricultor dedicado a la producción de manzanas desea determinar, usando
+# una muestra aleatoria de 300 manzanas, si sus frutas tienen un peso medio
+# de 110 g. Se sabe que el peso de éstas sigue una distribución normal con
+# desviación estándar de 15 g.
 
-# Desviaci?n Est?ndar
+# Desviación Estándar
 s <- 15
 
-# Tama?o de la muestra
+# Tamaño de la muestra
 n <- 300
 
-# Error Est?ndar
-SE = s / sqrt (n)
-
+# Error Estándar
+SE = s / sqrt(n)
 
 # ////////////////////////// PREGUNTA 1 //////////////////////////
 
+# El agricultor piensa rechazar la hipótesis nula cuando la muestra presente
+# un peso medio menor a 108,5 gramos o mayor a 111,5 gramos. Determine, usando
+# herramientas gráficas, la probabilidad de que cometa un error de tipo I.
 
-# El agricultor piensa rechazar la hip?tesis nula cuando la muestra presente un peso medio menor a 108,5
-# gramos o mayor a 111,5 gramos. Determine, usando herramientas gr?ficas, la probabilidad de que cometa
-# un error de tipo I.
+# Hipótesis
+# H0: Las manzanas tienen un peso medio igual a 110 gramos
+# HA: Las manzanas tienen un peso medio diferente de 110 gramos
 
-# Hipotesis
-# H0: m = 110
-# H1: m != 110
+# Matemáticamente
+# H0: mu  = 110
+# HA: mu != 110
 
-# Calcular la probabilidad de cometer un error de tipo I
-# usar funci�n pnorm para calcular la probabilidad acumulada de una variable aleatoria normal est�ndar en un punto espec�fico de la distribuci�n
+# Debemos recordar que el error de tipo I refiere a rechazar H0 cuando en 
+# realidad es verdadera. 
+
+# Igualmente considerar que se trata de una prueba bilateral al considerar:
+# "un peso medio menor a 108.5 gramos o mayor a 111.5"
+
+###### CORREGIR DESDE ACÁ
+
+# Cálcular la probabilidad de cometer un error de tipo I
+# Usar función pnorm para cálcular la probabilidad acumulada de una variable
+# aleatoria normal estándar en un punto específico de la distribución
 cola_inferior <- pnorm(mean = 110, sd = SE, q = 108.5, lower.tail = TRUE)
 cola_superior <- pnorm(mean = 110, sd = SE, q = 111.5, lower.tail = FALSE)
 
@@ -94,10 +109,10 @@ print(g)
 
 # ////////////////////////// PREGUNTA 2 //////////////////////////
 
-
-# Suponga ahora que el verdadero peso medio de las manzanas es de 109 gramos. Determine mediante
-# herramientas gráficas cuál sería la probabilidad de que el agricultor, quien obviamente no conoce
-# este dato, cometa un error de tipo II
+# Suponga ahora que el verdadero peso medio de las manzanas es de 109 gramos.
+# Determine mediante herramientas gráficas cuál sería la probabilidad de que
+# el agricultor, quien obviamente no conoce este dato, cometa un error de
+# tipo II
 
 # Primeramente se establecen las hipótesis nula y alternativa:
 # H0: El peso medio de las manzanas es de 110 gramos 
@@ -119,22 +134,32 @@ gradosLibertad     <- tamanioMuestra - 1
 valorNulo          <- 110
 desviacionEstandar <- 15
 
-# Se trabajará con una prueba de hipótesis para una muestra (Prueba T de Student) ya que
-# se quiere probar una hipótesis sobre la media poblacional a partir de una muestra
-# aleatoria, por lo cual se verifican las condiciones:
-# 1) Se cumplela independencia de observaciones y
-# 2) La muestra sigue una distribución normal (con un tamaño superior a 30 muestras)
+# Se trabajará con una prueba de hipótesis para una muestra (Prueba T de
+# Student) ya que se quiere probar una hipótesis sobre la media poblacional
+# a partir de una muestra aleatoria, por lo cual se verifican las condiciones:
+# 1) Se cumple la independencia de observaciones y
+# 2) La muestra sigue una distribución normal (con un tamaño superior a
+#    30 muestras)
 
-# Ha de considerarse/asumirse un nivel de significancia del 5%, en consecuencia alpha = 0.05
+# Ha de considerarse/asumirse un nivel de significancia del 5%,
+# en consecuencia alpha = 0.05. 
+
 # Se realiza una prueba unilateral
 
 alpha <- 0.05 
 
 valorCritico <- qt(alpha, gradosLibertad, lower.tail = TRUE)
-poderPrueba <- power.t.test(n = tamanioMuestra, delta = (mediaHipotetica - mediaVerdadera)/desviacionEstandar, sd = desviacionEstandar, sig.level = alpha, type = "one.sample", alternative = "one.sided")$power
-# 1-poderPrueba = 0.9415 o 94.15% de que el agricultor no detecte una diferencia real en los pesos de las manzanas y acepte incorrectamente la hipótesis nula
+poderPrueba <- power.t.test(n = tamanioMuestra,
+                            delta = (mediaHipotetica - mediaVerdadera) / desviacionEstandar,
+                            sd = desviacionEstandar,
+                            sig.level = alpha,
+                            type = "one.sample",
+                            alternative = "one.sided")$power
+# 1-poderPrueba = 0.9415 o 94.15% de que el agricultor no detecte una
+# diferencia real en los pesos de las manzanas y acepte incorrectamente
+# la hipótesis nula
 
-
+# Se procede a gráficar
 g2 <- ggplot(data.frame(x = c(-4, 4)), aes(x)) + 
   stat_function(fun = dt, args = list(df = gradosLibertad)) +
   geom_vline(xintercept = valorCritico, linetype = "dashed") +
