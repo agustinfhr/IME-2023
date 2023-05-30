@@ -72,15 +72,14 @@ print(alfa)
 # R: El nivel de significación corresponde a 0,08326 aproximadamente, lo
 # que equivale a un 8,326% de probabilidad de cometer un error de tipo 1.
 
-# Gr?fico ?rea error tipo 1
-x <- seq(110 - s*SE,110 + s*SE,0.01)
+# Gráfico de área error tipo 1
+x <- seq(110 - s * SE, 110 + s * SE, 0.01)
 y <- dnorm(x, mean = 110 , sd = SE)
-g <- ggplot(data = data.frame(x,y), aes(x))
-g <- g + stat_function(
-  fun = dnorm,
-  n = 300,
-  args = list(mean = 110 , sd = SE),
-  colour = "steelblue", size = 1)
+g <- ggplot(data = data.frame(x, y), aes(x))
+g <- g + stat_function(fun = dnorm,
+                       n = 300,
+                       args = list(mean = 110 , sd = SE),
+                       colour = "steelblue", size = 1)
 g <- g + ylab("Densidad")
 g <-g + xlab("Dureza")
 g <-g + labs(title = "Área Error tipo 1")
@@ -91,16 +90,14 @@ g <- g + geom_area(data = subset(data.frame(x,y), x < 108.5),
                    fill = "red",
                    alpha = 0.5)
 
-
 g <- g + geom_area(data = subset(data.frame(x,y), x > 111.5), 
                    aes(y = y),
                    colour = "red",
                    fill = "red",
                    alpha = 0.5)
 
-# Agregar una l�nea vertical para el valor nulo .
-g <- g + geom_vline(aes(xintercept = 110) ,
-                           color = "steelblue", linetype = 1)
+# Se agrega una línea vertical para el valor nulo:
+g <- g + geom_vline(aes(xintercept = 110), color = "steelblue", linetype = 1)
 
 print(g)
 
@@ -159,45 +156,44 @@ poderPrueba <- power.t.test(n = tamanioMuestra,
 
 # Se procede a gráficar
 g2 <- ggplot(data.frame(x = c(-4, 4)), aes(x)) + 
-  stat_function(fun = dt, args = list(df = gradosLibertad)) +
-  geom_vline(xintercept = valorCritico, linetype = "dashed") +
-  labs(x = "Valor t", y = "Densidad", title = "Diagrama t de Student") +
-  theme_bw()
+              stat_function(fun = dt, args = list(df = gradosLibertad)) +
+              geom_vline(xintercept = valorCritico, linetype = "dashed") +
+              labs(x = "Valor t", y = "Densidad", title = "T de Student") +
+              theme_bw()
 
 print(g2)
 
-# De acuerdo a lo calculado y graficado, la prueba tiene un poder bajo, es decir, existe una alta
-# probabilidad de comenter un error de tipo II, vale decir, no rechazar H0 cuando HA es verdadera.
-# Por lo tanto, el agricultor tiene una baja probabilidad de detectar que el peso medio de sus manzanas
-# es menor a 110 gramos.
+# De acuerdo a lo calculado y graficado, la prueba tiene un poder bajo,
+# es decir, existe una alta probabilidad de comenter un error de tipo II,
+# vale decir, no rechazar H0 cuando HA es verdadera.
+# Por lo tanto, el agricultor tiene una baja probabilidad de detectar
+# que el peso medio de sus manzanas es menor a 110 gramos.
              
 
 # ////////////////////////// PREGUNTA 3 //////////////////////////
 
 
-# Teniendo en cuenta que en realidad no se conoce el verdadero peso medio, genere ahora un gr?fico del
-# poder teniendo en cuenta que el agricultor piensa rechazar la hip?tesis nula si la muestra presenta un peso
-# medio menor a 108,5 gramos o mayor a 111,5 gramos, pero suponiendo ahora que el peso volumen medio
-# podr?a variar entre 109,5 y 110,5 gramos.
+# Teniendo en cuenta que en realidad no se conoce el verdadero peso medio,
+# genere ahora un gráfico del poder teniendo en cuenta que el agricultor
+# piensa rechazar la hipótesis nula si la muestra presenta un peso medio
+# menor a 108,5 gramos o mayor a 111,5 gramos, pero suponiendo ahora que
+# el peso volumen medio podría variar entre 109,5 y 110,5 gramos.
 
-
-# Desviaci?n Est?ndar
+# Desviación Estándar
 desv_estandar <- 15
 
-# Tama?o de la muestra
+# Tamaño de la muestra
 n <- 300
-
 
 alfa <- 0.05
 
 medias <- seq(109.5, 110.5, 0.01)
 media_nula <- 110 # (109.5 + 110.5) / 2
 
-
-# C?lculo del efecto
+# Cálculo del efecto
 efecto <- (medias - media_nula) / desv_estandar
 
-# C?lculo del poder
+# Cálculo del poder
 resultado <- power.t.test(n = n, 
                           delta = efecto, 
                           sd = desv_estandar, 
@@ -205,8 +201,7 @@ resultado <- power.t.test(n = n,
                           type = "one.sample", 
                           alternative = "two.sided")$power
 
-
-# Se define el gr?fico
+# Se define el gráfico:
 datos <- data.frame(efecto, resultado)
 datos <- datos %>% pivot_longer(!"efecto", 
                                 names_to = "fuente", 
@@ -223,32 +218,38 @@ g3 <- g3 + labs ( colour = "")
 g3 <- g3 + ylab ("Poder estad?stico")
 g3 <- g3 + xlab ("Tama?o del efecto")
 
-# T?tulo para el gr?fico
+# Título gráfico
 g3 <- g3 + theme_pubr ()
 g3 <- g3 + ggtitle ("Poder v/s tama?o del efecto pesos")
 g3 <- g3 + geom_vline ( xintercept = 0, linetype = "dashed")
 
 print(g3)
 
-# El grafico muestra c?mo el poder estad?stico cambia a medida que el tama?o del efecto cambia. 
-# Cuanto mayor es el tama?o del efecto, mayor es el poder estad?stico. 
-# Por lo tanto, si el gr?fico muestra que el poder estad?stico es alto para tama?os de efecto en el rango de 109.5 a 110.5, 
-# esto quiere decir que el agricultor tiene una alta probabilidad de detectar si el peso medio de las manzanas cae dentro de ese rango, 
-# dado su condicion de rechazo de la hip?tesis nula. Si el poder estad?stico es bajo, esto sugiere que el agricultor tiene una baja 
-# probabilidad de detectar si el peso medio de las manzanas cae dentro de ese rango.
+# El gráfico muestra como el poder estadístico cambia a medida que el tamaño
+# del efecto cambia. Cuanto mayor es el tamaño del efecto, mayor es el
+# poder estadístico. Por lo tanto, si el gráfico muestra que el poder
+# estadístico es alto para tamaños de efecto en el rango de 109.5 a 110.5, 
+# esto quiere decir que el agricultor tiene una alta probabilidad de
+# detectar si el peso medio de las manzanas cae dentro de ese rango, 
+# dado su condición de rechazo de la hipótesis nula. Si el poder estadístico
+# es bajo, esto sugiere que el agricultor tiene una baja probabilidad de 
+# detectar si el peso medio de las manzanas cae dentro de ese rango.
 
 
 # ////////////////////////// PREGUNTA 4 //////////////////////////
 # 
-# Considerando un peso medio verdadero de 109,5 gramos, calcule usando funciones de R (o alguno de sus
-# paquetes) cuántas manzanas deberían revisarse para conseguir un poder estadístico de 0,85 y un nivel de
+# Considerando un peso medio verdadero de 109,5 gramos, calcule usando
+# funciones de R (o alguno de sus paquetes) cuántas manzanas deberían
+# revisarse para conseguir un poder estadístico de 0,85 y un nivel de
 # significación de 0,05.
 
-# Para la resolución de la presente interrogante, ha de considerarse la función pwr.norm.test() dado que
-# permitiría el cumplimiento de las condiciones establecidas de acuerdo a parámetros que consideran un
-# delta ((media verdadera-media de la muestra)/sd/sqrt(nOriginal)), sd (desviación estándar), sig.level (nivel de significación
-# deseado), power (poder estadístico deseado) y n como el tamaño de la muestra, entendiendose que este valor
-# es desconocido. En este sentido:
+# Para la resolución de la presente interrogante, ha de considerarse
+# la función pwr.norm.test() dado que permitiría el cumplimiento de las
+# condiciones establecidas de acuerdo a parámetros que consideran un
+# delta ((media verdadera-media de la muestra)/sd/sqrt(nOriginal)), sd
+# (desviación estándar), sig.level (nivel de significación deseado),
+# power (poder estadístico deseado) y n como el tamaño de la muestra,
+# entendiendose que este valor es desconocido. En este sentido:
 
 # Tamaño de muestra necesario para alcanzar un poder estadístico de 0.85
 # y un nivel de significación de 0.05 para una prueba de hipótesis con
@@ -262,11 +263,14 @@ cat("donde n es aproximadamente 27, es decir, 27 manzanas son requeridas para ob
 
 # ////////////////////////// PREGUNTA 5 //////////////////////////
 #
-# Repita el ejercicio de la pregunta anterior, suponiendo ahora que el agricultor es muy exigente y desea
-# reducir la probabilidad de cometer un error de tipo I a un 1% solamente?
+# Repita el ejercicio de la pregunta anterior, suponiendo ahora que el
+# agricultor es muy exigente y desea reducir la probabilidad de cometer
+# un error de tipo I a un 1% solamente?
 
-# Para éste ejercicio se tiene que el nivel de significancia sig.level es de 0.01 para que se cumpla con lo solicitado
-# se repite el mismo procedimiento teniendo un delta ((media verdadera-media de la muestra)/sd/sqrt(nOriginal)), sig.level
+# Para éste ejercicio se tiene que el nivel de significancia sig.level
+# es de 0.01 para que se cumpla con lo solicitado se repite el mismo
+# procedimiento teniendo un delta
+# ((media verdadera-media de la muestra)/sd/sqrt(nOriginal)), sig.level
 # de 0.01, un poder de 0.85 y n como la variable incógnita
 
 pwr_5 <- pwr.norm.test(n = NULL,
@@ -276,6 +280,7 @@ pwr_5 <- pwr.norm.test(n = NULL,
 
 print(pwr_5)
 
-# Con lo anterior se tiene que la cantidad de manzanas que deberían revisarse para conseguir un 
-# poder estadistico de 85% y que solo haya un 1% de probabilidad de cometer un error de tipo I es de
+# Con lo anterior se tiene que la cantidad de manzanas que deberían
+# revisarse para conseguir un poder estadístico de 85% y que solo haya
+# un 1% de probabilidad de cometer un error de tipo I es de
 # aproximadamente 39 manzanas 
