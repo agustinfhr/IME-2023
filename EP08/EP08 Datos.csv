@@ -1,0 +1,2801 @@
+"id";"variedad";"tiempo";"peso"
+1;"Granny Smith";"semana_5";45,1667958563449
+1;"Granny Smith";"semana_10";132,030212358093
+1;"Granny Smith";"semana_15";237,695339229573
+1;"Granny Smith";"semana_20";238,68996296512
+2;"Granny Smith";"semana_5";36,3935939555981
+2;"Granny Smith";"semana_10";103,524360504778
+2;"Granny Smith";"semana_15";226,315121669127
+2;"Granny Smith";"semana_20";229,283406859068
+3;"Gala";"semana_5";49,5611152424591
+3;"Gala";"semana_10";112,850730500233
+3;"Gala";"semana_15";190,535780824728
+3;"Gala";"semana_20";194,328190239154
+4;"Starking";"semana_5";49,4425224514601
+4;"Starking";"semana_10";138,767014629822
+4;"Starking";"semana_15";140,811225394868
+4;"Starking";"semana_20";143,854514231123
+5;"Richard";"semana_5";55,2674150004955
+5;"Richard";"semana_10";166,802056325514
+5;"Richard";"semana_15";166,666528422289
+5;"Richard";"semana_20";172,501141080536
+6;"Fuji";"semana_5";52,1848592799051
+6;"Fuji";"semana_10";114,232537621604
+6;"Fuji";"semana_15";196,807073653042
+6;"Fuji";"semana_20";199,166407564953
+7;"Gala";"semana_5";43,6896921370956
+7;"Gala";"semana_10";107,568404607272
+7;"Gala";"semana_15";213,602837096351
+7;"Gala";"semana_20";217,306997119832
+8;"Richard";"semana_5";59,7759398440804
+8;"Richard";"semana_10";134,459230032909
+8;"Richard";"semana_15";260,135797554198
+8;"Richard";"semana_20";261,925242432896
+9;"Gala";"semana_5";51,8350868318257
+9;"Gala";"semana_10";116,001614128245
+9;"Gala";"semana_15";183,650181694374
+9;"Gala";"semana_20";188,051821714685
+10;"Gala";"semana_5";45,4811694562824
+10;"Gala";"semana_10";95,7087165451083
+10;"Gala";"semana_15";202,607264321124
+10;"Gala";"semana_20";202,754889981648
+11;"Gala";"semana_5";48,2973818802846
+11;"Gala";"semana_10";92,1375133628741
+11;"Gala";"semana_15";212,928922470086
+11;"Gala";"semana_20";216,698766003722
+12;"Fuji";"semana_5";49,5228067518144
+12;"Fuji";"semana_10";129,297539267951
+12;"Fuji";"semana_15";230,909639838187
+12;"Fuji";"semana_20";234,173115852324
+13;"Golden";"semana_5";56,0649010783314
+13;"Golden";"semana_10";103,250145145441
+13;"Golden";"semana_15";199,430789719799
+13;"Golden";"semana_20";201,732387830966
+14;"Golden";"semana_5";47,4927145260798
+14;"Golden";"semana_10";102,733217729988
+14;"Golden";"semana_15";195,504592937717
+14;"Golden";"semana_20";196,231413322801
+15;"Pink Lady";"semana_5";43,8886530735518
+15;"Pink Lady";"semana_10";121,673888798675
+15;"Pink Lady";"semana_15";209,361081413594
+15;"Pink Lady";"semana_20";215,694053124306
+16;"Fuji";"semana_5";48,4277782711498
+16;"Fuji";"semana_10";131,722609415299
+16;"Fuji";"semana_15";202,112604312409
+16;"Fuji";"semana_20";207,781003802825
+17;"Granny Smith";"semana_5";44,7077262314857
+17;"Granny Smith";"semana_10";119,27367959725
+17;"Granny Smith";"semana_15";203,371406004359
+17;"Granny Smith";"semana_20";207,386425074717
+18;"Richard";"semana_5";60,4016662478211
+18;"Richard";"semana_10";140,57072460028
+18;"Richard";"semana_15";185,722896335243
+18;"Richard";"semana_20";187,964121078669
+19;"Pink Lady";"semana_5";56,0899547594981
+19;"Pink Lady";"semana_10";142,738558203464
+19;"Pink Lady";"semana_15";194,313733778233
+19;"Pink Lady";"semana_20";197,662931445325
+20;"Gala";"semana_5";39,3436270008979
+20;"Gala";"semana_10";68,8985845017678
+20;"Gala";"semana_15";182,972963246334
+20;"Gala";"semana_20";187,153116612512
+21;"Richard";"semana_5";58,8801877890709
+21;"Richard";"semana_10";149,393269197374
+21;"Richard";"semana_15";223,6226151037
+21;"Richard";"semana_20";226,679462027826
+22;"Richard";"semana_5";56,7732478007999
+22;"Richard";"semana_10";104,453685304075
+22;"Richard";"semana_15";214,724788324431
+22;"Richard";"semana_20";214,953309401393
+23;"Golden";"semana_5";54,4458412544171
+23;"Golden";"semana_10";123,389572857864
+23;"Golden";"semana_15";137,693295578408
+23;"Golden";"semana_20";140,704198810208
+24;"Fuji";"semana_5";44,3776322115391
+24;"Fuji";"semana_10";103,312716484307
+24;"Fuji";"semana_15";209,714834797858
+24;"Fuji";"semana_20";210,204740928217
+25;"Starking";"semana_5";49,4909667089475
+25;"Starking";"semana_10";133,554200444608
+25;"Starking";"semana_15";210,71806470758
+25;"Starking";"semana_20";214,604592631447
+26;"Gala";"semana_5";38,3559219539649
+26;"Gala";"semana_10";92,1770155972245
+26;"Gala";"semana_15";154,347088971206
+26;"Gala";"semana_20";158,164927487292
+27;"Starking";"semana_5";53,9872194120785
+27;"Starking";"semana_10";130,05984303766
+27;"Starking";"semana_15";184,005482348536
+27;"Starking";"semana_20";186,319849206989
+28;"Gala";"semana_5";59,7975699590274
+28;"Gala";"semana_10";110,401516587218
+28;"Gala";"semana_15";175,12478705437
+28;"Gala";"semana_20";178,586464255463
+29;"Golden";"semana_5";54,080175184856
+29;"Golden";"semana_10";93,3078252251801
+29;"Golden";"semana_15";189,016065862488
+29;"Golden";"semana_20";192,82548434892
+30;"Starking";"semana_5";52,7317701977378
+30;"Starking";"semana_10";144,184989350914
+30;"Starking";"semana_15";217,783599710611
+30;"Starking";"semana_20";222,32420499116
+31;"Fuji";"semana_5";43,5911577309356
+31;"Fuji";"semana_10";97,6549020319442
+31;"Fuji";"semana_15";219,115310710422
+31;"Fuji";"semana_20";221,971442405633
+32;"Pink Lady";"semana_5";51,3391697115147
+32;"Pink Lady";"semana_10";96,5350563019167
+32;"Pink Lady";"semana_15";176,094007468827
+32;"Pink Lady";"semana_20";178,965428522832
+33;"Richard";"semana_5";58,9573885920453
+33;"Richard";"semana_10";128,328974360842
+33;"Richard";"semana_15";185,868811090447
+33;"Richard";"semana_20";189,436818978719
+34;"Golden";"semana_5";45,796157129577
+34;"Golden";"semana_10";121,593531342281
+34;"Golden";"semana_15";181,906207916485
+34;"Golden";"semana_20";185,536655028509
+35;"Golden";"semana_5";50,4676912416426
+35;"Golden";"semana_10";108,66982981975
+35;"Golden";"semana_15";215,86027952
+35;"Golden";"semana_20";222,243571423884
+36;"Pink Lady";"semana_5";46,8505609596032
+36;"Pink Lady";"semana_10";105,353903345101
+36;"Pink Lady";"semana_15";206,858525076318
+36;"Pink Lady";"semana_20";211,366490529287
+37;"Golden";"semana_5";51,4628196103916
+37;"Golden";"semana_10";123,882980989621
+37;"Golden";"semana_15";241,082180508146
+37;"Golden";"semana_20";243,172951788375
+38;"Pink Lady";"semana_5";46,4938112713594
+38;"Pink Lady";"semana_10";120,19215173612
+38;"Pink Lady";"semana_15";174,402994007804
+38;"Pink Lady";"semana_20";181,496448830702
+39;"Starking";"semana_5";53,5504968722729
+39;"Starking";"semana_10";116,024670500439
+39;"Starking";"semana_15";233,168742948345
+39;"Starking";"semana_20";233,352370296738
+40;"Fuji";"semana_5";57,3556015195396
+40;"Fuji";"semana_10";86,1785999662619
+40;"Fuji";"semana_15";224,266060925635
+40;"Fuji";"semana_20";225,975616588804
+41;"Starking";"semana_5";46,3669874636664
+41;"Starking";"semana_10";111,539733077026
+41;"Starking";"semana_15";195,042859273966
+41;"Starking";"semana_20";195,595586196523
+42;"Gala";"semana_5";38,9946493490958
+42;"Gala";"semana_10";89,0858404478782
+42;"Gala";"semana_15";188,221810297466
+42;"Gala";"semana_20";190,646767818726
+43;"Golden";"semana_5";48,6041553081659
+43;"Golden";"semana_10";103,692440152872
+43;"Golden";"semana_15";148,436624362101
+43;"Golden";"semana_20";154,842166923886
+44;"Richard";"semana_5";62,8569961940647
+44;"Richard";"semana_10";126,481949980968
+44;"Richard";"semana_15";207,878090018418
+44;"Richard";"semana_20";212,407087961223
+45;"Starking";"semana_5";55,1388715344411
+45;"Starking";"semana_10";112,823272325541
+45;"Starking";"semana_15";158,46954875355
+45;"Starking";"semana_20";166,184960066428
+46;"Pink Lady";"semana_5";50,3941661484529
+46;"Pink Lady";"semana_10";106,859764553382
+46;"Pink Lady";"semana_15";224,212168079954
+46;"Pink Lady";"semana_20";228,677339389142
+47;"Starking";"semana_5";47,6324180462627
+47;"Starking";"semana_10";96,7783611922007
+47;"Starking";"semana_15";237,449848084392
+47;"Starking";"semana_20";239,303815443682
+48;"Richard";"semana_5";54,2643178120522
+48;"Richard";"semana_10";150,128257261107
+48;"Richard";"semana_15";216,564380699094
+48;"Richard";"semana_20";224,437501206319
+49;"Starking";"semana_5";52,4853193868216
+49;"Starking";"semana_10";116,891541709459
+49;"Starking";"semana_15";211,60792612357
+49;"Starking";"semana_20";212,197677359711
+50;"Starking";"semana_5";55,7080039310441
+50;"Starking";"semana_10";143,876646125723
+50;"Starking";"semana_15";185,019031248746
+50;"Starking";"semana_20";185,327376657856
+51;"Granny Smith";"semana_5";56,3790714098025
+51;"Granny Smith";"semana_10";103,696502543514
+51;"Granny Smith";"semana_15";162,489088139103
+51;"Granny Smith";"semana_20";167,519527961106
+52;"Pink Lady";"semana_5";58,1598697045437
+52;"Pink Lady";"semana_10";89,1311709511444
+52;"Pink Lady";"semana_15";205,333823538143
+52;"Pink Lady";"semana_20";206,899700793196
+53;"Fuji";"semana_5";51,2337507846666
+53;"Fuji";"semana_10";121,518350953993
+53;"Fuji";"semana_15";183,261974312246
+53;"Fuji";"semana_20";189,612762926027
+54;"Pink Lady";"semana_5";53,6639450737498
+54;"Pink Lady";"semana_10";138,732555460278
+54;"Pink Lady";"semana_15";181,39995928153
+54;"Pink Lady";"semana_20";186,263061393496
+55;"Fuji";"semana_5";41,7986103332228
+55;"Fuji";"semana_10";80,6554715584675
+55;"Fuji";"semana_15";205,330095894319
+55;"Fuji";"semana_20";207,647187975851
+56;"Granny Smith";"semana_5";48,8975940098394
+56;"Granny Smith";"semana_10";119,408028814702
+56;"Granny Smith";"semana_15";217,655972808728
+56;"Granny Smith";"semana_20";224,862398428971
+57;"Pink Lady";"semana_5";53,7583018475034
+57;"Pink Lady";"semana_10";106,796430543259
+57;"Pink Lady";"semana_15";194,151075833138
+57;"Pink Lady";"semana_20";195,937179176729
+58;"Gala";"semana_5";52,3223389661738
+58;"Gala";"semana_10";91,4006267351366
+58;"Gala";"semana_15";223,524809640172
+58;"Gala";"semana_20";225,816107677567
+59;"Fuji";"semana_5";54,9382690685223
+59;"Fuji";"semana_10";93,4314177762266
+59;"Fuji";"semana_15";219,824846227169
+59;"Fuji";"semana_20";225,139488393888
+60;"Fuji";"semana_5";54,5614114590248
+60;"Fuji";"semana_10";116,468882156749
+60;"Fuji";"semana_15";180,833036964204
+60;"Fuji";"semana_20";183,08371280637
+61;"Gala";"semana_5";47,0922056551279
+61;"Gala";"semana_10";109,805672111009
+61;"Gala";"semana_15";165,4685580739
+61;"Gala";"semana_20";169,248552177957
+62;"Gala";"semana_5";35,0024450132628
+62;"Gala";"semana_10";91,8209522212949
+62;"Gala";"semana_15";244,114602510651
+62;"Gala";"semana_20";246,845896062274
+63;"Pink Lady";"semana_5";48,7367046485354
+63;"Pink Lady";"semana_10";112,581924197208
+63;"Pink Lady";"semana_15";173,542668860087
+63;"Pink Lady";"semana_20";174,744424601698
+64;"Gala";"semana_5";38,5303318739534
+64;"Gala";"semana_10";109,94896069426
+64;"Gala";"semana_15";210,11016566884
+64;"Gala";"semana_20";212,600112663771
+65;"Fuji";"semana_5";52,8457961787818
+65;"Fuji";"semana_10";124,361231900816
+65;"Fuji";"semana_15";227,771018357995
+65;"Fuji";"semana_20";228,211204363081
+66;"Richard";"semana_5";58,3298336326641
+66;"Richard";"semana_10";123,127627170985
+66;"Richard";"semana_15";218,352265826876
+66;"Richard";"semana_20";219,790685459489
+67;"Golden";"semana_5";54,7465594968234
+67;"Golden";"semana_10";117,748021808032
+67;"Golden";"semana_15";237,227231976179
+67;"Golden";"semana_20";242,026912591023
+68;"Granny Smith";"semana_5";49,7647165635654
+68;"Granny Smith";"semana_10";110,260154054738
+68;"Granny Smith";"semana_15";205,362752280294
+68;"Granny Smith";"semana_20";206,689277467414
+69;"Richard";"semana_5";52,5445064043793
+69;"Richard";"semana_10";124,657012965317
+69;"Richard";"semana_15";202,818241839641
+69;"Richard";"semana_20";208,486176430592
+70;"Fuji";"semana_5";52,6907751851596
+70;"Fuji";"semana_10";133,941348451759
+70;"Fuji";"semana_15";203,026704345028
+70;"Fuji";"semana_20";207,062727114315
+71;"Granny Smith";"semana_5";42,6805574992708
+71;"Granny Smith";"semana_10";102,991414624004
+71;"Granny Smith";"semana_15";194,780398627403
+71;"Granny Smith";"semana_20";202,235978677529
+72;"Gala";"semana_5";33,3608877917908
+72;"Gala";"semana_10";109,583464076538
+72;"Gala";"semana_15";179,637647568647
+72;"Gala";"semana_20";182,421435340706
+73;"Granny Smith";"semana_5";52,5282852037042
+73;"Granny Smith";"semana_10";121,74224923771
+73;"Granny Smith";"semana_15";216,795239436824
+73;"Granny Smith";"semana_20";223,580908350099
+74;"Gala";"semana_5";44,6173571729879
+74;"Gala";"semana_10";100,655442623747
+74;"Gala";"semana_15";189,80213335469
+74;"Gala";"semana_20";192,611113409843
+75;"Golden";"semana_5";54,7440856730178
+75;"Golden";"semana_10";123,813672746625
+75;"Golden";"semana_15";193,145679271981
+75;"Golden";"semana_20";195,679457937568
+76;"Richard";"semana_5";62,5730957218127
+76;"Richard";"semana_10";131,061634242481
+76;"Richard";"semana_15";203,459777207217
+76;"Richard";"semana_20";206,154521205565
+77;"Starking";"semana_5";56,162277254112
+77;"Starking";"semana_10";125,063376265406
+77;"Starking";"semana_15";216,091053585467
+77;"Starking";"semana_20";219,63829611702
+78;"Golden";"semana_5";38,4807729736732
+78;"Golden";"semana_10";147,915859876292
+78;"Golden";"semana_15";273,192403507569
+78;"Golden";"semana_20";277,821395323762
+79;"Fuji";"semana_5";49,2630071200164
+79;"Fuji";"semana_10";139,700976242414
+79;"Fuji";"semana_15";207,867029803194
+79;"Fuji";"semana_20";211,563783657126
+80;"Starking";"semana_5";45,2518715991825
+80;"Starking";"semana_10";133,37347507855
+80;"Starking";"semana_15";175,812815945379
+80;"Starking";"semana_20";176,277280863158
+81;"Gala";"semana_5";47,533744957984
+81;"Gala";"semana_10";160,538792939458
+81;"Gala";"semana_15";184,045577840093
+81;"Gala";"semana_20";186,671895478996
+82;"Fuji";"semana_5";52,7251747546919
+82;"Fuji";"semana_10";109,615078742073
+82;"Fuji";"semana_15";221,263958154706
+82;"Fuji";"semana_20";221,522317825345
+83;"Gala";"semana_5";41,2731956441164
+83;"Gala";"semana_10";80,1939491740401
+83;"Gala";"semana_15";182,050457470388
+83;"Gala";"semana_20";182,856297390805
+84;"Pink Lady";"semana_5";56,8426977640821
+84;"Pink Lady";"semana_10";139,131796340593
+84;"Pink Lady";"semana_15";222,498545829548
+84;"Pink Lady";"semana_20";225,874797880991
+85;"Richard";"semana_5";59,0104178719805
+85;"Richard";"semana_10";133,079777922026
+85;"Richard";"semana_15";208,159366333119
+85;"Richard";"semana_20";208,233441933251
+86;"Granny Smith";"semana_5";53,2886469836553
+86;"Granny Smith";"semana_10";113,511483866209
+86;"Granny Smith";"semana_15";204,171428671975
+86;"Granny Smith";"semana_20";211,167171587173
+87;"Starking";"semana_5";52,7032352373696
+87;"Starking";"semana_10";82,3005352266986
+87;"Starking";"semana_15";219,22413928581
+87;"Starking";"semana_20";220,108962872602
+88;"Golden";"semana_5";55,0283504188495
+88;"Golden";"semana_10";111,492399937905
+88;"Golden";"semana_15";225,454762802874
+88;"Golden";"semana_20";232,8488319213
+89;"Golden";"semana_5";48,0842554893239
+89;"Golden";"semana_10";109,396440361974
+89;"Golden";"semana_15";209,400195435761
+89;"Golden";"semana_20";214,567478609412
+90;"Starking";"semana_5";48,3403577066733
+90;"Starking";"semana_10";89,0693289434253
+90;"Starking";"semana_15";226,386316314884
+90;"Starking";"semana_20";231,070230823554
+91;"Golden";"semana_5";50,4402658613238
+91;"Golden";"semana_10";123,816852422485
+91;"Golden";"semana_15";187,975895654029
+91;"Golden";"semana_20";194,963007216892
+92;"Granny Smith";"semana_5";45,9471256531455
+92;"Granny Smith";"semana_10";130,745209306474
+92;"Granny Smith";"semana_15";194,788011815571
+92;"Granny Smith";"semana_20";195,597200730987
+93;"Starking";"semana_5";47,435994110915
+93;"Starking";"semana_10";119,752748422123
+93;"Starking";"semana_15";193,939685540366
+93;"Starking";"semana_20";195,538461472931
+94;"Granny Smith";"semana_5";48,3526634262225
+94;"Granny Smith";"semana_10";124,81141841642
+94;"Granny Smith";"semana_15";248,037847491001
+94;"Granny Smith";"semana_20";251,609288046156
+95;"Fuji";"semana_5";50,6931876390448
+95;"Fuji";"semana_10";113,529580823678
+95;"Fuji";"semana_15";242,235958950079
+95;"Fuji";"semana_20";248,048183723769
+96;"Starking";"semana_5";47,1270622582185
+96;"Starking";"semana_10";123,531256359643
+96;"Starking";"semana_15";172,085321141569
+96;"Starking";"semana_20";177,821217589243
+97;"Granny Smith";"semana_5";52,9929335729969
+97;"Granny Smith";"semana_10";122,145303630381
+97;"Granny Smith";"semana_15";200,27592045237
+97;"Granny Smith";"semana_20";207,507926422922
+98;"Pink Lady";"semana_5";50,6834308398487
+98;"Pink Lady";"semana_10";106,285612192401
+98;"Pink Lady";"semana_15";174,459316387166
+98;"Pink Lady";"semana_20";178,720758254964
+99;"Granny Smith";"semana_5";41,3557146417238
+99;"Granny Smith";"semana_10";135,109099458604
+99;"Granny Smith";"semana_15";210,424186478648
+99;"Granny Smith";"semana_20";211,230741628725
+100;"Richard";"semana_5";55,993930751172
+100;"Richard";"semana_10";145,670963709507
+100;"Richard";"semana_15";242,614936599566
+100;"Richard";"semana_20";246,288730241417
+101;"Gala";"semana_5";40,4876335961927
+101;"Gala";"semana_10";98,1198283946595
+101;"Gala";"semana_15";206,522405668252
+101;"Gala";"semana_20";212,551631220706
+102;"Fuji";"semana_5";54,5290334445591
+102;"Fuji";"semana_10";93,0069057468302
+102;"Fuji";"semana_15";183,928037556225
+102;"Fuji";"semana_20";185,951747183093
+103;"Richard";"semana_5";55,4427110708851
+103;"Richard";"semana_10";134,923426999208
+103;"Richard";"semana_15";213,382410888053
+103;"Richard";"semana_20";221,204292519442
+104;"Gala";"semana_5";46,1571276946953
+104;"Gala";"semana_10";113,445533716175
+104;"Gala";"semana_15";167,954580429488
+104;"Gala";"semana_20";173,014635223442
+105;"Richard";"semana_5";60,1428635850117
+105;"Richard";"semana_10";155,482838375159
+105;"Richard";"semana_15";217,564113397319
+105;"Richard";"semana_20";221,518566010688
+106;"Gala";"semana_5";44,5841633568642
+106;"Gala";"semana_10";107,090867931063
+106;"Gala";"semana_15";171,311659822022
+106;"Gala";"semana_20";176,01886069194
+107;"Gala";"semana_5";40,5478441255055
+107;"Gala";"semana_10";103,118402638471
+107;"Gala";"semana_15";195,247203808037
+107;"Gala";"semana_20";197,524440470843
+108;"Pink Lady";"semana_5";54,4198396539864
+108;"Pink Lady";"semana_10";86,9694165496148
+108;"Pink Lady";"semana_15";207,03919969599
+108;"Pink Lady";"semana_20";213,256835167364
+109;"Golden";"semana_5";46,6383657451845
+109;"Golden";"semana_10";79,9081448102677
+109;"Golden";"semana_15";167,149165973302
+109;"Golden";"semana_20";167,501091750573
+110;"Pink Lady";"semana_5";43,3413928865259
+110;"Pink Lady";"semana_10";124,38370420309
+110;"Pink Lady";"semana_15";186,975597534612
+110;"Pink Lady";"semana_20";189,901210850388
+111;"Golden";"semana_5";51,4333501773776
+111;"Golden";"semana_10";106,128694242662
+111;"Golden";"semana_15";179,869759151329
+111;"Golden";"semana_20";181,206707240631
+112;"Golden";"semana_5";44,2863941359932
+112;"Golden";"semana_10";146,731089736522
+112;"Golden";"semana_15";201,457761550439
+112;"Golden";"semana_20";209,383634550614
+113;"Starking";"semana_5";48,2438752905474
+113;"Starking";"semana_10";151,396982055004
+113;"Starking";"semana_15";179,862778213252
+113;"Starking";"semana_20";184,231281089042
+114;"Starking";"semana_5";46,2186173879851
+114;"Starking";"semana_10";145,735371983174
+114;"Starking";"semana_15";221,376033756066
+114;"Starking";"semana_20";228,679544094134
+115;"Golden";"semana_5";55,026009303444
+115;"Golden";"semana_10";123,41385370103
+115;"Golden";"semana_15";161,261829964934
+115;"Golden";"semana_20";163,712785108133
+116;"Golden";"semana_5";56,7693945628045
+116;"Golden";"semana_10";105,556424313441
+116;"Golden";"semana_15";159,705665383125
+116;"Golden";"semana_20";162,208851247663
+117;"Richard";"semana_5";59,6372941811837
+117;"Richard";"semana_10";154,994155343238
+117;"Richard";"semana_15";180,366615250512
+117;"Richard";"semana_20";180,462634090139
+118;"Granny Smith";"semana_5";49,9026765869974
+118;"Granny Smith";"semana_10";132,022883130679
+118;"Granny Smith";"semana_15";179,00032866937
+118;"Granny Smith";"semana_20";184,972517887176
+119;"Richard";"semana_5";60,8324172690284
+119;"Richard";"semana_10";139,197087468156
+119;"Richard";"semana_15";265,660737147511
+119;"Richard";"semana_20";271,386411603496
+120;"Fuji";"semana_5";47,7347740115242
+120;"Fuji";"semana_10";128,538376010438
+120;"Fuji";"semana_15";173,31696248217
+120;"Fuji";"semana_20";178,034664675356
+121;"Gala";"semana_5";42,7010698816576
+121;"Gala";"semana_10";82,7144417350069
+121;"Gala";"semana_15";182,063220614487
+121;"Gala";"semana_20";187,802344225266
+122;"Granny Smith";"semana_5";61,3394577327389
+122;"Granny Smith";"semana_10";111,911597345183
+122;"Granny Smith";"semana_15";197,958280521938
+122;"Granny Smith";"semana_20";202,122489418396
+123;"Pink Lady";"semana_5";46,8493203098419
+123;"Pink Lady";"semana_10";132,741735566107
+123;"Pink Lady";"semana_15";220,704733886431
+123;"Pink Lady";"semana_20";220,924278569083
+124;"Granny Smith";"semana_5";54,0955677353025
+124;"Granny Smith";"semana_10";127,889295079225
+124;"Granny Smith";"semana_15";178,490670353208
+124;"Granny Smith";"semana_20";184,322624724392
+125;"Fuji";"semana_5";44,4298982662909
+125;"Fuji";"semana_10";112,980328804114
+125;"Fuji";"semana_15";171,008933839833
+125;"Fuji";"semana_20";173,733781624099
+126;"Richard";"semana_5";58,3238867943801
+126;"Richard";"semana_10";143,809919030806
+126;"Richard";"semana_15";224,074792850134
+126;"Richard";"semana_20";228,606643011165
+127;"Richard";"semana_5";59,3487248480863
+127;"Richard";"semana_10";80,6059074268212
+127;"Richard";"semana_15";221,59901781445
+127;"Richard";"semana_20";226,868365847222
+128;"Gala";"semana_5";37,7762269616282
+128;"Gala";"semana_10";115,59713783626
+128;"Gala";"semana_15";193,632709376458
+128;"Gala";"semana_20";199,548600165117
+129;"Starking";"semana_5";54,1559558292493
+129;"Starking";"semana_10";132,259711330183
+129;"Starking";"semana_15";167,152425824518
+129;"Starking";"semana_20";169,743051650787
+130;"Golden";"semana_5";51,0895350859055
+130;"Golden";"semana_10";85,7679029126535
+130;"Golden";"semana_15";229,493484356947
+130;"Golden";"semana_20";233,09589845831
+131;"Pink Lady";"semana_5";42,3381261767627
+131;"Pink Lady";"semana_10";126,078888246605
+131;"Pink Lady";"semana_15";156,582939280075
+131;"Pink Lady";"semana_20";164,223323916895
+132;"Golden";"semana_5";43,4867740067291
+132;"Golden";"semana_10";117,123235276605
+132;"Golden";"semana_15";169,596246067833
+132;"Golden";"semana_20";171,433097469088
+133;"Fuji";"semana_5";43,4697915217149
+133;"Fuji";"semana_10";109,060899804943
+133;"Fuji";"semana_15";173,146491098908
+133;"Fuji";"semana_20";178,656503282247
+134;"Granny Smith";"semana_5";53,6798071674248
+134;"Granny Smith";"semana_10";94,0941956939962
+134;"Granny Smith";"semana_15";210,089901328391
+134;"Granny Smith";"semana_20";214,769270634583
+135;"Fuji";"semana_5";47,4899821955019
+135;"Fuji";"semana_10";103,797465188073
+135;"Fuji";"semana_15";203,523975143625
+135;"Fuji";"semana_20";205,09485706356
+136;"Richard";"semana_5";62,819844406248
+136;"Richard";"semana_10";149,78540816365
+136;"Richard";"semana_15";216,29404326207
+136;"Richard";"semana_20";218,476218300452
+137;"Golden";"semana_5";49,8325611495012
+137;"Golden";"semana_10";114,674344418392
+137;"Golden";"semana_15";154,018492351511
+137;"Golden";"semana_20";158,129284830058
+138;"Golden";"semana_5";52,8830440787113
+138;"Golden";"semana_10";102,143487186465
+138;"Golden";"semana_15";144,300368998217
+138;"Golden";"semana_20";144,765794768947
+139;"Richard";"semana_5";56,3301363366973
+139;"Richard";"semana_10";125,330993051945
+139;"Richard";"semana_15";260,888315715896
+139;"Richard";"semana_20";263,21087814595
+140;"Fuji";"semana_5";46,7623979809855
+140;"Fuji";"semana_10";94,1078098976345
+140;"Fuji";"semana_15";176,129820279128
+140;"Fuji";"semana_20";177,479291043527
+141;"Starking";"semana_5";52,932201204531
+141;"Starking";"semana_10";128,582112620086
+141;"Starking";"semana_15";170,032283499108
+141;"Starking";"semana_20";171,845068008841
+142;"Golden";"semana_5";51,8143212890882
+142;"Golden";"semana_10";114,88220646127
+142;"Golden";"semana_15";220,44970894307
+142;"Golden";"semana_20";226,163857250289
+143;"Gala";"semana_5";49,7937566806715
+143;"Gala";"semana_10";114,228293996127
+143;"Gala";"semana_15";191,173125122776
+143;"Gala";"semana_20";198,833019823869
+144;"Granny Smith";"semana_5";55,4776558721717
+144;"Granny Smith";"semana_10";134,402801469525
+144;"Granny Smith";"semana_15";207,520829428734
+144;"Granny Smith";"semana_20";213,738023171948
+145;"Starking";"semana_5";50,2622324989756
+145;"Starking";"semana_10";110,086529617561
+145;"Starking";"semana_15";184,57321058242
+145;"Starking";"semana_20";190,892031006798
+146;"Starking";"semana_5";49,8286326952728
+146;"Starking";"semana_10";155,443526194027
+146;"Starking";"semana_15";209,781036798984
+146;"Starking";"semana_20";210,064861302406
+147;"Granny Smith";"semana_5";48,1394565732117
+147;"Granny Smith";"semana_10";108,781628789284
+147;"Granny Smith";"semana_15";197,495994324384
+147;"Granny Smith";"semana_20";203,066003708689
+148;"Granny Smith";"semana_5";51,6891911887243
+148;"Granny Smith";"semana_10";116,57175421888
+148;"Granny Smith";"semana_15";227,410361331683
+148;"Granny Smith";"semana_20";233,729377505165
+149;"Starking";"semana_5";38,8945513255634
+149;"Starking";"semana_10";102,928843080098
+149;"Starking";"semana_15";215,829343860194
+149;"Starking";"semana_20";221,986417495802
+150;"Granny Smith";"semana_5";50,8622786259677
+150;"Granny Smith";"semana_10";137,248058584918
+150;"Granny Smith";"semana_15";202,152934291227
+150;"Granny Smith";"semana_20";204,664094219742
+151;"Golden";"semana_5";46,9340067545151
+151;"Golden";"semana_10";152,514925841989
+151;"Golden";"semana_15";207,152499218353
+151;"Golden";"semana_20";211,208371820741
+152;"Golden";"semana_5";50,2288459133513
+152;"Golden";"semana_10";121,034878334499
+152;"Golden";"semana_15";224,060473347708
+152;"Golden";"semana_20";224,142175730943
+153;"Granny Smith";"semana_5";40,754511434654
+153;"Granny Smith";"semana_10";125,376377754576
+153;"Granny Smith";"semana_15";195,459045277999
+153;"Granny Smith";"semana_20";196,579793000684
+154;"Richard";"semana_5";61,2407015282327
+154;"Richard";"semana_10";130,370916411828
+154;"Richard";"semana_15";234,652415921305
+154;"Richard";"semana_20";238,334832811121
+155;"Fuji";"semana_5";51,6475955382988
+155;"Fuji";"semana_10";133,639712060755
+155;"Fuji";"semana_15";216,387181152436
+155;"Fuji";"semana_20";219,21502215493
+156;"Starking";"semana_5";51,8553928497714
+156;"Starking";"semana_10";129,896968954213
+156;"Starking";"semana_15";234,010766109774
+156;"Starking";"semana_20";241,570579648341
+157;"Granny Smith";"semana_5";52,0444688735584
+157;"Granny Smith";"semana_10";127,868747834171
+157;"Granny Smith";"semana_15";148,796707746014
+157;"Granny Smith";"semana_20";151,627525845915
+158;"Pink Lady";"semana_5";52,7178653811232
+158;"Pink Lady";"semana_10";121,140583531217
+158;"Pink Lady";"semana_15";230,894579090094
+158;"Pink Lady";"semana_20";236,165202183565
+159;"Fuji";"semana_5";48,1011983920943
+159;"Fuji";"semana_10";100,160852008474
+159;"Fuji";"semana_15";175,859444770136
+159;"Fuji";"semana_20";181,751579494321
+160;"Richard";"semana_5";59,6002775245665
+160;"Richard";"semana_10";115,635120205701
+160;"Richard";"semana_15";257,171999384024
+160;"Richard";"semana_20";262,74934029796
+161;"Fuji";"semana_5";43,2077771833144
+161;"Fuji";"semana_10";114,115527578253
+161;"Fuji";"semana_15";203,250816875047
+161;"Fuji";"semana_20";210,2145793465
+162;"Richard";"semana_5";61,0316653342798
+162;"Richard";"semana_10";138,317186270817
+162;"Richard";"semana_15";217,658704772221
+162;"Richard";"semana_20";218,190463700893
+163;"Golden";"semana_5";64,2558947949115
+163;"Golden";"semana_10";82,5383814837823
+163;"Golden";"semana_15";171,577429093213
+163;"Golden";"semana_20";178,291690023408
+164;"Gala";"semana_5";50,5935345331816
+164;"Gala";"semana_10";95,2219988935684
+164;"Gala";"semana_15";185,825309446286
+164;"Gala";"semana_20";189,296797536518
+165;"Fuji";"semana_5";44,7030083581381
+165;"Fuji";"semana_10";126,863943567477
+165;"Fuji";"semana_15";176,439535965581
+165;"Fuji";"semana_20";176,826265008558
+166;"Richard";"semana_5";58,4277989949423
+166;"Richard";"semana_10";138,164067638556
+166;"Richard";"semana_15";194,793913479065
+166;"Richard";"semana_20";199,867007521083
+167;"Golden";"semana_5";48,5771431776025
+167;"Golden";"semana_10";113,81444266209
+167;"Golden";"semana_15";175,326758735609
+167;"Golden";"semana_20";181,731529696641
+168;"Pink Lady";"semana_5";56,0336240464812
+168;"Pink Lady";"semana_10";99,9440808094446
+168;"Pink Lady";"semana_15";204,458314536631
+168;"Pink Lady";"semana_20";204,712271992609
+169;"Golden";"semana_5";51,028838281849
+169;"Golden";"semana_10";105,601937156058
+169;"Golden";"semana_15";243,232642781012
+169;"Golden";"semana_20";246,181429194309
+170;"Gala";"semana_5";45,1204439358069
+170;"Gala";"semana_10";82,0904059125935
+170;"Gala";"semana_15";206,120179541192
+170;"Gala";"semana_20";207,041630208275
+171;"Richard";"semana_5";60,0733955533025
+171;"Richard";"semana_10";166,199097386471
+171;"Richard";"semana_15";187,124707876742
+171;"Richard";"semana_20";192,484963153526
+172;"Gala";"semana_5";48,8301989846317
+172;"Gala";"semana_10";89,0531230948368
+172;"Gala";"semana_15";161,08886753898
+172;"Gala";"semana_20";168,089713463
+173;"Starking";"semana_5";47,1759591476369
+173;"Starking";"semana_10";137,951653652824
+173;"Starking";"semana_15";194,045443293888
+173;"Starking";"semana_20";201,662331446323
+174;"Granny Smith";"semana_5";47,5043391321355
+174;"Granny Smith";"semana_10";78,9588826313265
+174;"Granny Smith";"semana_15";175,145208104094
+174;"Granny Smith";"semana_20";176,376199914655
+175;"Pink Lady";"semana_5";49,9849685435277
+175;"Pink Lady";"semana_10";111,953594877726
+175;"Pink Lady";"semana_15";192,042299021686
+175;"Pink Lady";"semana_20";195,93157033501
+176;"Granny Smith";"semana_5";57,8193390279401
+176;"Granny Smith";"semana_10";99,5993583682159
+176;"Granny Smith";"semana_15";205,876203391187
+176;"Granny Smith";"semana_20";211,362374666564
+177;"Pink Lady";"semana_5";50,6693301451747
+177;"Pink Lady";"semana_10";111,823713944885
+177;"Pink Lady";"semana_15";199,282916657275
+177;"Pink Lady";"semana_20";199,907017016432
+178;"Fuji";"semana_5";51,0597340511796
+178;"Fuji";"semana_10";113,0720304748
+178;"Fuji";"semana_15";146,673643505723
+178;"Fuji";"semana_20";151,246410545484
+179;"Gala";"semana_5";46,4981801296491
+179;"Gala";"semana_10";105,690422038743
+179;"Gala";"semana_15";206,925581760788
+179;"Gala";"semana_20";208,311025310391
+180;"Richard";"semana_5";63,9695284928785
+180;"Richard";"semana_10";135,0341081403
+180;"Richard";"semana_15";186,820588348333
+180;"Richard";"semana_20";191,066135560994
+181;"Pink Lady";"semana_5";48,4541888806443
+181;"Pink Lady";"semana_10";138,919763423363
+181;"Pink Lady";"semana_15";134,916586464474
+181;"Pink Lady";"semana_20";137,384093126485
+182;"Granny Smith";"semana_5";55,3694273749851
+182;"Granny Smith";"semana_10";130,597869790647
+182;"Granny Smith";"semana_15";203,158841109545
+182;"Granny Smith";"semana_20";204,732431425423
+183;"Pink Lady";"semana_5";52,0732388671757
+183;"Pink Lady";"semana_10";135,13091027317
+183;"Pink Lady";"semana_15";227,990255382779
+183;"Pink Lady";"semana_20";231,645550447452
+184;"Fuji";"semana_5";48,495783973813
+184;"Fuji";"semana_10";99,5894576032848
+184;"Fuji";"semana_15";197,91371016582
+184;"Fuji";"semana_20";204,011174488863
+185;"Gala";"semana_5";33,5254928921552
+185;"Gala";"semana_10";108,102131438808
+185;"Gala";"semana_15";203,243747153603
+185;"Gala";"semana_20";207,939619467877
+186;"Pink Lady";"semana_5";61,2011200306072
+186;"Pink Lady";"semana_10";113,506814079958
+186;"Pink Lady";"semana_15";225,736390541579
+186;"Pink Lady";"semana_20";233,040171659823
+187;"Pink Lady";"semana_5";56,5254266399427
+187;"Pink Lady";"semana_10";124,958305329109
+187;"Pink Lady";"semana_15";183,579104885887
+187;"Pink Lady";"semana_20";185,954432923775
+188;"Granny Smith";"semana_5";47,3046205492036
+188;"Granny Smith";"semana_10";109,523217674846
+188;"Granny Smith";"semana_15";208,374099710233
+188;"Granny Smith";"semana_20";211,915985721371
+189;"Golden";"semana_5";35,2584635150502
+189;"Golden";"semana_10";138,858903934625
+189;"Golden";"semana_15";172,903629618405
+189;"Golden";"semana_20";178,700857878371
+190;"Richard";"semana_5";64,9945898657666
+190;"Richard";"semana_10";118,073549121385
+190;"Richard";"semana_15";251,118576725408
+190;"Richard";"semana_20";252,231153519288
+191;"Fuji";"semana_5";43,2611787703712
+191;"Fuji";"semana_10";161,733562478945
+191;"Fuji";"semana_15";205,969393296786
+191;"Fuji";"semana_20";210,047696760543
+192;"Pink Lady";"semana_5";50,0455958513691
+192;"Pink Lady";"semana_10";130,973263214781
+192;"Pink Lady";"semana_15";208,86831781044
+192;"Pink Lady";"semana_20";209,86255044266
+193;"Golden";"semana_5";46,1895347587368
+193;"Golden";"semana_10";96,5259525357518
+193;"Golden";"semana_15";213,106019080058
+193;"Golden";"semana_20";214,436100587622
+194;"Pink Lady";"semana_5";50,4111752567117
+194;"Pink Lady";"semana_10";110,473928366256
+194;"Pink Lady";"semana_15";183,668942983196
+194;"Pink Lady";"semana_20";187,133624638364
+195;"Granny Smith";"semana_5";53,3084434332912
+195;"Granny Smith";"semana_10";131,928790388923
+195;"Granny Smith";"semana_15";252,816525044192
+195;"Granny Smith";"semana_20";257,505431732435
+196;"Richard";"semana_5";63,0482525186883
+196;"Richard";"semana_10";115,319111481566
+196;"Richard";"semana_15";257,163376381535
+196;"Richard";"semana_20";260,133845256556
+197;"Gala";"semana_5";43,3193567274555
+197;"Gala";"semana_10";110,146777183747
+197;"Gala";"semana_15";213,684860620451
+197;"Gala";"semana_20";217,162221219194
+198;"Gala";"semana_5";42,4712954225196
+198;"Gala";"semana_10";115,166405661027
+198;"Gala";"semana_15";180,475501691269
+198;"Gala";"semana_20";182,689378411787
+199;"Richard";"semana_5";56,6265776957352
+199;"Richard";"semana_10";159,97427207225
+199;"Richard";"semana_15";224,959940036191
+199;"Richard";"semana_20";230,560270791306
+200;"Golden";"semana_5";54,8180918629214
+200;"Golden";"semana_10";97,1397336254045
+200;"Golden";"semana_15";231,845028179581
+200;"Golden";"semana_20";235,639534919406
+201;"Fuji";"semana_5";51,172399298958
+201;"Fuji";"semana_10";116,107221980151
+201;"Fuji";"semana_15";201,600211937774
+201;"Fuji";"semana_20";204,590884324957
+202;"Richard";"semana_5";63,0994046210617
+202;"Richard";"semana_10";121,427151586117
+202;"Richard";"semana_15";244,776733782536
+202;"Richard";"semana_20";251,304170446864
+203;"Richard";"semana_5";62,8432028727959
+203;"Richard";"semana_10";130,339084396418
+203;"Richard";"semana_15";231,665887806319
+203;"Richard";"semana_20";235,071653643377
+204;"Golden";"semana_5";34,8951507045847
+204;"Golden";"semana_10";121,008047206515
+204;"Golden";"semana_15";196,897574816104
+204;"Golden";"semana_20";200,572740324047
+205;"Pink Lady";"semana_5";48,2363467059004
+205;"Pink Lady";"semana_10";114,762340641676
+205;"Pink Lady";"semana_15";198,428649500033
+205;"Pink Lady";"semana_20";204,386679006761
+206;"Pink Lady";"semana_5";42,3987701273325
+206;"Pink Lady";"semana_10";139,662278276258
+206;"Pink Lady";"semana_15";203,073381786867
+206;"Pink Lady";"semana_20";211,01825269468
+207;"Starking";"semana_5";54,0777351645067
+207;"Starking";"semana_10";102,193528166532
+207;"Starking";"semana_15";172,99479844523
+207;"Starking";"semana_20";174,614225995814
+208;"Granny Smith";"semana_5";52,7330817133101
+208;"Granny Smith";"semana_10";123,145038004858
+208;"Granny Smith";"semana_15";234,642949289433
+208;"Granny Smith";"semana_20";234,827211343474
+209;"Granny Smith";"semana_5";50,5522187023084
+209;"Granny Smith";"semana_10";96,9080373069491
+209;"Granny Smith";"semana_15";185,020134625194
+209;"Granny Smith";"semana_20";186,19972092582
+210;"Richard";"semana_5";58,4562766255259
+210;"Richard";"semana_10";142,143601026915
+210;"Richard";"semana_15";175,360579882196
+210;"Richard";"semana_20";175,634115917987
+211;"Granny Smith";"semana_5";48,3639214182408
+211;"Granny Smith";"semana_10";101,925065597315
+211;"Granny Smith";"semana_15";243,379279956016
+211;"Granny Smith";"semana_20";245,638880848679
+212;"Gala";"semana_5";44,6511980282712
+212;"Gala";"semana_10";99,5804489009813
+212;"Gala";"semana_15";179,338824342042
+212;"Gala";"semana_20";182,831551426128
+213;"Gala";"semana_5";42,0404633994213
+213;"Gala";"semana_10";116,752903387102
+213;"Gala";"semana_15";182,340845598036
+213;"Gala";"semana_20";182,579282097646
+214;"Fuji";"semana_5";42,5388099805135
+214;"Fuji";"semana_10";135,152174486587
+214;"Fuji";"semana_15";204,04718048466
+214;"Fuji";"semana_20";205,026032983936
+215;"Richard";"semana_5";49,2380424891227
+215;"Richard";"semana_10";136,767150212071
+215;"Richard";"semana_15";224,543939625661
+215;"Richard";"semana_20";227,030526028763
+216;"Gala";"semana_5";44,6418411014507
+216;"Gala";"semana_10";104,524732153121
+216;"Gala";"semana_15";197,753471116484
+216;"Gala";"semana_20";198,388228126751
+217;"Richard";"semana_5";63,8503851217066
+217;"Richard";"semana_10";148,619957345599
+217;"Richard";"semana_15";187,263915087315
+217;"Richard";"semana_20";193,943670879336
+218;"Golden";"semana_5";38,7074754063205
+218;"Golden";"semana_10";101,485733079044
+218;"Golden";"semana_15";180,550537107909
+218;"Golden";"semana_20";187,009572154308
+219;"Fuji";"semana_5";43,1902707951958
+219;"Fuji";"semana_10";124,334920933492
+219;"Fuji";"semana_15";162,729825209601
+219;"Fuji";"semana_20";168,983773600085
+220;"Golden";"semana_5";45,3967051906921
+220;"Golden";"semana_10";128,218499875357
+220;"Golden";"semana_15";200,999209942207
+220;"Golden";"semana_20";208,779081158251
+221;"Pink Lady";"semana_5";48,2188895748135
+221;"Pink Lady";"semana_10";106,820677009514
+221;"Pink Lady";"semana_15";240,672877598224
+221;"Pink Lady";"semana_20";242,839194707242
+222;"Fuji";"semana_5";47,1700287602357
+222;"Fuji";"semana_10";131,910966963732
+222;"Fuji";"semana_15";166,294951437633
+222;"Fuji";"semana_20";168,513054321181
+223;"Starking";"semana_5";50,2955075502071
+223;"Starking";"semana_10";119,295962625522
+223;"Starking";"semana_15";208,488566225773
+223;"Starking";"semana_20";211,168950247025
+224;"Gala";"semana_5";44,3189833987151
+224;"Gala";"semana_10";110,498088681168
+224;"Gala";"semana_15";241,52465776328
+224;"Gala";"semana_20";245,869274625294
+225;"Starking";"semana_5";48,1566412994548
+225;"Starking";"semana_10";122,806480946605
+225;"Starking";"semana_15";170,933782554164
+225;"Starking";"semana_20";172,460768434152
+226;"Starking";"semana_5";54,7936760380091
+226;"Starking";"semana_10";143,563429810751
+226;"Starking";"semana_15";175,011310863464
+226;"Starking";"semana_20";178,195828012346
+227;"Starking";"semana_5";51,8772338285195
+227;"Starking";"semana_10";101,26308324111
+227;"Starking";"semana_15";203,959828047567
+227;"Starking";"semana_20";206,793700313681
+228;"Pink Lady";"semana_5";48,4388652600911
+228;"Pink Lady";"semana_10";128,447840475606
+228;"Pink Lady";"semana_15";240,238182167062
+228;"Pink Lady";"semana_20";247,418748913803
+229;"Gala";"semana_5";50,6517840909858
+229;"Gala";"semana_10";130,715603845614
+229;"Gala";"semana_15";220,959836465572
+229;"Gala";"semana_20";225,286227536653
+230;"Gala";"semana_5";50,5472451599182
+230;"Gala";"semana_10";109,498152788575
+230;"Gala";"semana_15";196,984631106788
+230;"Gala";"semana_20";201,002777409339
+231;"Golden";"semana_5";42,676413527156
+231;"Golden";"semana_10";111,235873645665
+231;"Golden";"semana_15";194,550949314921
+231;"Golden";"semana_20";196,670517254933
+232;"Pink Lady";"semana_5";40,0881140078077
+232;"Pink Lady";"semana_10";105,037178270847
+232;"Pink Lady";"semana_15";196,742165453347
+232;"Pink Lady";"semana_20";203,237005164462
+233;"Fuji";"semana_5";47,5823471080454
+233;"Fuji";"semana_10";91,2975749614575
+233;"Fuji";"semana_15";132,242626579026
+233;"Fuji";"semana_20";135,725838649566
+234;"Starking";"semana_5";57,8620938804123
+234;"Starking";"semana_10";126,580252823457
+234;"Starking";"semana_15";164,061326965953
+234;"Starking";"semana_20";165,086631467829
+235;"Fuji";"semana_5";47,7699863766062
+235;"Fuji";"semana_10";125,892442780813
+235;"Fuji";"semana_15";210,15981491572
+235;"Fuji";"semana_20";213,796623368847
+236;"Granny Smith";"semana_5";42,5029360208626
+236;"Granny Smith";"semana_10";95,981738202965
+236;"Granny Smith";"semana_15";223,425722167037
+236;"Granny Smith";"semana_20";225,523951243751
+237;"Starking";"semana_5";48,6011668370645
+237;"Starking";"semana_10";120,471197243217
+237;"Starking";"semana_15";166,238255989284
+237;"Starking";"semana_20";171,450824577839
+238;"Golden";"semana_5";54,9009743064655
+238;"Golden";"semana_10";138,371426377708
+238;"Golden";"semana_15";231,377733405501
+238;"Golden";"semana_20";231,956624213428
+239;"Richard";"semana_5";61,218939009504
+239;"Richard";"semana_10";143,356496523059
+239;"Richard";"semana_15";213,116149355487
+239;"Richard";"semana_20";215,700999277473
+240;"Fuji";"semana_5";35,3168786530412
+240;"Fuji";"semana_10";124,399453738591
+240;"Fuji";"semana_15";192,029474451585
+240;"Fuji";"semana_20";196,443208597048
+241;"Richard";"semana_5";58,3134473017398
+241;"Richard";"semana_10";166,989078193092
+241;"Richard";"semana_15";225,342471887689
+241;"Richard";"semana_20";230,536248316389
+242;"Gala";"semana_5";45,7366545387743
+242;"Gala";"semana_10";111,033391887726
+242;"Gala";"semana_15";233,062075217271
+242;"Gala";"semana_20";240,33941988928
+243;"Pink Lady";"semana_5";49,6199270177327
+243;"Pink Lady";"semana_10";109,524679698161
+243;"Pink Lady";"semana_15";137,496071153966
+243;"Pink Lady";"semana_20";140,023976796952
+244;"Fuji";"semana_5";54,9146904631091
+244;"Fuji";"semana_10";113,574519226116
+244;"Fuji";"semana_15";209,88091846018
+244;"Fuji";"semana_20";217,742009138902
+245;"Pink Lady";"semana_5";52,1835930845607
+245;"Pink Lady";"semana_10";132,819712605682
+245;"Pink Lady";"semana_15";187,844824799899
+245;"Pink Lady";"semana_20";188,635173275698
+246;"Fuji";"semana_5";57,6955773133202
+246;"Fuji";"semana_10";110,77848235035
+246;"Fuji";"semana_15";174,679519471384
+246;"Fuji";"semana_20";179,740163133151
+247;"Fuji";"semana_5";57,1241691859555
+247;"Fuji";"semana_10";114,228516773173
+247;"Fuji";"semana_15";194,442571839375
+247;"Fuji";"semana_20";197,871376950351
+248;"Fuji";"semana_5";50,3514999945358
+248;"Fuji";"semana_10";150,926355623604
+248;"Fuji";"semana_15";277,905074608424
+248;"Fuji";"semana_20";282,861616949462
+249;"Gala";"semana_5";47,433410322177
+249;"Gala";"semana_10";114,583382079067
+249;"Gala";"semana_15";193,171742521954
+249;"Gala";"semana_20";198,966347216424
+250;"Golden";"semana_5";46,9544909457723
+250;"Golden";"semana_10";151,010284508121
+250;"Golden";"semana_15";223,477002847432
+250;"Golden";"semana_20";224,303095118566
+251;"Starking";"semana_5";55,9675774900701
+251;"Starking";"semana_10";110,411516154076
+251;"Starking";"semana_15";188,211654628347
+251;"Starking";"semana_20";193,319061531406
+252;"Granny Smith";"semana_5";48,9974193565463
+252;"Granny Smith";"semana_10";95,00052109954
+252;"Granny Smith";"semana_15";184,807738346176
+252;"Granny Smith";"semana_20";190,637003331574
+253;"Starking";"semana_5";48,7473449965172
+253;"Starking";"semana_10";128,937758364705
+253;"Starking";"semana_15";182,359794178923
+253;"Starking";"semana_20";187,392174255048
+254;"Gala";"semana_5";41,3342052661003
+254;"Gala";"semana_10";100,974192840338
+254;"Gala";"semana_15";159,235936134318
+254;"Gala";"semana_20";164,578136074553
+255;"Starking";"semana_5";40,0180118026483
+255;"Starking";"semana_10";135,873566130489
+255;"Starking";"semana_15";236,280298192414
+255;"Starking";"semana_20";241,280663030582
+256;"Starking";"semana_5";48,3452850207638
+256;"Starking";"semana_10";113,211588154648
+256;"Starking";"semana_15";183,161759084518
+256;"Starking";"semana_20";187,217406567613
+257;"Gala";"semana_5";44,449293869019
+257;"Gala";"semana_10";109,921585599956
+257;"Gala";"semana_15";187,106054343574
+257;"Gala";"semana_20";191,507474543818
+258;"Granny Smith";"semana_5";45,0385714129371
+258;"Granny Smith";"semana_10";107,274983852879
+258;"Granny Smith";"semana_15";216,543842879062
+258;"Granny Smith";"semana_20";223,868642405544
+259;"Granny Smith";"semana_5";52,0127477888936
+259;"Granny Smith";"semana_10";115,1253459641
+259;"Granny Smith";"semana_15";204,238966916969
+259;"Granny Smith";"semana_20";205,289431442788
+260;"Golden";"semana_5";61,8304464163619
+260;"Golden";"semana_10";120,582028141824
+260;"Golden";"semana_15";179,530197116076
+260;"Golden";"semana_20";186,279561046972
+261;"Richard";"semana_5";53,4273950767077
+261;"Richard";"semana_10";138,581501697123
+261;"Richard";"semana_15";272,90575587998
+261;"Richard";"semana_20";276,508655861642
+262;"Richard";"semana_5";62,7739040883454
+262;"Richard";"semana_10";124,71541066965
+262;"Richard";"semana_15";196,254729220619
+262;"Richard";"semana_20";199,887299789091
+263;"Pink Lady";"semana_5";54,6259621369313
+263;"Pink Lady";"semana_10";126,138314948124
+263;"Pink Lady";"semana_15";230,598276215647
+263;"Pink Lady";"semana_20";230,754461322953
+264;"Richard";"semana_5";56,2701141644727
+264;"Richard";"semana_10";124,640503174444
+264;"Richard";"semana_15";258,890726103064
+264;"Richard";"semana_20";261,656435255509
+265;"Gala";"semana_5";42,0744426336286
+265;"Gala";"semana_10";84,6320527266513
+265;"Gala";"semana_15";222,173223462489
+265;"Gala";"semana_20";225,812109027591
+266;"Pink Lady";"semana_5";45,7490753376162
+266;"Pink Lady";"semana_10";106,092279687077
+266;"Pink Lady";"semana_15";191,153140710638
+266;"Pink Lady";"semana_20";193,795196989522
+267;"Starking";"semana_5";46,1261944424639
+267;"Starking";"semana_10";124,979420627614
+267;"Starking";"semana_15";199,870972972641
+267;"Starking";"semana_20";205,108508469815
+268;"Fuji";"semana_5";51,7836975345878
+268;"Fuji";"semana_10";142,415835211891
+268;"Fuji";"semana_15";229,333743129559
+268;"Fuji";"semana_20";234,298255475871
+269;"Richard";"semana_5";55,0100304938423
+269;"Richard";"semana_10";136,16699843479
+269;"Richard";"semana_15";239,37006438665
+269;"Richard";"semana_20";240,581960113271
+270;"Granny Smith";"semana_5";51,4619340786661
+270;"Granny Smith";"semana_10";126,467384317736
+270;"Granny Smith";"semana_15";217,780538777173
+270;"Granny Smith";"semana_20";219,391702542365
+271;"Richard";"semana_5";55,9553678206106
+271;"Richard";"semana_10";149,425341897796
+271;"Richard";"semana_15";219,211160261091
+271;"Richard";"semana_20";220,788609625678
+272;"Gala";"semana_5";44,7801988452538
+272;"Gala";"semana_10";140,736214301824
+272;"Gala";"semana_15";165,477728706501
+272;"Gala";"semana_20";172,319194297023
+273;"Fuji";"semana_5";51,4616466217245
+273;"Fuji";"semana_10";115,423628110531
+273;"Fuji";"semana_15";196,794063695187
+273;"Fuji";"semana_20";198,209023369888
+274;"Fuji";"semana_5";46,0632059233795
+274;"Fuji";"semana_10";98,650556943717
+274;"Fuji";"semana_15";259,452653147042
+274;"Fuji";"semana_20";260,165589635954
+275;"Starking";"semana_5";63,4987054401651
+275;"Starking";"semana_10";107,617696971918
+275;"Starking";"semana_15";168,337635230944
+275;"Starking";"semana_20";170,730762528927
+276;"Golden";"semana_5";53,8139966164289
+276;"Golden";"semana_10";142,292234362911
+276;"Golden";"semana_15";198,047734838466
+276;"Golden";"semana_20";198,878906000892
+277;"Gala";"semana_5";43,4119380255071
+277;"Gala";"semana_10";116,786881224431
+277;"Gala";"semana_15";229,459669355259
+277;"Gala";"semana_20";232,623341891871
+278;"Richard";"semana_5";61,5310666155218
+278;"Richard";"semana_10";115,310885246221
+278;"Richard";"semana_15";275,153826090148
+278;"Richard";"semana_20";281,022004305025
+279;"Granny Smith";"semana_5";63,756074653214
+279;"Granny Smith";"semana_10";111,638031440449
+279;"Granny Smith";"semana_15";187,405230976452
+279;"Granny Smith";"semana_20";192,194514151473
+280;"Fuji";"semana_5";58,3786723032366
+280;"Fuji";"semana_10";129,806443876099
+280;"Fuji";"semana_15";237,66823336755
+280;"Fuji";"semana_20";241,882023972394
+281;"Gala";"semana_5";47,5378059796104
+281;"Gala";"semana_10";127,361358167029
+281;"Gala";"semana_15";182,559519302516
+281;"Gala";"semana_20";185,999192072495
+282;"Fuji";"semana_5";54,0091992643521
+282;"Fuji";"semana_10";116,413254747593
+282;"Fuji";"semana_15";220,210712930451
+282;"Fuji";"semana_20";227,764471197765
+283;"Fuji";"semana_5";54,6363548753787
+283;"Fuji";"semana_10";112,479198584504
+283;"Fuji";"semana_15";209,619171489786
+283;"Fuji";"semana_20";213,489934508513
+284;"Pink Lady";"semana_5";49,6228643652296
+284;"Pink Lady";"semana_10";118,388602843145
+284;"Pink Lady";"semana_15";232,341372140967
+284;"Pink Lady";"semana_20";234,639986436167
+285;"Gala";"semana_5";43,9880681276503
+285;"Gala";"semana_10";111,09418879354
+285;"Gala";"semana_15";215,142104298017
+285;"Gala";"semana_20";215,546062026314
+286;"Granny Smith";"semana_5";43,8342612502277
+286;"Granny Smith";"semana_10";126,124884853102
+286;"Granny Smith";"semana_15";169,744520481114
+286;"Granny Smith";"semana_20";173,900327579488
+287;"Starking";"semana_5";45,1982947033574
+287;"Starking";"semana_10";131,301996139847
+287;"Starking";"semana_15";172,495129729752
+287;"Starking";"semana_20";174,827811586802
+288;"Golden";"semana_5";46,020297704624
+288;"Golden";"semana_10";116,28564743947
+288;"Golden";"semana_15";222,807244852953
+288;"Golden";"semana_20";226,78915890383
+289;"Starking";"semana_5";52,6225354957607
+289;"Starking";"semana_10";104,78398493806
+289;"Starking";"semana_15";161,654305213487
+289;"Starking";"semana_20";169,224448058179
+290;"Golden";"semana_5";44,6876078834892
+290;"Golden";"semana_10";98,4082391328326
+290;"Golden";"semana_15";203,238335464034
+290;"Golden";"semana_20";208,657094448689
+291;"Richard";"semana_5";57,9695650244437
+291;"Richard";"semana_10";151,944182805894
+291;"Richard";"semana_15";234,530010563682
+291;"Richard";"semana_20";239,987135487969
+292;"Gala";"semana_5";42,2272776655985
+292;"Gala";"semana_10";114,80277815738
+292;"Gala";"semana_15";153,390752829341
+292;"Gala";"semana_20";154,478688010676
+293;"Fuji";"semana_5";49,8374733052917
+293;"Fuji";"semana_10";98,2265081919269
+293;"Fuji";"semana_15";186,786631135477
+293;"Fuji";"semana_20";191,484249646051
+294;"Fuji";"semana_5";50,507454244125
+294;"Fuji";"semana_10";112,238618940156
+294;"Fuji";"semana_15";202,0346443154
+294;"Fuji";"semana_20";207,461355485403
+295;"Golden";"semana_5";49,2448134931489
+295;"Golden";"semana_10";104,712077076332
+295;"Golden";"semana_15";179,157571535794
+295;"Golden";"semana_20";187,085519530115
+296;"Fuji";"semana_5";51,1856341647266
+296;"Fuji";"semana_10";108,50655055366
+296;"Fuji";"semana_15";254,592301727534
+296;"Fuji";"semana_20";258,887474590242
+297;"Gala";"semana_5";48,7901719093813
+297;"Gala";"semana_10";114,791655819427
+297;"Gala";"semana_15";177,543373693156
+297;"Gala";"semana_20";184,807040408629
+298;"Gala";"semana_5";49,6901430849854
+298;"Gala";"semana_10";126,018099912745
+298;"Gala";"semana_15";167,159040784151
+298;"Gala";"semana_20";168,374347211481
+299;"Gala";"semana_5";44,6017033634523
+299;"Gala";"semana_10";108,830575033572
+299;"Gala";"semana_15";146,532696028477
+299;"Gala";"semana_20";146,754378331131
+300;"Granny Smith";"semana_5";44,5516867407542
+300;"Granny Smith";"semana_10";104,499932888942
+300;"Granny Smith";"semana_15";166,766523605142
+300;"Granny Smith";"semana_20";172,661777062271
+301;"Richard";"semana_5";63,1935997945979
+301;"Richard";"semana_10";167,573755641351
+301;"Richard";"semana_15";214,785960008494
+301;"Richard";"semana_20";217,511740545846
+302;"Granny Smith";"semana_5";41,4014434121959
+302;"Granny Smith";"semana_10";143,402682120684
+302;"Granny Smith";"semana_15";213,028754204928
+302;"Granny Smith";"semana_20";213,302711937992
+303;"Granny Smith";"semana_5";47,6482023230239
+303;"Granny Smith";"semana_10";98,9088659819695
+303;"Granny Smith";"semana_15";190,753476984577
+303;"Granny Smith";"semana_20";193,713127262668
+304;"Pink Lady";"semana_5";46,2118544657916
+304;"Pink Lady";"semana_10";102,256397257571
+304;"Pink Lady";"semana_15";184,350135887864
+304;"Pink Lady";"semana_20";190,810430438149
+305;"Fuji";"semana_5";38,9697950065973
+305;"Fuji";"semana_10";120,678741804293
+305;"Fuji";"semana_15";211,907166857717
+305;"Fuji";"semana_20";213,986813914475
+306;"Fuji";"semana_5";47,5975287978136
+306;"Fuji";"semana_10";120,616412098419
+306;"Fuji";"semana_15";215,247478324332
+306;"Fuji";"semana_20";220,804270205431
+307;"Pink Lady";"semana_5";52,2158368865443
+307;"Pink Lady";"semana_10";122,657859075549
+307;"Pink Lady";"semana_15";209,246718337985
+307;"Pink Lady";"semana_20";210,908454975338
+308;"Starking";"semana_5";48,3344556997286
+308;"Starking";"semana_10";137,714265914906
+308;"Starking";"semana_15";193,944609450501
+308;"Starking";"semana_20";199,657799627957
+309;"Pink Lady";"semana_5";58,2842944423334
+309;"Pink Lady";"semana_10";125,254543156709
+309;"Pink Lady";"semana_15";144,522947916749
+309;"Pink Lady";"semana_20";150,510060761112
+310;"Fuji";"semana_5";54,8761106588005
+310;"Fuji";"semana_10";121,083509024722
+310;"Fuji";"semana_15";196,539000289722
+310;"Fuji";"semana_20";202,76212250462
+311;"Granny Smith";"semana_5";54,2545587055071
+311;"Granny Smith";"semana_10";121,590470731105
+311;"Granny Smith";"semana_15";204,969788149583
+311;"Granny Smith";"semana_20";207,17595950945
+312;"Starking";"semana_5";50,7630164597012
+312;"Starking";"semana_10";111,433302055511
+312;"Starking";"semana_15";182,335323465101
+312;"Starking";"semana_20";185,122631647668
+313;"Gala";"semana_5";43,8224096344771
+313;"Gala";"semana_10";109,551187928998
+313;"Gala";"semana_15";212,64407587658
+313;"Gala";"semana_20";215,81996364008
+314;"Fuji";"semana_5";49,4820323259801
+314;"Fuji";"semana_10";118,721520559155
+314;"Fuji";"semana_15";169,505916594435
+314;"Fuji";"semana_20";173,013270451595
+315;"Fuji";"semana_5";51,6872277582777
+315;"Fuji";"semana_10";127,414319034858
+315;"Fuji";"semana_15";209,804723085319
+315;"Fuji";"semana_20";211,752721774807
+316;"Pink Lady";"semana_5";49,0032831291725
+316;"Pink Lady";"semana_10";121,279692445969
+316;"Pink Lady";"semana_15";207,880703807685
+316;"Pink Lady";"semana_20";211,853740722749
+317;"Starking";"semana_5";52,4582331613163
+317;"Starking";"semana_10";129,874240316626
+317;"Starking";"semana_15";163,595395974987
+317;"Starking";"semana_20";168,745847700336
+318;"Richard";"semana_5";59,5774162345593
+318;"Richard";"semana_10";119,862043437826
+318;"Richard";"semana_15";243,628301806695
+318;"Richard";"semana_20";249,195292768947
+319;"Golden";"semana_5";51,6355243963884
+319;"Golden";"semana_10";114,189003429077
+319;"Golden";"semana_15";173,107474770433
+319;"Golden";"semana_20";176,547251774035
+320;"Gala";"semana_5";48,1653694153244
+320;"Gala";"semana_10";107,933582982521
+320;"Gala";"semana_15";219,603509221509
+320;"Gala";"semana_20";222,298374111116
+321;"Granny Smith";"semana_5";46,5011553108003
+321;"Granny Smith";"semana_10";119,600665543866
+321;"Granny Smith";"semana_15";204,236905222827
+321;"Granny Smith";"semana_20";204,774980314144
+322;"Gala";"semana_5";51,4434488838061
+322;"Gala";"semana_10";89,5306450535066
+322;"Gala";"semana_15";179,12861037077
+322;"Gala";"semana_20";179,569740608423
+323;"Richard";"semana_5";51,1715826830738
+323;"Richard";"semana_10";144,286364782493
+323;"Richard";"semana_15";195,768173454608
+323;"Richard";"semana_20";195,874148719291
+324;"Golden";"semana_5";48,4171424086279
+324;"Golden";"semana_10";116,132612043591
+324;"Golden";"semana_15";194,166429448653
+324;"Golden";"semana_20";195,98886150286
+325;"Gala";"semana_5";36,7741162674764
+325;"Gala";"semana_10";118,952557853274
+325;"Gala";"semana_15";166,698971824774
+325;"Gala";"semana_20";167,592659751006
+326;"Golden";"semana_5";47,3324609484742
+326;"Golden";"semana_10";146,751561667504
+326;"Golden";"semana_15";210,214426763883
+326;"Golden";"semana_20";217,56072957494
+327;"Pink Lady";"semana_5";48,3638862540168
+327;"Pink Lady";"semana_10";99,324266509666
+327;"Pink Lady";"semana_15";189,453079478405
+327;"Pink Lady";"semana_20";192,765956878252
+328;"Granny Smith";"semana_5";42,7561128621092
+328;"Granny Smith";"semana_10";120,716821201373
+328;"Granny Smith";"semana_15";176,581415854158
+328;"Granny Smith";"semana_20";180,628932771968
+329;"Pink Lady";"semana_5";45,5726651262473
+329;"Pink Lady";"semana_10";116,043667797176
+329;"Pink Lady";"semana_15";183,800747353447
+329;"Pink Lady";"semana_20";186,438541719553
+330;"Granny Smith";"semana_5";56,9720696900484
+330;"Granny Smith";"semana_10";100,944493122287
+330;"Granny Smith";"semana_15";134,934113717015
+330;"Granny Smith";"semana_20";140,592197640176
+331;"Fuji";"semana_5";52,21525089827
+331;"Fuji";"semana_10";125,06518962104
+331;"Fuji";"semana_15";186,761645450744
+331;"Fuji";"semana_20";189,670495325255
+332;"Starking";"semana_5";53,059771015993
+332;"Starking";"semana_10";132,736514090123
+332;"Starking";"semana_15";206,899759871939
+332;"Starking";"semana_20";211,539552653262
+333;"Golden";"semana_5";47,4872306229853
+333;"Golden";"semana_10";124,310356357083
+333;"Golden";"semana_15";217,699206412153
+333;"Golden";"semana_20";223,983675403835
+334;"Starking";"semana_5";42,2748005586131
+334;"Starking";"semana_10";128,17635620943
+334;"Starking";"semana_15";223,24837587812
+334;"Starking";"semana_20";226,772479225332
+335;"Granny Smith";"semana_5";42,844709018278
+335;"Granny Smith";"semana_10";119,743837066237
+335;"Granny Smith";"semana_15";178,860413063469
+335;"Granny Smith";"semana_20";184,136328315514
+336;"Golden";"semana_5";56,4220587243295
+336;"Golden";"semana_10";119,696318899526
+336;"Golden";"semana_15";156,040266021097
+336;"Golden";"semana_20";157,483614346886
+337;"Golden";"semana_5";56,796717946817
+337;"Golden";"semana_10";111,874052474148
+337;"Golden";"semana_15";211,256181430279
+337;"Golden";"semana_20";218,983971949874
+338;"Richard";"semana_5";51,1852969063141
+338;"Richard";"semana_10";141,870512136442
+338;"Richard";"semana_15";220,883730598036
+338;"Richard";"semana_20";226,776486914847
+339;"Pink Lady";"semana_5";44,9394230167081
+339;"Pink Lady";"semana_10";129,388200292577
+339;"Pink Lady";"semana_15";200,475592506141
+339;"Pink Lady";"semana_20";206,032374336407
+340;"Richard";"semana_5";61,9919363436082
+340;"Richard";"semana_10";148,357145113617
+340;"Richard";"semana_15";230,924078730937
+340;"Richard";"semana_20";238,11068263657
+341;"Granny Smith";"semana_5";56,8146372846409
+341;"Granny Smith";"semana_10";117,185173033821
+341;"Granny Smith";"semana_15";230,728807415438
+341;"Granny Smith";"semana_20";232,55362027101
+342;"Starking";"semana_5";52,330003325495
+342;"Starking";"semana_10";116,120676204207
+342;"Starking";"semana_15";215,171921429485
+342;"Starking";"semana_20";218,20036432825
+343;"Richard";"semana_5";66,0601219126674
+343;"Richard";"semana_10";140,763809979846
+343;"Richard";"semana_15";193,214463089639
+343;"Richard";"semana_20";195,05163526074
+344;"Granny Smith";"semana_5";47,2367196314125
+344;"Granny Smith";"semana_10";105,322309503287
+344;"Granny Smith";"semana_15";149,48342842537
+344;"Granny Smith";"semana_20";152,227996102749
+345;"Starking";"semana_5";49,8906553542843
+345;"Starking";"semana_10";115,606665537591
+345;"Starking";"semana_15";202,257245796049
+345;"Starking";"semana_20";203,4735895286
+346;"Richard";"semana_5";60,4953599292586
+346;"Richard";"semana_10";153,549009250937
+346;"Richard";"semana_15";230,791022951774
+346;"Richard";"semana_20";237,848200785986
+347;"Fuji";"semana_5";48,6651914021138
+347;"Fuji";"semana_10";113,553037107352
+347;"Fuji";"semana_15";202,081874836773
+347;"Fuji";"semana_20";204,294336902514
+348;"Fuji";"semana_5";44,2651602528441
+348;"Fuji";"semana_10";107,210577898002
+348;"Fuji";"semana_15";214,588265061581
+348;"Fuji";"semana_20";221,701910780946
+349;"Starking";"semana_5";54,5696816420153
+349;"Starking";"semana_10";125,35407156005
+349;"Starking";"semana_15";228,036190728785
+349;"Starking";"semana_20";234,002298492135
+350;"Starking";"semana_5";51,598872573062
+350;"Starking";"semana_10";109,065896313767
+350;"Starking";"semana_15";176,181212650056
+350;"Starking";"semana_20";176,26943825316
+351;"Pink Lady";"semana_5";43,1137478363252
+351;"Pink Lady";"semana_10";102,610846534028
+351;"Pink Lady";"semana_15";184,742970530549
+351;"Pink Lady";"semana_20";190,905734938244
+352;"Golden";"semana_5";47,0330293540272
+352;"Golden";"semana_10";95,7429335261981
+352;"Golden";"semana_15";177,15009940914
+352;"Golden";"semana_20";177,3247056467
+353;"Granny Smith";"semana_5";50,4837750990368
+353;"Granny Smith";"semana_10";134,053421729379
+353;"Granny Smith";"semana_15";217,652444118009
+353;"Granny Smith";"semana_20";222,850909616173
+354;"Gala";"semana_5";40,6871330579021
+354;"Gala";"semana_10";146,38640297435
+354;"Gala";"semana_15";212,324708584063
+354;"Gala";"semana_20";212,419016531966
+355;"Gala";"semana_5";41,6858497488146
+355;"Gala";"semana_10";90,360891051709
+355;"Gala";"semana_15";196,690086728313
+355;"Gala";"semana_20";199,627995416874
+356;"Richard";"semana_5";59,8378175508407
+356;"Richard";"semana_10";118,198668922733
+356;"Richard";"semana_15";224,672378364163
+356;"Richard";"semana_20";228,269076361465
+357;"Richard";"semana_5";54,8119789223132
+357;"Richard";"semana_10";135,835548330231
+357;"Richard";"semana_15";208,211763419737
+357;"Richard";"semana_20";214,477345625464
+358;"Starking";"semana_5";56,8142057365367
+358;"Starking";"semana_10";97,8702585168963
+358;"Starking";"semana_15";216,28546983506
+358;"Starking";"semana_20";217,548276408943
+359;"Pink Lady";"semana_5";55,1311855071528
+359;"Pink Lady";"semana_10";110,14814228254
+359;"Pink Lady";"semana_15";210,820644267659
+359;"Pink Lady";"semana_20";215,094749464478
+360;"Golden";"semana_5";56,9305947082719
+360;"Golden";"semana_10";113,405238654587
+360;"Golden";"semana_15";157,233867762764
+360;"Golden";"semana_20";164,866613624771
+361;"Richard";"semana_5";62,7344608729278
+361;"Richard";"semana_10";136,126193264708
+361;"Richard";"semana_15";223,616681363127
+361;"Richard";"semana_20";225,828153265334
+362;"Starking";"semana_5";48,8705625187956
+362;"Starking";"semana_10";112,610565971208
+362;"Starking";"semana_15";118,574394102916
+362;"Starking";"semana_20";122,903390723988
+363;"Pink Lady";"semana_5";43,7764345468245
+363;"Pink Lady";"semana_10";140,242679671121
+363;"Pink Lady";"semana_15";211,754998179607
+363;"Pink Lady";"semana_20";211,9350210023
+364;"Starking";"semana_5";48,2066590652751
+364;"Starking";"semana_10";98,9418460905176
+364;"Starking";"semana_15";122,354002730624
+364;"Starking";"semana_20";127,745458164887
+365;"Gala";"semana_5";45,5151585608227
+365;"Gala";"semana_10";89,7665809104404
+365;"Gala";"semana_15";163,603562457099
+365;"Gala";"semana_20";168,993381350845
+366;"Richard";"semana_5";59,5558022703273
+366;"Richard";"semana_10";139,932182705919
+366;"Richard";"semana_15";164,566086909715
+366;"Richard";"semana_20";167,794561025668
+367;"Granny Smith";"semana_5";53,0733622617077
+367;"Granny Smith";"semana_10";110,120339995351
+367;"Granny Smith";"semana_15";251,085575273735
+367;"Granny Smith";"semana_20";252,752503673089
+368;"Richard";"semana_5";64,4939819942034
+368;"Richard";"semana_10";118,920549345279
+368;"Richard";"semana_15";240,715638325842
+368;"Richard";"semana_20";245,792441581668
+369;"Pink Lady";"semana_5";54,1697135501448
+369;"Pink Lady";"semana_10";114,594004230081
+369;"Pink Lady";"semana_15";231,445184810736
+369;"Pink Lady";"semana_20";239,278171564169
+370;"Richard";"semana_5";63,6455810758344
+370;"Richard";"semana_10";141,766791306103
+370;"Richard";"semana_15";212,444861408773
+370;"Richard";"semana_20";215,253231747526
+371;"Richard";"semana_5";63,8363487036848
+371;"Richard";"semana_10";150,071700437677
+371;"Richard";"semana_15";225,513215634311
+371;"Richard";"semana_20";232,979494706998
+372;"Starking";"semana_5";55,0809087021276
+372;"Starking";"semana_10";106,401420590922
+372;"Starking";"semana_15";179,694515014812
+372;"Starking";"semana_20";181,464745971188
+373;"Granny Smith";"semana_5";48,6325152786419
+373;"Granny Smith";"semana_10";127,318808295362
+373;"Granny Smith";"semana_15";170,095982988196
+373;"Granny Smith";"semana_20";173,474018343555
+374;"Pink Lady";"semana_5";53,8335955136543
+374;"Pink Lady";"semana_10";108,549116713232
+374;"Pink Lady";"semana_15";253,093949284743
+374;"Pink Lady";"semana_20";257,105700873177
+375;"Granny Smith";"semana_5";54,6611791745381
+375;"Granny Smith";"semana_10";134,688794974084
+375;"Granny Smith";"semana_15";206,695694508695
+375;"Granny Smith";"semana_20";209,739685778239
+376;"Fuji";"semana_5";53,4966490629673
+376;"Fuji";"semana_10";132,526325692047
+376;"Fuji";"semana_15";204,51088516169
+376;"Fuji";"semana_20";207,293039062403
+377;"Granny Smith";"semana_5";45,7892904587555
+377;"Granny Smith";"semana_10";100,697004645585
+377;"Granny Smith";"semana_15";225,120340482959
+377;"Granny Smith";"semana_20";231,427511779287
+378;"Starking";"semana_5";53,2157307077083
+378;"Starking";"semana_10";113,100222592528
+378;"Starking";"semana_15";185,0095427873
+378;"Starking";"semana_20";191,969906126933
+379;"Starking";"semana_5";49,7246363654588
+379;"Starking";"semana_10";100,301006408102
+379;"Starking";"semana_15";238,058116008931
+379;"Starking";"semana_20";245,496334745952
+380;"Granny Smith";"semana_5";48,9534107490453
+380;"Granny Smith";"semana_10";117,89670506285
+380;"Granny Smith";"semana_15";225,248075644048
+380;"Granny Smith";"semana_20";225,602082007127
+381;"Pink Lady";"semana_5";46,8631846215799
+381;"Pink Lady";"semana_10";124,226548442372
+381;"Pink Lady";"semana_15";229,18393014809
+381;"Pink Lady";"semana_20";237,130793609376
+382;"Pink Lady";"semana_5";57,2179260134584
+382;"Pink Lady";"semana_10";122,63571334674
+382;"Pink Lady";"semana_15";194,780409198891
+382;"Pink Lady";"semana_20";195,480934691321
+383;"Pink Lady";"semana_5";51,3913093149761
+383;"Pink Lady";"semana_10";132,268084907957
+383;"Pink Lady";"semana_15";210,325154238672
+383;"Pink Lady";"semana_20";217,064651300491
+384;"Granny Smith";"semana_5";56,0577029680202
+384;"Granny Smith";"semana_10";126,847687666685
+384;"Granny Smith";"semana_15";137,629940867845
+384;"Granny Smith";"semana_20";141,40051117954
+385;"Starking";"semana_5";53,4675064341486
+385;"Starking";"semana_10";118,325000704645
+385;"Starking";"semana_15";217,160399716289
+385;"Starking";"semana_20";217,879235070141
+386;"Starking";"semana_5";49,1523037886579
+386;"Starking";"semana_10";110,983080683477
+386;"Starking";"semana_15";188,93008467514
+386;"Starking";"semana_20";195,576208538896
+387;"Granny Smith";"semana_5";56,1401070987001
+387;"Granny Smith";"semana_10";107,303372937321
+387;"Granny Smith";"semana_15";225,588358828975
+387;"Granny Smith";"semana_20";232,417951043873
+388;"Golden";"semana_5";50,1998853814625
+388;"Golden";"semana_10";126,172974079404
+388;"Golden";"semana_15";213,557869745869
+388;"Golden";"semana_20";220,952241460312
+389;"Fuji";"semana_5";49,9386413629165
+389;"Fuji";"semana_10";124,033499877133
+389;"Fuji";"semana_15";150,146492786553
+389;"Fuji";"semana_20";153,724278645437
+390;"Pink Lady";"semana_5";55,7832022678166
+390;"Pink Lady";"semana_10";147,189559394338
+390;"Pink Lady";"semana_15";204,058093724385
+390;"Pink Lady";"semana_20";208,811867011323
+391;"Pink Lady";"semana_5";47,1730443548779
+391;"Pink Lady";"semana_10";119,08387192569
+391;"Pink Lady";"semana_15";217,153411934025
+391;"Pink Lady";"semana_20";223,744811715431
+392;"Gala";"semana_5";56,9978089993198
+392;"Gala";"semana_10";97,4226521196202
+392;"Gala";"semana_15";176,194040195933
+392;"Gala";"semana_20";178,583752136594
+393;"Fuji";"semana_5";51,5093522671562
+393;"Fuji";"semana_10";126,641331125481
+393;"Fuji";"semana_15";221,68174810132
+393;"Fuji";"semana_20";228,950647190046
+394;"Gala";"semana_5";44,516325322188
+394;"Gala";"semana_10";81,295688570437
+394;"Gala";"semana_15";243,015376126025
+394;"Gala";"semana_20";246,987879220028
+395;"Pink Lady";"semana_5";55,5758971924863
+395;"Pink Lady";"semana_10";139,021934602094
+395;"Pink Lady";"semana_15";209,548711678825
+395;"Pink Lady";"semana_20";215,311608397282
+396;"Starking";"semana_5";54,7208981308393
+396;"Starking";"semana_10";133,971779261391
+396;"Starking";"semana_15";186,579240298124
+396;"Starking";"semana_20";192,388792960199
+397;"Gala";"semana_5";36,4941792068052
+397;"Gala";"semana_10";109,780055600383
+397;"Gala";"semana_15";160,619000467781
+397;"Gala";"semana_20";164,972256410245
+398;"Richard";"semana_5";57,0800128039772
+398;"Richard";"semana_10";127,817041920732
+398;"Richard";"semana_15";250,367389825821
+398;"Richard";"semana_20";257,63537861751
+399;"Gala";"semana_5";36,4193914620534
+399;"Gala";"semana_10";112,442630816713
+399;"Gala";"semana_15";204,076164803787
+399;"Gala";"semana_20";212,053017850353
+400;"Starking";"semana_5";49,0552988660286
+400;"Starking";"semana_10";134,811644962165
+400;"Starking";"semana_15";202,854782984645
+400;"Starking";"semana_20";203,807707536087
+401;"Fuji";"semana_5";49,4880044461362
+401;"Fuji";"semana_10";115,904127863382
+401;"Fuji";"semana_15";200,509831983281
+401;"Fuji";"semana_20";206,769264125882
+402;"Golden";"semana_5";58,7657651275146
+402;"Golden";"semana_10";134,350081400337
+402;"Golden";"semana_15";254,005473706705
+402;"Golden";"semana_20";261,432500585747
+403;"Pink Lady";"semana_5";51,6049905652749
+403;"Pink Lady";"semana_10";138,155803152005
+403;"Pink Lady";"semana_15";190,033018969647
+403;"Pink Lady";"semana_20";191,011011060975
+404;"Starking";"semana_5";56,5851750535983
+404;"Starking";"semana_10";101,19693418808
+404;"Starking";"semana_15";212,122596387688
+404;"Starking";"semana_20";218,104895514373
+405;"Granny Smith";"semana_5";49,6687242466181
+405;"Granny Smith";"semana_10";136,203189763932
+405;"Granny Smith";"semana_15";220,146396482653
+405;"Granny Smith";"semana_20";226,047880731813
+406;"Pink Lady";"semana_5";54,8574008050668
+406;"Pink Lady";"semana_10";132,004525139734
+406;"Pink Lady";"semana_15";199,922899536164
+406;"Pink Lady";"semana_20";201,285007386775
+407;"Starking";"semana_5";41,6191855032618
+407;"Starking";"semana_10";92,69330515606
+407;"Starking";"semana_15";193,914262981277
+407;"Starking";"semana_20";194,011587604072
+408;"Fuji";"semana_5";42,4012715542547
+408;"Fuji";"semana_10";139,544677678641
+408;"Fuji";"semana_15";203,028707464821
+408;"Fuji";"semana_20";205,671690966598
+409;"Richard";"semana_5";64,6900961415089
+409;"Richard";"semana_10";129,488320230669
+409;"Richard";"semana_15";248,418121777244
+409;"Richard";"semana_20";255,751299099766
+410;"Pink Lady";"semana_5";45,4002850307466
+410;"Pink Lady";"semana_10";106,916446552782
+410;"Pink Lady";"semana_15";169,003458993405
+410;"Pink Lady";"semana_20";171,059490505501
+411;"Richard";"semana_5";59,4344105441439
+411;"Richard";"semana_10";104,213352380442
+411;"Richard";"semana_15";270,616818116429
+411;"Richard";"semana_20";277,134321199181
+412;"Golden";"semana_5";53,7702661614871
+412;"Golden";"semana_10";119,557952572315
+412;"Golden";"semana_15";167,532537173405
+412;"Golden";"semana_20";174,898831177428
+413;"Gala";"semana_5";44,650589754967
+413;"Gala";"semana_10";93,7549858767069
+413;"Gala";"semana_15";246,473160426377
+413;"Gala";"semana_20";250,647796266956
+414;"Pink Lady";"semana_5";44,306011197186
+414;"Pink Lady";"semana_10";107,806707883421
+414;"Pink Lady";"semana_15";206,026532938255
+414;"Pink Lady";"semana_20";212,644113666861
+415;"Pink Lady";"semana_5";51,4473428116099
+415;"Pink Lady";"semana_10";103,579873787911
+415;"Pink Lady";"semana_15";209,788623416889
+415;"Pink Lady";"semana_20";215,771705551166
+416;"Granny Smith";"semana_5";50,2993477818238
+416;"Granny Smith";"semana_10";114,873277137546
+416;"Granny Smith";"semana_15";171,737495002559
+416;"Granny Smith";"semana_20";172,215854465252
+417;"Richard";"semana_5";59,136356095954
+417;"Richard";"semana_10";129,760749503263
+417;"Richard";"semana_15";250,699250728331
+417;"Richard";"semana_20";258,341529438711
+418;"Fuji";"semana_5";53,0235495696247
+418;"Fuji";"semana_10";128,614696598452
+418;"Fuji";"semana_15";200,98357042703
+418;"Fuji";"semana_20";204,884494141072
+419;"Starking";"semana_5";39,0254042317148
+419;"Starking";"semana_10";139,252819350272
+419;"Starking";"semana_15";185,105385674981
+419;"Starking";"semana_20";190,776176023183
+420;"Starking";"semana_5";54,2956093688524
+420;"Starking";"semana_10";145,586535069791
+420;"Starking";"semana_15";219,169838970369
+420;"Starking";"semana_20";222,126445250428
+421;"Golden";"semana_5";58,3615323133367
+421;"Golden";"semana_10";134,852321563007
+421;"Golden";"semana_15";233,584846000504
+421;"Golden";"semana_20";238,436879509445
+422;"Gala";"semana_5";42,5537067546597
+422;"Gala";"semana_10";95,5460504161521
+422;"Gala";"semana_15";179,663609488956
+422;"Gala";"semana_20";179,683308976791
+423;"Richard";"semana_5";65,2480219816361
+423;"Richard";"semana_10";119,333552538016
+423;"Richard";"semana_15";227,694350063871
+423;"Richard";"semana_20";231,117140317406
+424;"Fuji";"semana_5";51,0889966999518
+424;"Fuji";"semana_10";103,666917960635
+424;"Fuji";"semana_15";187,44936321088
+424;"Fuji";"semana_20";195,080627700024
+425;"Fuji";"semana_5";52,5161545915185
+425;"Fuji";"semana_10";122,498272699458
+425;"Fuji";"semana_15";233,641200497506
+425;"Fuji";"semana_20";240,541658485067
+426;"Richard";"semana_5";61,4213474865451
+426;"Richard";"semana_10";150,954607450393
+426;"Richard";"semana_15";202,563230847043
+426;"Richard";"semana_20";202,938318244216
+427;"Granny Smith";"semana_5";49,392902176119
+427;"Granny Smith";"semana_10";111,704103093421
+427;"Granny Smith";"semana_15";170,634381273637
+427;"Granny Smith";"semana_20";173,616968575741
+428;"Golden";"semana_5";59,2794742212259
+428;"Golden";"semana_10";132,151673970516
+428;"Golden";"semana_15";192,513704010881
+428;"Golden";"semana_20";200,199427321217
+429;"Gala";"semana_5";45,8877576939013
+429;"Gala";"semana_10";109,932308107022
+429;"Gala";"semana_15";194,293076089654
+429;"Gala";"semana_20";201,105659098435
+430;"Fuji";"semana_5";69,2739655848711
+430;"Fuji";"semana_10";124,563028561566
+430;"Fuji";"semana_15";170,852941969478
+430;"Fuji";"semana_20";178,542843403363
+431;"Richard";"semana_5";65,6932542215533
+431;"Richard";"semana_10";126,231150944374
+431;"Richard";"semana_15";249,361717586985
+431;"Richard";"semana_20";254,09829100745
+432;"Granny Smith";"semana_5";49,4545518761558
+432;"Granny Smith";"semana_10";104,575348032156
+432;"Granny Smith";"semana_15";171,547554959504
+432;"Granny Smith";"semana_20";174,592433220668
+433;"Pink Lady";"semana_5";58,6006877388529
+433;"Pink Lady";"semana_10";107,964986625348
+433;"Pink Lady";"semana_15";221,975744976038
+433;"Pink Lady";"semana_20";223,921603950048
+434;"Golden";"semana_5";57,3098538468951
+434;"Golden";"semana_10";149,036845072349
+434;"Golden";"semana_15";217,480393545749
+434;"Golden";"semana_20";220,164787156554
+435;"Fuji";"semana_5";47,9067587748884
+435;"Fuji";"semana_10";128,402590966199
+435;"Fuji";"semana_15";235,6278779801
+435;"Fuji";"semana_20";241,122404783593
+436;"Granny Smith";"semana_5";52,544844393344
+436;"Granny Smith";"semana_10";98,3461312521656
+436;"Granny Smith";"semana_15";249,245262348531
+436;"Granny Smith";"semana_20";256,625531464322
+437;"Richard";"semana_5";68,7282157433782
+437;"Richard";"semana_10";141,804717564108
+437;"Richard";"semana_15";265,138870487599
+437;"Richard";"semana_20";270,369514380259
+438;"Pink Lady";"semana_5";43,5627241698434
+438;"Pink Lady";"semana_10";131,839412852382
+438;"Pink Lady";"semana_15";207,282508613281
+438;"Pink Lady";"semana_20";212,452330333851
+439;"Gala";"semana_5";38,9561731473692
+439;"Gala";"semana_10";115,309511068057
+439;"Gala";"semana_15";140,740139136362
+439;"Gala";"semana_20";143,338494198668
+440;"Fuji";"semana_5";48,5479909559499
+440;"Fuji";"semana_10";115,898241434099
+440;"Fuji";"semana_15";209,986400713858
+440;"Fuji";"semana_20";213,021038278651
+441;"Gala";"semana_5";50,274488961928
+441;"Gala";"semana_10";113,570265343766
+441;"Gala";"semana_15";159,579495272077
+441;"Gala";"semana_20";167,168476349152
+442;"Granny Smith";"semana_5";47,7830443164373
+442;"Granny Smith";"semana_10";123,17961417678
+442;"Granny Smith";"semana_15";216,008602753811
+442;"Granny Smith";"semana_20";222,813908687391
+443;"Gala";"semana_5";38,931995982054
+443;"Gala";"semana_10";98,4939499834285
+443;"Gala";"semana_15";186,68811657582
+443;"Gala";"semana_20";194,636660770742
+444;"Golden";"semana_5";49,0714334250313
+444;"Golden";"semana_10";104,227766944544
+444;"Golden";"semana_15";218,815167616847
+444;"Golden";"semana_20";224,339542347732
+445;"Richard";"semana_5";61,6430902402744
+445;"Richard";"semana_10";135,60333724449
+445;"Richard";"semana_15";238,345765621488
+445;"Richard";"semana_20";244,990133098414
+446;"Fuji";"semana_5";58,4665280758749
+446;"Fuji";"semana_10";112,651727438147
+446;"Fuji";"semana_15";183,39411095052
+446;"Fuji";"semana_20";183,434359253263
+447;"Golden";"semana_5";49,95849878311
+447;"Golden";"semana_10";112,907529680023
+447;"Golden";"semana_15";221,724940751377
+447;"Golden";"semana_20";228,716351938132
+448;"Fuji";"semana_5";40,0077380872501
+448;"Fuji";"semana_10";116,63889874562
+448;"Fuji";"semana_15";170,020494722624
+448;"Fuji";"semana_20";175,28131795754
+449;"Fuji";"semana_5";52,0803871567404
+449;"Fuji";"semana_10";147,671382947256
+449;"Fuji";"semana_15";188,776139745251
+449;"Fuji";"semana_20";192,388999478654
+450;"Golden";"semana_5";49,3866257643919
+450;"Golden";"semana_10";124,772142614001
+450;"Golden";"semana_15";192,270877599396
+450;"Golden";"semana_20";196,983000773616
+451;"Starking";"semana_5";40,1241821771993
+451;"Starking";"semana_10";141,352757116167
+451;"Starking";"semana_15";230,629235125252
+451;"Starking";"semana_20";234,098945367255
+452;"Pink Lady";"semana_5";48,8086764828067
+452;"Pink Lady";"semana_10";128,354846675626
+452;"Pink Lady";"semana_15";208,983219373419
+452;"Pink Lady";"semana_20";214,022232606455
+453;"Golden";"semana_5";46,0757928563763
+453;"Golden";"semana_10";118,299464709879
+453;"Golden";"semana_15";197,600541806419
+453;"Golden";"semana_20";197,902482098538
+454;"Richard";"semana_5";61,6735173200434
+454;"Richard";"semana_10";129,160804789846
+454;"Richard";"semana_15";186,062669506551
+454;"Richard";"semana_20";186,968254070983
+455;"Fuji";"semana_5";47,7150127487544
+455;"Fuji";"semana_10";111,35629107435
+455;"Fuji";"semana_15";158,880556487224
+455;"Fuji";"semana_20";165,377371397546
+456;"Richard";"semana_5";56,7471555774883
+456;"Richard";"semana_10";114,315922837341
+456;"Richard";"semana_15";214,710277037464
+456;"Richard";"semana_20";219,06870583608
+457;"Gala";"semana_5";41,9165954191694
+457;"Gala";"semana_10";146,275336165778
+457;"Gala";"semana_15";199,699596504923
+457;"Gala";"semana_20";204,786814785805
+458;"Pink Lady";"semana_5";45,2155611910039
+458;"Pink Lady";"semana_10";88,1819244507736
+458;"Pink Lady";"semana_15";242,128730621907
+458;"Pink Lady";"semana_20";249,611194801303
+459;"Golden";"semana_5";46,7501195223686
+459;"Golden";"semana_10";120,874352144096
+459;"Golden";"semana_15";169,921611552767
+459;"Golden";"semana_20";170,052269877575
+460;"Granny Smith";"semana_5";48,6912546017429
+460;"Granny Smith";"semana_10";134,621658860624
+460;"Granny Smith";"semana_15";178,625403315472
+460;"Granny Smith";"semana_20";181,117379557985
+461;"Gala";"semana_5";38,0766872057878
+461;"Gala";"semana_10";116,962846433415
+461;"Gala";"semana_15";201,600043494394
+461;"Gala";"semana_20";206,500224758079
+462;"Golden";"semana_5";60,1212502122564
+462;"Golden";"semana_10";93,8629875175724
+462;"Golden";"semana_15";189,02829116987
+462;"Golden";"semana_20";190,575343409869
+463;"Starking";"semana_5";51,0852609515363
+463;"Starking";"semana_10";124,503200880351
+463;"Starking";"semana_15";153,266175733401
+463;"Starking";"semana_20";157,314411762624
+464;"Starking";"semana_5";48,1077621218056
+464;"Starking";"semana_10";122,384147660236
+464;"Starking";"semana_15";211,344902104176
+464;"Starking";"semana_20";218,707587587125
+465;"Golden";"semana_5";49,6938976217222
+465;"Golden";"semana_10";137,025859630337
+465;"Golden";"semana_15";188,533730937612
+465;"Golden";"semana_20";194,561791848836
+466;"Pink Lady";"semana_5";53,2393935127759
+466;"Pink Lady";"semana_10";112,823364507172
+466;"Pink Lady";"semana_15";200,871472388555
+466;"Pink Lady";"semana_20";200,933924950709
+467;"Starking";"semana_5";51,7195027480407
+467;"Starking";"semana_10";127,552043706088
+467;"Starking";"semana_15";201,752196906523
+467;"Starking";"semana_20";206,784406312199
+468;"Golden";"semana_5";44,2145926101696
+468;"Golden";"semana_10";150,064690022063
+468;"Golden";"semana_15";219,72911731979
+468;"Golden";"semana_20";227,539291309995
+469;"Golden";"semana_5";51,3583683705678
+469;"Golden";"semana_10";120,32999592503
+469;"Golden";"semana_15";248,523872103677
+469;"Golden";"semana_20";250,097912680493
+470;"Golden";"semana_5";50,2868545497604
+470;"Golden";"semana_10";157,173700908679
+470;"Golden";"semana_15";189,712629631426
+470;"Golden";"semana_20";192,960783828314
+471;"Golden";"semana_5";45,7119308413224
+471;"Golden";"semana_10";143,995429027216
+471;"Golden";"semana_15";131,772404598644
+471;"Golden";"semana_20";138,436222917041
+472;"Richard";"semana_5";58,8710571182798
+472;"Richard";"semana_10";143,888687034116
+472;"Richard";"semana_15";207,097124506563
+472;"Richard";"semana_20";208,337149883464
+473;"Fuji";"semana_5";62,5829594295069
+473;"Fuji";"semana_10";112,630787640138
+473;"Fuji";"semana_15";247,018662932909
+473;"Fuji";"semana_20";249,99361437524
+474;"Pink Lady";"semana_5";36,200595383469
+474;"Pink Lady";"semana_10";121,138086646868
+474;"Pink Lady";"semana_15";237,233905082059
+474;"Pink Lady";"semana_20";243,864768003536
+475;"Golden";"semana_5";49,550058912198
+475;"Golden";"semana_10";129,081346521062
+475;"Golden";"semana_15";210,714716661275
+475;"Golden";"semana_20";216,670295631067
+476;"Granny Smith";"semana_5";47,6990708265732
+476;"Granny Smith";"semana_10";112,22759943924
+476;"Granny Smith";"semana_15";249,729419051967
+476;"Granny Smith";"semana_20";255,188057241328
+477;"Starking";"semana_5";47,8120168876857
+477;"Starking";"semana_10";128,953894066748
+477;"Starking";"semana_15";267,986607379934
+477;"Starking";"semana_20";271,230895910134
+478;"Richard";"semana_5";59,5547362198209
+478;"Richard";"semana_10";155,405303172223
+478;"Richard";"semana_15";200,697356675111
+478;"Richard";"semana_20";202,379964532621
+479;"Granny Smith";"semana_5";50,7019136151003
+479;"Granny Smith";"semana_10";91,284083525311
+479;"Granny Smith";"semana_15";210,508797059671
+479;"Granny Smith";"semana_20";216,625401887016
+480;"Starking";"semana_5";50,5119304530246
+480;"Starking";"semana_10";111,979961589482
+480;"Starking";"semana_15";244,392068334828
+480;"Starking";"semana_20";247,893949924941
+481;"Starking";"semana_5";43,7784916397154
+481;"Starking";"semana_10";146,649372557376
+481;"Starking";"semana_15";227,313017716999
+481;"Starking";"semana_20";234,319909705217
+482;"Pink Lady";"semana_5";47,1729363603579
+482;"Pink Lady";"semana_10";124,051101764903
+482;"Pink Lady";"semana_15";160,331329792275
+482;"Pink Lady";"semana_20";164,81915231189
+483;"Pink Lady";"semana_5";40,7390124514534
+483;"Pink Lady";"semana_10";110,031539147902
+483;"Pink Lady";"semana_15";182,027899625655
+483;"Pink Lady";"semana_20";186,733986056353
+484;"Starking";"semana_5";53,2201461456525
+484;"Starking";"semana_10";117,093319833734
+484;"Starking";"semana_15";208,051759693912
+484;"Starking";"semana_20";211,668017622223
+485;"Granny Smith";"semana_5";42,6131027335636
+485;"Granny Smith";"semana_10";129,335116661572
+485;"Granny Smith";"semana_15";204,886928622477
+485;"Granny Smith";"semana_20";212,819638644211
+486;"Golden";"semana_5";42,9081722721718
+486;"Golden";"semana_10";120,249473479038
+486;"Golden";"semana_15";184,855233186002
+486;"Golden";"semana_20";189,695568432178
+487;"Pink Lady";"semana_5";48,9457826007213
+487;"Pink Lady";"semana_10";115,907771331839
+487;"Pink Lady";"semana_15";223,148409980898
+487;"Pink Lady";"semana_20";229,995666365688
+488;"Golden";"semana_5";51,4375736043522
+488;"Golden";"semana_10";126,473806842174
+488;"Golden";"semana_15";207,111215886594
+488;"Golden";"semana_20";210,468118538083
+489;"Richard";"semana_5";65,4301978753026
+489;"Richard";"semana_10";137,463102628396
+489;"Richard";"semana_15";223,696448490192
+489;"Richard";"semana_20";224,080235781317
+490;"Golden";"semana_5";43,9041346601827
+490;"Golden";"semana_10";127,270722777316
+490;"Golden";"semana_15";207,623484017506
+490;"Golden";"semana_20";208,436934381902
+491;"Richard";"semana_5";64,8954405215057
+491;"Richard";"semana_10";152,321420285022
+491;"Richard";"semana_15";272,00675483332
+491;"Richard";"semana_20";276,886229022452
+492;"Pink Lady";"semana_5";58,8681410774333
+492;"Pink Lady";"semana_10";119,936657928271
+492;"Pink Lady";"semana_15";237,381774367717
+492;"Pink Lady";"semana_20";240,225365307134
+493;"Starking";"semana_5";48,5814341913464
+493;"Starking";"semana_10";151,289663530658
+493;"Starking";"semana_15";274,85535153179
+493;"Starking";"semana_20";277,474272120656
+494;"Granny Smith";"semana_5";49,219457595724
+494;"Granny Smith";"semana_10";114,303708980006
+494;"Granny Smith";"semana_15";221,976491530312
+494;"Granny Smith";"semana_20";228,752346175609
+495;"Richard";"semana_5";54,5728400074018
+495;"Richard";"semana_10";121,950131923381
+495;"Richard";"semana_15";204,06789794079
+495;"Richard";"semana_20";211,962389028435
+496;"Granny Smith";"semana_5";52,6297045748355
+496;"Granny Smith";"semana_10";107,653671010239
+496;"Granny Smith";"semana_15";205,084599813405
+496;"Granny Smith";"semana_20";209,815118370536
+497;"Granny Smith";"semana_5";56,3477535418917
+497;"Granny Smith";"semana_10";132,149712987274
+497;"Granny Smith";"semana_15";174,132797350575
+497;"Granny Smith";"semana_20";177,471515636359
+498;"Starking";"semana_5";59,2029376368084
+498;"Starking";"semana_10";123,124826947224
+498;"Starking";"semana_15";226,664724524966
+498;"Starking";"semana_20";233,301391057572
+499;"Starking";"semana_5";48,6893629413161
+499;"Starking";"semana_10";109,263913827454
+499;"Starking";"semana_15";139,502995164345
+499;"Starking";"semana_20";145,401486621449
+500;"Pink Lady";"semana_5";52,2397631688497
+500;"Pink Lady";"semana_10";110,000720336329
+500;"Pink Lady";"semana_15";187,586611333365
+500;"Pink Lady";"semana_20";191,164654416094
+501;"Golden";"semana_5";50,9198457323638
+501;"Golden";"semana_10";106,14811539672
+501;"Golden";"semana_15";173,480564870008
+501;"Golden";"semana_20";176,286638731205
+502;"Starking";"semana_5";50,0464682760321
+502;"Starking";"semana_10";112,430417927604
+502;"Starking";"semana_15";209,417026029824
+502;"Starking";"semana_20";216,325907517149
+503;"Pink Lady";"semana_5";53,4616704932656
+503;"Pink Lady";"semana_10";148,588042383137
+503;"Pink Lady";"semana_15";169,242313013596
+503;"Pink Lady";"semana_20";173,952422852812
+504;"Starking";"semana_5";42,9380047468333
+504;"Starking";"semana_10";112,323746973508
+504;"Starking";"semana_15";212,5980722314
+504;"Starking";"semana_20";214,516848264846
+505;"Fuji";"semana_5";49,9890006579513
+505;"Fuji";"semana_10";128,156532784853
+505;"Fuji";"semana_15";185,752707316585
+505;"Fuji";"semana_20";186,07154961773
+506;"Golden";"semana_5";50,0552235651854
+506;"Golden";"semana_10";108,780293712518
+506;"Golden";"semana_15";209,809622539578
+506;"Golden";"semana_20";210,957170404865
+507;"Richard";"semana_5";60,9888558326891
+507;"Richard";"semana_10";155,0741031228
+507;"Richard";"semana_15";181,617179680877
+507;"Richard";"semana_20";188,512882242241
+508;"Granny Smith";"semana_5";51,3157811993847
+508;"Granny Smith";"semana_10";129,494435916876
+508;"Granny Smith";"semana_15";208,456426615693
+508;"Granny Smith";"semana_20";211,112777938001
+509;"Gala";"semana_5";48,3012292295237
+509;"Gala";"semana_10";108,531867718664
+509;"Gala";"semana_15";229,178467241706
+509;"Gala";"semana_20";232,950148973273
+510;"Gala";"semana_5";43,007761319273
+510;"Gala";"semana_10";89,288383113733
+510;"Gala";"semana_15";185,108106739838
+510;"Gala";"semana_20";192,412986569126
+511;"Fuji";"semana_5";54,2585760422734
+511;"Fuji";"semana_10";126,213799506453
+511;"Fuji";"semana_15";213,107827472859
+511;"Fuji";"semana_20";219,087570808255
+512;"Granny Smith";"semana_5";54,3513932036275
+512;"Granny Smith";"semana_10";123,952577658941
+512;"Granny Smith";"semana_15";150,287316049385
+512;"Granny Smith";"semana_20";155,435777193803
+513;"Fuji";"semana_5";48,818876899699
+513;"Fuji";"semana_10";107,993866737705
+513;"Fuji";"semana_15";170,985586730691
+513;"Fuji";"semana_20";177,625206571
+514;"Gala";"semana_5";48,6433187789388
+514;"Gala";"semana_10";106,061017162539
+514;"Gala";"semana_15";202,898493032794
+514;"Gala";"semana_20";209,86910936598
+515;"Starking";"semana_5";55,1698688555997
+515;"Starking";"semana_10";118,437949319347
+515;"Starking";"semana_15";220,903854383365
+515;"Starking";"semana_20";228,114892255725
+516;"Granny Smith";"semana_5";46,7161189852685
+516;"Granny Smith";"semana_10";120,761354850611
+516;"Granny Smith";"semana_15";206,077036013655
+516;"Granny Smith";"semana_20";208,811462996356
+517;"Pink Lady";"semana_5";56,2973875490121
+517;"Pink Lady";"semana_10";132,9613378217
+517;"Pink Lady";"semana_15";188,80026403909
+517;"Pink Lady";"semana_20";196,487534726983
+518;"Pink Lady";"semana_5";45,2623433310064
+518;"Pink Lady";"semana_10";100,145952503118
+518;"Pink Lady";"semana_15";243,574729553204
+518;"Pink Lady";"semana_20";246,622553900595
+519;"Fuji";"semana_5";48,4998660068387
+519;"Fuji";"semana_10";112,88361540595
+519;"Fuji";"semana_15";178,576399031462
+519;"Fuji";"semana_20";184,11395887229
+520;"Gala";"semana_5";40,5729455293036
+520;"Gala";"semana_10";111,480927239429
+520;"Gala";"semana_15";228,8931734968
+520;"Gala";"semana_20";229,637373162064
+521;"Golden";"semana_5";45,4117026101767
+521;"Golden";"semana_10";98,9042888452991
+521;"Golden";"semana_15";189,926714080975
+521;"Golden";"semana_20";190,850136035711
+522;"Golden";"semana_5";52,5065915547748
+522;"Golden";"semana_10";131,808967456659
+522;"Golden";"semana_15";189,546344486292
+522;"Golden";"semana_20";192,582931830774
+523;"Pink Lady";"semana_5";48,0194765038187
+523;"Pink Lady";"semana_10";146,851584419066
+523;"Pink Lady";"semana_15";173,436439957444
+523;"Pink Lady";"semana_20";177,294094003712
+524;"Fuji";"semana_5";51,772716362438
+524;"Fuji";"semana_10";130,563654918544
+524;"Fuji";"semana_15";202,316872246859
+524;"Fuji";"semana_20";205,591329150197
+525;"Gala";"semana_5";42,2955358034765
+525;"Gala";"semana_10";92,6346170679877
+525;"Gala";"semana_15";181,907277228927
+525;"Gala";"semana_20";186,52512747111
+526;"Gala";"semana_5";50,9637780567184
+526;"Gala";"semana_10";84,9621919052302
+526;"Gala";"semana_15";166,88155423079
+526;"Gala";"semana_20";169,856423940252
+527;"Starking";"semana_5";48,214076303327
+527;"Starking";"semana_10";124,163339948309
+527;"Starking";"semana_15";201,672539580374
+527;"Starking";"semana_20";203,290637977182
+528;"Pink Lady";"semana_5";55,5707202877907
+528;"Pink Lady";"semana_10";126,951333451709
+528;"Pink Lady";"semana_15";198,694301201285
+528;"Pink Lady";"semana_20";198,720561882735
+529;"Fuji";"semana_5";45,2437477364084
+529;"Fuji";"semana_10";111,924980935872
+529;"Fuji";"semana_15";221,580240369863
+529;"Fuji";"semana_20";226,344659558586
+530;"Golden";"semana_5";47,3196211141034
+530;"Golden";"semana_10";147,49378461671
+530;"Golden";"semana_15";196,023558998437
+530;"Golden";"semana_20";200,425606541292
+531;"Golden";"semana_5";55,5555194336599
+531;"Golden";"semana_10";121,654845653368
+531;"Golden";"semana_15";174,981936154722
+531;"Golden";"semana_20";176,187319027095
+532;"Granny Smith";"semana_5";45,726820762888
+532;"Granny Smith";"semana_10";139,26188998517
+532;"Granny Smith";"semana_15";230,600788662973
+532;"Granny Smith";"semana_20";237,624452086928
+533;"Granny Smith";"semana_5";54,9503999141329
+533;"Granny Smith";"semana_10";119,097652459859
+533;"Granny Smith";"semana_15";172,921905122338
+533;"Granny Smith";"semana_20";173,029375336705
+534;"Golden";"semana_5";59,6250879624969
+534;"Golden";"semana_10";119,3821932439
+534;"Golden";"semana_15";236,046458122556
+534;"Golden";"semana_20";238,018756217558
+535;"Gala";"semana_5";52,568276028366
+535;"Gala";"semana_10";121,396332739689
+535;"Gala";"semana_15";199,868157100688
+535;"Gala";"semana_20";207,089554506179
+536;"Golden";"semana_5";62,5106014824302
+536;"Golden";"semana_10";118,153751516439
+536;"Golden";"semana_15";193,698882800564
+536;"Golden";"semana_20";197,459972281977
+537;"Richard";"semana_5";52,3515020484229
+537;"Richard";"semana_10";152,557899435057
+537;"Richard";"semana_15";193,873171303657
+537;"Richard";"semana_20";195,779775424165
+538;"Starking";"semana_5";55,3521417310852
+538;"Starking";"semana_10";138,862660870157
+538;"Starking";"semana_15";227,51973455023
+538;"Starking";"semana_20";234,992424843795
+539;"Richard";"semana_5";57,1210743766711
+539;"Richard";"semana_10";138,272134080701
+539;"Richard";"semana_15";283,741820942859
+539;"Richard";"semana_20";285,033154759805
+540;"Gala";"semana_5";50,2544007812009
+540;"Gala";"semana_10";91,9117676970947
+540;"Gala";"semana_15";195,53357016561
+540;"Gala";"semana_20";203,027492333999
+541;"Golden";"semana_5";45,2697752660313
+541;"Golden";"semana_10";128,819035759537
+541;"Golden";"semana_15";231,945731422019
+541;"Golden";"semana_20";238,118377590638
+542;"Golden";"semana_5";56,1108883381016
+542;"Golden";"semana_10";111,028255347834
+542;"Golden";"semana_15";207,981259192305
+542;"Golden";"semana_20";213,431095982867
+543;"Golden";"semana_5";52,8138901670166
+543;"Golden";"semana_10";96,9986719173035
+543;"Golden";"semana_15";217,774210463634
+543;"Golden";"semana_20";218,01269669587
+544;"Granny Smith";"semana_5";48,3697609935265
+544;"Granny Smith";"semana_10";134,149726735994
+544;"Granny Smith";"semana_15";178,788218171981
+544;"Granny Smith";"semana_20";185,654131760535
+545;"Gala";"semana_5";45,0846834897037
+545;"Gala";"semana_10";128,519210778568
+545;"Gala";"semana_15";171,466706145717
+545;"Gala";"semana_20";175,881248770444
+546;"Gala";"semana_5";46,3290553281085
+546;"Gala";"semana_10";121,168472549499
+546;"Gala";"semana_15";155,255842695355
+546;"Gala";"semana_20";157,989301707938
+547;"Richard";"semana_5";46,9474538235785
+547;"Richard";"semana_10";138,308643788413
+547;"Richard";"semana_15";196,945372245839
+547;"Richard";"semana_20";198,551705363771
+548;"Pink Lady";"semana_5";53,4813693426405
+548;"Pink Lady";"semana_10";93,0770108565893
+548;"Pink Lady";"semana_15";194,662086903052
+548;"Pink Lady";"semana_20";196,92109169525
+549;"Gala";"semana_5";54,6319099420094
+549;"Gala";"semana_10";93,2935398168866
+549;"Gala";"semana_15";126,7337196916
+549;"Gala";"semana_20";129,769038051333
+550;"Fuji";"semana_5";50,6254559463964
+550;"Fuji";"semana_10";134,541494540558
+550;"Fuji";"semana_15";225,189710113661
+550;"Fuji";"semana_20";226,746736790495
+551;"Fuji";"semana_5";45,4791613877279
+551;"Fuji";"semana_10";135,961303015403
+551;"Fuji";"semana_15";169,011855598723
+551;"Fuji";"semana_20";170,737700060193
+552;"Gala";"semana_5";49,8166640817339
+552;"Gala";"semana_10";93,2119704133682
+552;"Gala";"semana_15";231,293240583465
+552;"Gala";"semana_20";236,416491416246
+553;"Richard";"semana_5";57,3261531192875
+553;"Richard";"semana_10";154,009942094167
+553;"Richard";"semana_15";235,263202989338
+553;"Richard";"semana_20";243,012395474924
+554;"Granny Smith";"semana_5";46,6449460901348
+554;"Granny Smith";"semana_10";136,709861447284
+554;"Granny Smith";"semana_15";143,682208207518
+554;"Granny Smith";"semana_20";146,855979700655
+555;"Starking";"semana_5";47,9472033348591
+555;"Starking";"semana_10";132,621634231209
+555;"Starking";"semana_15";203,06938186232
+555;"Starking";"semana_20";209,35327282492
+556;"Gala";"semana_5";52,3758137605863
+556;"Gala";"semana_10";86,207224822368
+556;"Gala";"semana_15";178,380530512085
+556;"Gala";"semana_20";185,907258756583
+557;"Starking";"semana_5";42,964208961004
+557;"Starking";"semana_10";107,643232883928
+557;"Starking";"semana_15";156,626975993842
+557;"Starking";"semana_20";163,468059825927
+558;"Starking";"semana_5";39,6237648268026
+558;"Starking";"semana_10";97,2295507456816
+558;"Starking";"semana_15";207,880089912206
+558;"Starking";"semana_20";210,898576452971
+559;"Pink Lady";"semana_5";43,3795521677887
+559;"Pink Lady";"semana_10";101,735380841934
+559;"Pink Lady";"semana_15";237,815221976569
+559;"Pink Lady";"semana_20";241,026062084442
+560;"Starking";"semana_5";43,4223167243465
+560;"Starking";"semana_10";99,8051510420437
+560;"Starking";"semana_15";172,536100502949
+560;"Starking";"semana_20";175,571260411184
+561;"Golden";"semana_5";49,9925595445742
+561;"Golden";"semana_10";107,799982966326
+561;"Golden";"semana_15";167,075286781258
+561;"Golden";"semana_20";172,381277276046
+562;"Granny Smith";"semana_5";56,7394349080433
+562;"Granny Smith";"semana_10";165,569920307637
+562;"Granny Smith";"semana_15";200,459318553116
+562;"Granny Smith";"semana_20";200,918749014865
+563;"Starking";"semana_5";50,0203115547937
+563;"Starking";"semana_10";118,713293960782
+563;"Starking";"semana_15";231,881629699682
+563;"Starking";"semana_20";236,128113997941
+564;"Granny Smith";"semana_5";55,9633161477527
+564;"Granny Smith";"semana_10";102,302741445997
+564;"Granny Smith";"semana_15";186,257173148695
+564;"Granny Smith";"semana_20";190,465223228339
+565;"Granny Smith";"semana_5";58,3380727993494
+565;"Granny Smith";"semana_10";138,068963241821
+565;"Granny Smith";"semana_15";201,972077471928
+565;"Granny Smith";"semana_20";209,349140006842
+566;"Granny Smith";"semana_5";43,6698488243977
+566;"Granny Smith";"semana_10";143,449713041107
+566;"Granny Smith";"semana_15";247,250045828714
+566;"Granny Smith";"semana_20";254,615627767711
+567;"Granny Smith";"semana_5";46,4749914965475
+567;"Granny Smith";"semana_10";109,867328089037
+567;"Granny Smith";"semana_15";229,722593808601
+567;"Granny Smith";"semana_20";236,702989058623
+568;"Gala";"semana_5";50,8777209873398
+568;"Gala";"semana_10";107,514465962596
+568;"Gala";"semana_15";239,154618220542
+568;"Gala";"semana_20";244,73224841072
+569;"Golden";"semana_5";51,2067523604732
+569;"Golden";"semana_10";117,493079963077
+569;"Golden";"semana_15";209,579437781526
+569;"Golden";"semana_20";209,873960555001
+570;"Golden";"semana_5";50,4993926806691
+570;"Golden";"semana_10";142,073169194652
+570;"Golden";"semana_15";161,568621693598
+570;"Golden";"semana_20";163,34535851744
+571;"Fuji";"semana_5";41,8929788351988
+571;"Fuji";"semana_10";118,496674535857
+571;"Fuji";"semana_15";180,622969184984
+571;"Fuji";"semana_20";181,42590674663
+572;"Granny Smith";"semana_5";49,9626868849812
+572;"Granny Smith";"semana_10";120,10979900499
+572;"Granny Smith";"semana_15";202,100534558754
+572;"Granny Smith";"semana_20";202,191480158355
+573;"Starking";"semana_5";48,3925455031844
+573;"Starking";"semana_10";98,8447069381192
+573;"Starking";"semana_15";219,831418208169
+573;"Starking";"semana_20";220,455881662058
+574;"Starking";"semana_5";45,5744840571922
+574;"Starking";"semana_10";118,42464217552
+574;"Starking";"semana_15";203,474922236409
+574;"Starking";"semana_20";205,252259364706
+575;"Starking";"semana_5";42,8735249757016
+575;"Starking";"semana_10";143,215537143663
+575;"Starking";"semana_15";181,335191930992
+575;"Starking";"semana_20";185,794006468144
+576;"Richard";"semana_5";67,2038377787756
+576;"Richard";"semana_10";134,713723330152
+576;"Richard";"semana_15";232,228104160135
+576;"Richard";"semana_20";234,047007490849
+577;"Pink Lady";"semana_5";61,834642688544
+577;"Pink Lady";"semana_10";113,162787270435
+577;"Pink Lady";"semana_15";220,708982649963
+577;"Pink Lady";"semana_20";224,696842016425
+578;"Richard";"semana_5";57,5716715806562
+578;"Richard";"semana_10";121,425286672559
+578;"Richard";"semana_15";216,047926372193
+578;"Richard";"semana_20";222,299729310252
+579;"Fuji";"semana_5";49,3888109231459
+579;"Fuji";"semana_10";125,260925707145
+579;"Fuji";"semana_15";208,367754537045
+579;"Fuji";"semana_20";210,726397899343
+580;"Golden";"semana_5";48,904278183549
+580;"Golden";"semana_10";126,355970593416
+580;"Golden";"semana_15";189,824682451602
+580;"Golden";"semana_20";193,432468747537
+581;"Gala";"semana_5";52,8222111632283
+581;"Gala";"semana_10";105,632623949784
+581;"Gala";"semana_15";201,572933845884
+581;"Gala";"semana_20";207,069167609058
+582;"Richard";"semana_5";68,7720901039332
+582;"Richard";"semana_10";143,692745581477
+582;"Richard";"semana_15";254,730130938606
+582;"Richard";"semana_20";260,98703602867
+583;"Pink Lady";"semana_5";40,3122055424539
+583;"Pink Lady";"semana_10";111,760435133035
+583;"Pink Lady";"semana_15";205,210236522067
+583;"Pink Lady";"semana_20";206,795505827922
+584;"Pink Lady";"semana_5";51,1607911615268
+584;"Pink Lady";"semana_10";125,701835375481
+584;"Pink Lady";"semana_15";226,110037163431
+584;"Pink Lady";"semana_20";228,913788443962
+585;"Golden";"semana_5";43,9385396794432
+585;"Golden";"semana_10";93,6108897056786
+585;"Golden";"semana_15";207,156240591016
+585;"Golden";"semana_20";209,742776570078
+586;"Pink Lady";"semana_5";51,3421025933626
+586;"Pink Lady";"semana_10";116,115153637504
+586;"Pink Lady";"semana_15";268,182021727418
+586;"Pink Lady";"semana_20";276,083437984442
+587;"Fuji";"semana_5";49,8564379744815
+587;"Fuji";"semana_10";128,068059272539
+587;"Fuji";"semana_15";190,22212316108
+587;"Fuji";"semana_20";192,540230151387
+588;"Starking";"semana_5";50,1821143706974
+588;"Starking";"semana_10";135,127287204417
+588;"Starking";"semana_15";165,569449330117
+588;"Starking";"semana_20";173,070220316197
+589;"Pink Lady";"semana_5";56,1935418866463
+589;"Pink Lady";"semana_10";98,1181626467341
+589;"Pink Lady";"semana_15";217,394096894408
+589;"Pink Lady";"semana_20";218,15244261011
+590;"Granny Smith";"semana_5";50,683993052008
+590;"Granny Smith";"semana_10";108,95831236974
+590;"Granny Smith";"semana_15";174,530439495197
+590;"Granny Smith";"semana_20";179,204584074294
+591;"Richard";"semana_5";58,404575852274
+591;"Richard";"semana_10";119,513290119111
+591;"Richard";"semana_15";186,635615681944
+591;"Richard";"semana_20";190,448697769729
+592;"Fuji";"semana_5";50,2352440296466
+592;"Fuji";"semana_10";121,140530151114
+592;"Fuji";"semana_15";180,74218874349
+592;"Fuji";"semana_20";182,309718941513
+593;"Granny Smith";"semana_5";42,4103954982937
+593;"Granny Smith";"semana_10";100,487462550028
+593;"Granny Smith";"semana_15";222,153596064134
+593;"Granny Smith";"semana_20";224,085364490806
+594;"Fuji";"semana_5";50,5276495952797
+594;"Fuji";"semana_10";128,264648863527
+594;"Fuji";"semana_15";250,872432871983
+594;"Fuji";"semana_20";256,79524499856
+595;"Granny Smith";"semana_5";53,2963425533109
+595;"Granny Smith";"semana_10";132,676260281129
+595;"Granny Smith";"semana_15";202,032130433096
+595;"Granny Smith";"semana_20";203,373038835673
+596;"Granny Smith";"semana_5";59,0610053675157
+596;"Granny Smith";"semana_10";129,74703020872
+596;"Granny Smith";"semana_15";183,745420705312
+596;"Granny Smith";"semana_20";189,146235799202
+597;"Granny Smith";"semana_5";46,6010432107689
+597;"Granny Smith";"semana_10";137,261500067651
+597;"Granny Smith";"semana_15";220,119494799015
+597;"Granny Smith";"semana_20";226,785130599004
+598;"Granny Smith";"semana_5";47,9909489902832
+598;"Granny Smith";"semana_10";122,467794170681
+598;"Granny Smith";"semana_15";201,159420009844
+598;"Granny Smith";"semana_20";204,808527304001
+599;"Starking";"semana_5";54,7249791371656
+599;"Starking";"semana_10";115,01508904948
+599;"Starking";"semana_15";158,675919105384
+599;"Starking";"semana_20";165,736117896709
+600;"Granny Smith";"semana_5";51,2520074138543
+600;"Granny Smith";"semana_10";143,567713606383
+600;"Granny Smith";"semana_15";199,688521153259
+600;"Granny Smith";"semana_20";204,061444436165
+601;"Starking";"semana_5";46,9166976874563
+601;"Starking";"semana_10";96,5431842723953
+601;"Starking";"semana_15";218,013949107087
+601;"Starking";"semana_20";223,568073820031
+602;"Starking";"semana_5";46,7490763079697
+602;"Starking";"semana_10";113,969910506889
+602;"Starking";"semana_15";257,600867014634
+602;"Starking";"semana_20";259,66474708009
+603;"Granny Smith";"semana_5";44,5061164781565
+603;"Granny Smith";"semana_10";116,828788302493
+603;"Granny Smith";"semana_15";219,137029603133
+603;"Granny Smith";"semana_20";220,857418835173
+604;"Richard";"semana_5";66,6103845519536
+604;"Richard";"semana_10";122,661679072069
+604;"Richard";"semana_15";255,157893624207
+604;"Richard";"semana_20";262,116407219371
+605;"Golden";"semana_5";54,4639850776319
+605;"Golden";"semana_10";121,964637331603
+605;"Golden";"semana_15";168,822795336736
+605;"Golden";"semana_20";170,664442849947
+606;"Granny Smith";"semana_5";55,1210178275621
+606;"Granny Smith";"semana_10";141,645676687092
+606;"Granny Smith";"semana_15";212,010488796128
+606;"Granny Smith";"semana_20";213,808283672748
+607;"Fuji";"semana_5";51,3971302807206
+607;"Fuji";"semana_10";147,5273010791
+607;"Fuji";"semana_15";207,902559589253
+607;"Fuji";"semana_20";215,403454424472
+608;"Gala";"semana_5";38,1467470842436
+608;"Gala";"semana_10";112,62538100979
+608;"Gala";"semana_15";158,349210714309
+608;"Gala";"semana_20";164,883587916701
+609;"Fuji";"semana_5";41,5026949341083
+609;"Fuji";"semana_10";112,813955061109
+609;"Fuji";"semana_15";195,006774008458
+609;"Fuji";"semana_20";200,196430674007
+610;"Richard";"semana_5";49,6740993046626
+610;"Richard";"semana_10";111,612223783368
+610;"Richard";"semana_15";248,806720389114
+610;"Richard";"semana_20";252,700262984322
+611;"Pink Lady";"semana_5";58,7315598188187
+611;"Pink Lady";"semana_10";133,671535995994
+611;"Pink Lady";"semana_15";211,56529764045
+611;"Pink Lady";"semana_20";211,983940628878
+612;"Gala";"semana_5";48,6107960098765
+612;"Gala";"semana_10";113,041119920321
+612;"Gala";"semana_15";232,576530175702
+612;"Gala";"semana_20";234,796275658951
+613;"Granny Smith";"semana_5";51,9344456388592
+613;"Granny Smith";"semana_10";130,78523505007
+613;"Granny Smith";"semana_15";176,42055570887
+613;"Granny Smith";"semana_20";180,496474472745
+614;"Gala";"semana_5";47,9739037904972
+614;"Gala";"semana_10";89,6824975559516
+614;"Gala";"semana_15";159,282096761139
+614;"Gala";"semana_20";164,383267332659
+615;"Richard";"semana_5";57,6395109631713
+615;"Richard";"semana_10";149,330838637039
+615;"Richard";"semana_15";220,606244725611
+615;"Richard";"semana_20";224,645123823981
+616;"Fuji";"semana_5";47,9683127210752
+616;"Fuji";"semana_10";96,7290833851598
+616;"Fuji";"semana_15";234,833124634008
+616;"Fuji";"semana_20";241,640561960767
+617;"Starking";"semana_5";51,9638857436896
+617;"Starking";"semana_10";126,713652483732
+617;"Starking";"semana_15";207,507662696398
+617;"Starking";"semana_20";213,895745144791
+618;"Richard";"semana_5";50,2891306255326
+618;"Richard";"semana_10";143,292649030006
+618;"Richard";"semana_15";217,244551394076
+618;"Richard";"semana_20";217,522393967898
+619;"Richard";"semana_5";61,0469844576244
+619;"Richard";"semana_10";125,006076616374
+619;"Richard";"semana_15";217,295903579
+619;"Richard";"semana_20";219,391784407798
+620;"Golden";"semana_5";47,7764822689397
+620;"Golden";"semana_10";131,988152474628
+620;"Golden";"semana_15";169,657941851574
+620;"Golden";"semana_20";175,575573282125
+621;"Pink Lady";"semana_5";47,0273506577275
+621;"Pink Lady";"semana_10";110,835594590175
+621;"Pink Lady";"semana_15";232,042647197399
+621;"Pink Lady";"semana_20";236,964277281914
+622;"Richard";"semana_5";63,575486995328
+622;"Richard";"semana_10";129,387546075412
+622;"Richard";"semana_15";269,942443158574
+622;"Richard";"semana_20";277,337645938716
+623;"Fuji";"semana_5";47,3694255333467
+623;"Fuji";"semana_10";153,109752748699
+623;"Fuji";"semana_15";203,871686474533
+623;"Fuji";"semana_20";207,517621439994
+624;"Pink Lady";"semana_5";50,4836868289746
+624;"Pink Lady";"semana_10";134,916168557793
+624;"Pink Lady";"semana_15";161,979437601367
+624;"Pink Lady";"semana_20";169,434136881108
+625;"Fuji";"semana_5";54,2152868714698
+625;"Fuji";"semana_10";101,929228433268
+625;"Fuji";"semana_15";213,09280836149
+625;"Fuji";"semana_20";217,653603087504
+626;"Golden";"semana_5";46,442085886825
+626;"Golden";"semana_10";119,585779532547
+626;"Golden";"semana_15";208,022714667301
+626;"Golden";"semana_20";213,892574889864
+627;"Starking";"semana_5";49,473252704544
+627;"Starking";"semana_10";124,367321987357
+627;"Starking";"semana_15";191,073991618273
+627;"Starking";"semana_20";196,826952670855
+628;"Pink Lady";"semana_5";61,8340236697343
+628;"Pink Lady";"semana_10";104,442821993072
+628;"Pink Lady";"semana_15";177,348596274917
+628;"Pink Lady";"semana_20";179,377229387005
+629;"Golden";"semana_5";51,212083042565
+629;"Golden";"semana_10";102,236574811221
+629;"Golden";"semana_15";191,738815566234
+629;"Golden";"semana_20";192,020529877104
+630;"Gala";"semana_5";44,8145236763052
+630;"Gala";"semana_10";87,579551409031
+630;"Gala";"semana_15";206,491588944755
+630;"Gala";"semana_20";213,961098067648
+631;"Starking";"semana_5";53,5997948034241
+631;"Starking";"semana_10";117,082874554397
+631;"Starking";"semana_15";196,40827343013
+631;"Starking";"semana_20";197,79201800335
+632;"Golden";"semana_5";52,6349944248454
+632;"Golden";"semana_10";115,99046115981
+632;"Golden";"semana_15";245,296763615592
+632;"Golden";"semana_20";246,610381904899
+633;"Starking";"semana_5";54,9146815507973
+633;"Starking";"semana_10";134,899835171448
+633;"Starking";"semana_15";196,078416593559
+633;"Starking";"semana_20";203,629292378389
+634;"Gala";"semana_5";51,3948155557334
+634;"Gala";"semana_10";101,491195820541
+634;"Gala";"semana_15";199,032760714977
+634;"Gala";"semana_20";200,527015818148
+635;"Pink Lady";"semana_5";47,5712624030341
+635;"Pink Lady";"semana_10";114,879938908474
+635;"Pink Lady";"semana_15";161,858282223702
+635;"Pink Lady";"semana_20";169,352021703854
+636;"Gala";"semana_5";50,332408788138
+636;"Gala";"semana_10";115,58229581981
+636;"Gala";"semana_15";151,456311253593
+636;"Gala";"semana_20";157,66848812601
+637;"Golden";"semana_5";50,0274129379392
+637;"Golden";"semana_10";126,613490563991
+637;"Golden";"semana_15";186,927752387413
+637;"Golden";"semana_20";189,421501467639
+638;"Gala";"semana_5";42,2779658367104
+638;"Gala";"semana_10";142,507909330009
+638;"Gala";"semana_15";185,96530404761
+638;"Gala";"semana_20";187,877890174087
+639;"Fuji";"semana_5";51,3013891388939
+639;"Fuji";"semana_10";123,029065364579
+639;"Fuji";"semana_15";216,456398407992
+639;"Fuji";"semana_20";220,38374771091
+640;"Starking";"semana_5";58,4651957781658
+640;"Starking";"semana_10";134,475976567051
+640;"Starking";"semana_15";188,61784891562
+640;"Starking";"semana_20";193,6703748271
+641;"Pink Lady";"semana_5";46,3935604270949
+641;"Pink Lady";"semana_10";126,982276644765
+641;"Pink Lady";"semana_15";201,232919386245
+641;"Pink Lady";"semana_20";202,295591647394
+642;"Gala";"semana_5";52,9494847357703
+642;"Gala";"semana_10";111,479505116281
+642;"Gala";"semana_15";205,511555478384
+642;"Gala";"semana_20";212,168971755018
+643;"Gala";"semana_5";50,0680493178761
+643;"Gala";"semana_10";123,923998183342
+643;"Gala";"semana_15";191,558582549066
+643;"Gala";"semana_20";195,956708018751
+644;"Golden";"semana_5";49,5191156982978
+644;"Golden";"semana_10";139,798846265765
+644;"Golden";"semana_15";152,439733805549
+644;"Golden";"semana_20";159,648261879053
+645;"Golden";"semana_5";50,1411766460483
+645;"Golden";"semana_10";113,466409193171
+645;"Golden";"semana_15";209,515053913477
+645;"Golden";"semana_20";213,500350475791
+646;"Pink Lady";"semana_5";53,8635177897642
+646;"Pink Lady";"semana_10";137,992394113294
+646;"Pink Lady";"semana_15";182,873020495194
+646;"Pink Lady";"semana_20";185,949683063569
+647;"Granny Smith";"semana_5";60,526958845382
+647;"Granny Smith";"semana_10";112,054789923361
+647;"Granny Smith";"semana_15";195,542653109176
+647;"Granny Smith";"semana_20";201,680643734751
+648;"Richard";"semana_5";58,6531351414034
+648;"Richard";"semana_10";119,726629757937
+648;"Richard";"semana_15";187,043667220941
+648;"Richard";"semana_20";194,023896540946
+649;"Pink Lady";"semana_5";37,310130868317
+649;"Pink Lady";"semana_10";144,368252780743
+649;"Pink Lady";"semana_15";229,442338946429
+649;"Pink Lady";"semana_20";235,07639366683
+650;"Pink Lady";"semana_5";43,9897604902787
+650;"Pink Lady";"semana_10";113,31115059576
+650;"Pink Lady";"semana_15";181,125734455218
+650;"Pink Lady";"semana_20";183,479547971194
+651;"Pink Lady";"semana_5";50,6649843688709
+651;"Pink Lady";"semana_10";110,47751679829
+651;"Pink Lady";"semana_15";196,943484606843
+651;"Pink Lady";"semana_20";198,410774723317
+652;"Richard";"semana_5";65,0330878122353
+652;"Richard";"semana_10";120,876643956629
+652;"Richard";"semana_15";236,631488604415
+652;"Richard";"semana_20";242,866830525864
+653;"Richard";"semana_5";57,3353166041448
+653;"Richard";"semana_10";134,247902149955
+653;"Richard";"semana_15";241,651487262162
+653;"Richard";"semana_20";248,266360591339
+654;"Pink Lady";"semana_5";56,6538155815493
+654;"Pink Lady";"semana_10";106,003288425634
+654;"Pink Lady";"semana_15";181,804718182187
+654;"Pink Lady";"semana_20";183,2581646468
+655;"Fuji";"semana_5";46,0463870544815
+655;"Fuji";"semana_10";135,610772733816
+655;"Fuji";"semana_15";177,882669850461
+655;"Fuji";"semana_20";180,34809467683
+656;"Pink Lady";"semana_5";44,4643913944828
+656;"Pink Lady";"semana_10";126,535155152235
+656;"Pink Lady";"semana_15";201,897495109141
+656;"Pink Lady";"semana_20";207,023990883977
+657;"Pink Lady";"semana_5";44,2681885110909
+657;"Pink Lady";"semana_10";113,472179742685
+657;"Pink Lady";"semana_15";190,529158758638
+657;"Pink Lady";"semana_20";191,742434118581
+658;"Starking";"semana_5";45,2178348257931
+658;"Starking";"semana_10";113,708599181484
+658;"Starking";"semana_15";248,947399530471
+658;"Starking";"semana_20";255,591500779525
+659;"Gala";"semana_5";49,6680302384181
+659;"Gala";"semana_10";93,6801537570974
+659;"Gala";"semana_15";197,858404124899
+659;"Gala";"semana_20";203,181289276852
+660;"Richard";"semana_5";66,4879651123085
+660;"Richard";"semana_10";128,208961712655
+660;"Richard";"semana_15";194,435098632775
+660;"Richard";"semana_20";197,988800072647
+661;"Pink Lady";"semana_5";50,8711467284031
+661;"Pink Lady";"semana_10";118,404649502459
+661;"Pink Lady";"semana_15";128,68757338174
+661;"Pink Lady";"semana_20";134,69671222851
+662;"Gala";"semana_5";52,6822332640984
+662;"Gala";"semana_10";108,789688123923
+662;"Gala";"semana_15";221,201105061483
+662;"Gala";"semana_20";225,246177687805
+663;"Granny Smith";"semana_5";52,3643635011583
+663;"Granny Smith";"semana_10";125,641427169644
+663;"Granny Smith";"semana_15";216,498559123533
+663;"Granny Smith";"semana_20";221,122650780412
+664;"Fuji";"semana_5";45,7088599935663
+664;"Fuji";"semana_10";125,93066497011
+664;"Fuji";"semana_15";167,250647282276
+664;"Fuji";"semana_20";167,657972725156
+665;"Gala";"semana_5";44,7431270516318
+665;"Gala";"semana_10";106,99143101465
+665;"Gala";"semana_15";206,530862358328
+665;"Gala";"semana_20";212,706232494604
+666;"Golden";"semana_5";47,9198526793438
+666;"Golden";"semana_10";106,110642299542
+666;"Golden";"semana_15";194,669089732488
+666;"Golden";"semana_20";197,638081339916
+667;"Gala";"semana_5";42,5555380693354
+667;"Gala";"semana_10";109,436817916953
+667;"Gala";"semana_15";194,126319441103
+667;"Gala";"semana_20";198,090065314524
+668;"Pink Lady";"semana_5";48,1054707613597
+668;"Pink Lady";"semana_10";120,754618051221
+668;"Pink Lady";"semana_15";148,688044139318
+668;"Pink Lady";"semana_20";149,654547597416
+669;"Fuji";"semana_5";58,2589563808829
+669;"Fuji";"semana_10";118,961563485159
+669;"Fuji";"semana_15";169,556411017431
+669;"Fuji";"semana_20";176,856677834643
+670;"Starking";"semana_5";39,0622734628385
+670;"Starking";"semana_10";107,138572315179
+670;"Starking";"semana_15";207,075485400225
+670;"Starking";"semana_20";213,434640347328
+671;"Fuji";"semana_5";56,8601789373789
+671;"Fuji";"semana_10";113,407266635584
+671;"Fuji";"semana_15";161,471516222312
+671;"Fuji";"semana_20";162,73163131307
+672;"Richard";"semana_5";65,5853111035023
+672;"Richard";"semana_10";133,432111877056
+672;"Richard";"semana_15";258,795444051044
+672;"Richard";"semana_20";260,55611265661
+673;"Golden";"semana_5";48,294207402255
+673;"Golden";"semana_10";132,307188817248
+673;"Golden";"semana_15";148,543692888696
+673;"Golden";"semana_20";149,07435465977
+674;"Granny Smith";"semana_5";52,215087722985
+674;"Granny Smith";"semana_10";138,421816333864
+674;"Granny Smith";"semana_15";168,917848906598
+674;"Granny Smith";"semana_20";169,242182095653
+675;"Fuji";"semana_5";41,9562999686743
+675;"Fuji";"semana_10";88,0390292981841
+675;"Fuji";"semana_15";156,998022941398
+675;"Fuji";"semana_20";159,708934379267
+676;"Granny Smith";"semana_5";48,9807838850368
+676;"Granny Smith";"semana_10";120,223178785407
+676;"Granny Smith";"semana_15";240,099012781272
+676;"Granny Smith";"semana_20";246,866341777483
+677;"Granny Smith";"semana_5";54,4177757442188
+677;"Granny Smith";"semana_10";121,91732501198
+677;"Granny Smith";"semana_15";201,746447106421
+677;"Granny Smith";"semana_20";205,664213526592
+678;"Pink Lady";"semana_5";50,7131456370834
+678;"Pink Lady";"semana_10";140,227044675768
+678;"Pink Lady";"semana_15";136,080558804604
+678;"Pink Lady";"semana_20";143,217721026199
+679;"Gala";"semana_5";39,4224599824427
+679;"Gala";"semana_10";101,53404871683
+679;"Gala";"semana_15";184,751500867392
+679;"Gala";"semana_20";186,613542087461
+680;"Richard";"semana_5";60,9667584346072
+680;"Richard";"semana_10";168,639626091882
+680;"Richard";"semana_15";248,846330051462
+680;"Richard";"semana_20";249,967697437073
+681;"Granny Smith";"semana_5";50,7119679595726
+681;"Granny Smith";"semana_10";119,0793151989
+681;"Granny Smith";"semana_15";170,248640162283
+681;"Granny Smith";"semana_20";172,788269929001
+682;"Pink Lady";"semana_5";39,0562210590536
+682;"Pink Lady";"semana_10";130,601998463345
+682;"Pink Lady";"semana_15";192,058028121512
+682;"Pink Lady";"semana_20";194,342925435897
+683;"Starking";"semana_5";51,2247286749774
+683;"Starking";"semana_10";99,7376366853684
+683;"Starking";"semana_15";203,205595687278
+683;"Starking";"semana_20";206,251970198252
+684;"Fuji";"semana_5";60,1863084361948
+684;"Fuji";"semana_10";136,798520351394
+684;"Fuji";"semana_15";169,230499939054
+684;"Fuji";"semana_20";170,722302298053
+685;"Richard";"semana_5";55,1254101947083
+685;"Richard";"semana_10";155,193557323829
+685;"Richard";"semana_15";218,701473195275
+685;"Richard";"semana_20";224,307547984814
+686;"Fuji";"semana_5";56,239767646619
+686;"Fuji";"semana_10";119,103117398043
+686;"Fuji";"semana_15";161,338603733666
+686;"Fuji";"semana_20";162,759422075562
+687;"Granny Smith";"semana_5";51,414114551915
+687;"Granny Smith";"semana_10";106,94422377545
+687;"Granny Smith";"semana_15";221,666907596806
+687;"Granny Smith";"semana_20";223,806852878476
+688;"Richard";"semana_5";59,0076274184519
+688;"Richard";"semana_10";119,516009587073
+688;"Richard";"semana_15";236,318837013782
+688;"Richard";"semana_20";244,223707356245
+689;"Richard";"semana_5";59,717143726372
+689;"Richard";"semana_10";143,898164198907
+689;"Richard";"semana_15";238,549719177633
+689;"Richard";"semana_20";240,038170684575
+690;"Golden";"semana_5";49,0521337652338
+690;"Golden";"semana_10";110,059354132506
+690;"Golden";"semana_15";216,864126777361
+690;"Golden";"semana_20";224,463837700049
+691;"Granny Smith";"semana_5";54,0003005751549
+691;"Granny Smith";"semana_10";112,656430027952
+691;"Granny Smith";"semana_15";205,766983162631
+691;"Granny Smith";"semana_20";206,367560654898
+692;"Golden";"semana_5";51,9505927035104
+692;"Golden";"semana_10";127,908415628459
+692;"Golden";"semana_15";202,082569614907
+692;"Golden";"semana_20";207,269310460349
+693;"Starking";"semana_5";48,2901165722579
+693;"Starking";"semana_10";118,53333006262
+693;"Starking";"semana_15";235,612743264539
+693;"Starking";"semana_20";238,251385320453
+694;"Richard";"semana_5";61,5385812067506
+694;"Richard";"semana_10";130,934729980415
+694;"Richard";"semana_15";188,104747312437
+694;"Richard";"semana_20";188,712758619632
+695;"Richard";"semana_5";50,8534167363966
+695;"Richard";"semana_10";134,35684964652
+695;"Richard";"semana_15";240,000514947941
+695;"Richard";"semana_20";244,431753545199
+696;"Gala";"semana_5";44,6846053304053
+696;"Gala";"semana_10";105,106570531676
+696;"Gala";"semana_15";176,822805658214
+696;"Gala";"semana_20";181,519397961207
+697;"Fuji";"semana_5";54,9947008077165
+697;"Fuji";"semana_10";98,7170239675035
+697;"Fuji";"semana_15";199,726684790329
+697;"Fuji";"semana_20";205,599312601835
+698;"Fuji";"semana_5";49,469081904397
+698;"Fuji";"semana_10";113,606054520061
+698;"Fuji";"semana_15";204,942426719355
+698;"Fuji";"semana_20";209,830787156361
+699;"Gala";"semana_5";48,0256772749137
+699;"Gala";"semana_10";124,860713077055
+699;"Gala";"semana_15";158,631680734315
+699;"Gala";"semana_20";161,960954803833
+700;"Pink Lady";"semana_5";51,6579387536514
+700;"Pink Lady";"semana_10";112,881237428317
+700;"Pink Lady";"semana_15";232,96994576505
+700;"Pink Lady";"semana_20";240,939061053978
