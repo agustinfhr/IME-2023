@@ -39,7 +39,7 @@ if (!require ( car )) {
   require (car)
 }
 
-# Explortacion de las librerias 
+# Importación de las librerias 
 
 library(dplyr)
 library(ggpubr)

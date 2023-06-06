@@ -40,7 +40,7 @@ if (!require ( car )) {
   require (car)
 }
 
-# Exportacion de las librerias 
+# Importaci贸n de las librerias 
 
 library(dplyr)
 library(ggpubr)
@@ -53,24 +53,24 @@ library(car)
 
 # ------------------------------ PROBLEMA --------------------------------------
 
-# Una veterinaria experta en nutrici髇 de gatos ha creado una nueva l韓ea de alimentos saludables para estas
+# Una veterinaria experta en nutrici贸nn de gatos ha creado una nueva l铆nea de alimentos saludables para estas
 # traviesas mascotas. Desea estudiar los efectos de cada una de sus variedades (pato, pollo, conejo, pescado y res)
 # en el peso de los felinos, por lo que ha reclutado un grupo de humanos que, a cambio de varios meses de
 # alimentos gratis para sus amigos peludos, han aceptado participar en el siguiente experimento. Para cada gato,
-# se registra su peso inicial. Luego, se alimenta le alimenta durante un mes exclusivamente con una 鷑ica variedad
-# de comida y se vuelve a registrar el peso. A continuaci髇, se modifica la dieta del gato para que recupere su
+# se registra su peso inicial. Luego, se alimenta le alimenta durante un mes exclusivamente con una ?nica variedad
+# de comida y se vuelve a registrar el peso. A continuaci?n, se modifica la dieta del gato para que recupere su
 # peso inicial. Este proceso se repite para cada una de las variedades de comida.
-# A fin de contar con informaci髇 no sesgada, ha repartido a los gatitos en distintos grupos, cada uno de los cuales
-# debe recibir los alimentos mensuales en distinto orden (que tiene registrado en un cuaderno para an醠isis
-# posteriores). Ha registrado la informaci髇 recolectada en un conjunto de datos con las siguientes variables:
-# ??? Id: identificador 鷑ico del gato.
+# A fin de contar con informaci?n no sesgada, ha repartido a los gatitos en distintos grupos, cada uno de los cuales
+# debe recibir los alimentos mensuales en distinto orden (que tiene registrado en un cuaderno para an?lisis
+# posteriores). Ha registrado la informaci?n recolectada en un conjunto de datos con las siguientes variables:
+# ??? Id: identificador ?nico del gato.
 # ??? Grupo: grupo al que ha sido asignado el gato.
 # ??? Inicial: peso del gato, en kilogramos, antes de iniciar el experimento.
-# ??? Pollo: peso del gato, en kilogramos, al t閞mino del mes en que fue alimentado con pollo.
-# ??? Res: peso del gato, en kilogramos, al t閞mino del mes en que fue alimentado con res.
-# ??? Conejo: peso del gato, en kilogramos, al t閞mino del mes en que fue alimentado con conejo.
-# ??? Pescado: peso del gato, en kilogramos, al t閞mino del mes en que fue alimentado con pescado.
-# ??? Pato: peso del gato, en kilogramos, al t閞mino del mes en que fue alimentado con pato.
+# ??? Pollo: peso del gato, en kilogramos, al t?rmino del mes en que fue alimentado con pollo.
+# ??? Res: peso del gato, en kilogramos, al t?rmino del mes en que fue alimentado con res.
+# ??? Conejo: peso del gato, en kilogramos, al t?rmino del mes en que fue alimentado con conejo.
+# ??? Pescado: peso del gato, en kilogramos, al t?rmino del mes en que fue alimentado con pescado.
+# ??? Pato: peso del gato, en kilogramos, al t?rmino del mes en que fue alimentado con pato.
 
 # ------------------------------- DATOS ----------------------------------------
 
@@ -86,7 +86,7 @@ datos <- read.csv2(file = file)
 # Determine si, para el grupo 7, existen diferencias significativas en el peso de los gatos para los distintos tipos de
 # alimentos.
 
-# 1. El equipo obtiene y manipula correctamente los datos entregados y propone hip髏esis pertinentes a
+# 1. El equipo obtiene y manipula correctamente los datos entregados y propone hip?tesis pertinentes a
 # contrastar para cada problema.
 
 # Hip贸tesis nula H0: No existen diferencias significativas en el peso de los gatos 
@@ -99,18 +99,18 @@ datos <- read.csv2(file = file)
 
 # H0: mu_pato = mu_pollo = mu_conejo = mu_pescado = mu_res
 
-# HA: Al menos una de las igualdades en la hip髏esis nula es falsa {mu_pato != mu_pollo, mu_pato != mu_conejo, ....}
+# HA: Al menos una de las igualdades en la hip?tesis nula es falsa {mu_pato != mu_pollo, mu_pato != mu_conejo, ....}
 
 # Filtrar el dataframe para solo tener los gatos el grupo 7.
 datos_grupo7 <- datos[datos$Grupo == 7, ]
 
-# 2. El equipo se asegura que cada caso cumple las condiciones para utilizar ANOVA con validez, usando gr醘icos
-# o pruebas estad韘ticas auxiliares disponibles en el entorno R.
+# 2. El equipo se asegura que cada caso cumple las condiciones para utilizar ANOVA con validez, usando gr?ficos
+# o pruebas estad?sticas auxiliares disponibles en el entorno R.
 
 # Comprobar las 4 Condiciones para ANOVA.
 
-# Primero, la variable dependiente es el peso del gato despu閟 de haber sido alimentado 
-# con un tipo espec韋ico de alimento. El peso es una variable que se mide en una escala de raz髇.
+# Primero, la variable dependiente es el peso del gato despu?s de haber sido alimentado 
+# con un tipo espec?fico de alimento. El peso es una variable que se mide en una escala de raz?n.
 # (porque tiene un cero absoluto y los intervalos son iguales).
 # por lo que si se cumple la primera condicion.
 
@@ -145,7 +145,7 @@ leveneTest(pesos ~ alimentos)
 
 # Finalmente, los datos cumplen las cuatro condiciones para realizar una prueba ANOVA.
 
-# 3. El equipo realiza de forma correcta y completa una prueba ANOVA 髆nibus para cada problema.
+# 3. El equipo realiza de forma correcta y completa una prueba ANOVA ?mnibus para cada problema.
 
 # Ahora procediendo a ejecutar la prueba ANOVA.
 
@@ -170,7 +170,7 @@ summary(modelo_anova)
 # Por lo tanto, no hay evidencia suficiente para decir que el tipo de alimento
 # tiene un efecto significativo en el peso de los gatos en el grupo 7.
 
-# 4. El equipo determina correctamente si corresponde o no hacer un an醠isis post-hoc en cada caso, el que
+# 4. El equipo determina correctamente si corresponde o no hacer un an?lisis post-hoc en cada caso, el que
 # aplica de forma correcta y completa (cuando corresponda).
 
 # En este caso, el p-valor de la prueba ANOVA fue 0.879, que es mayor que 0.05. 
@@ -184,13 +184,13 @@ summary(modelo_anova)
 # de Tukey, para determinar d贸nde est谩n exactamente esas diferencias entre los grupos.
 
 # 5. El equipo interpreta adecuadamente los resultados de las pruebas y responde las preguntas planteadas en
-# cada caso, bas醤dose en la prueba 髆nibus y, si corresponde, considerando tambi閚 el an醠isis post-hoc.
+# cada caso, bas?ndose en la prueba ?mnibus y, si corresponde, considerando tambi?n el an?lisis post-hoc.
 
-# Bas醤donos en nuestro an醠isis ANOVA, concluimos que no hay diferencias significativas en el peso
-# de los gatos del grupo 7 despu閟 de ser alimentados con pollo, res, conejo, pescado y pato.
-# Esto se debe a que nuestro p-valor de 0.879 es mayor que el nivel de significaci髇 de 0.05,
-# lo que significa que no podemos rechazar la hip髏esis nula de que las medias de los grupos son
-# iguales. Por lo tanto, no hay evidencia de que el peso de los gatos var韊 significativamente entre 
+# Bas?ndonos en nuestro an?lisis ANOVA, concluimos que no hay diferencias significativas en el peso
+# de los gatos del grupo 7 despu?s de ser alimentados con pollo, res, conejo, pescado y pato.
+# Esto se debe a que nuestro p-valor de 0.879 es mayor que el nivel de significaci?n de 0.05,
+# lo que significa que no podemos rechazar la hip?tesis nula de que las medias de los grupos son
+# iguales. Por lo tanto, no hay evidencia de que el peso de los gatos var?e significativamente entre 
 # estos cinco tipos de alimentos.
 
 
