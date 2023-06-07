@@ -2,7 +2,7 @@
 # Integrantes: 
 # Jaime Carrasco
 # Pablo Villarreal Ortiz
-# Agustin Henriquez Rojas
+# Agustín Henríquez Rojas
 
 
 if (!require ( dplyr )) {
@@ -86,7 +86,7 @@ datos <- read.csv2(file = file)
 # Determine si, para el grupo 7, existen diferencias significativas en el peso de los gatos para los distintos tipos de
 # alimentos.
 
-# 1. El equipo obtiene y manipula correctamente los datos entregados y propone hip?tesis pertinentes a
+# 1. El equipo obtiene y manipula correctamente los datos entregados y propone hipótesis pertinentes a
 # contrastar para cada problema.
 
 # Hipótesis nula H0: No existen diferencias significativas en el peso de los gatos 
@@ -99,7 +99,7 @@ datos <- read.csv2(file = file)
 
 # H0: mu_pato = mu_pollo = mu_conejo = mu_pescado = mu_res
 
-# HA: Al menos una de las igualdades en la hip?tesis nula es falsa {mu_pato != mu_pollo, mu_pato != mu_conejo, ....}
+# HA: Al menos una de las igualdades en la hipótesis nula es falsa {mu_pato != mu_pollo, mu_pato != mu_conejo, ....}
 
 # Filtrar el dataframe para solo tener los gatos el grupo 7.
 datos_grupo7 <- datos[datos$Grupo == 7, ]
@@ -117,7 +117,7 @@ datos_grupo7 <- datos[datos$Grupo == 7, ]
 # Segundo, se asume que las observaciones son independientes entre si, cumpliendo la condición de Independencia
 
 # Tercero, comprobar que los datos siguen una distribución normal
-# Para un mejor orden en la visualizacion, se mostraran los graficos en acoplados en 2x3.
+# Para un mejor orden en la visualización, se mostrarán los gráficos en acoplados en 2x3.
 # Al mismo tiempo, se realizan las pruebas de Shapiro-Wilk para comprobar la normalidad de los datos.
 par(mfrow = c(2, 3))
 for (alimento in c("Pollo", "Res", "Conejo", "Pescado", "Pato")) {
@@ -130,7 +130,7 @@ for (alimento in c("Pollo", "Res", "Conejo", "Pescado", "Pato")) {
 # No se rechaza la hipótesis nula de la prueba de Shapiro, por lo que el principio de normalidad
 # se cumple para estas cuatro variedades.
 
-# Ademas, a partir del grafico Q-Q, también se puede obversar que los datos tienden a distribuirse de forma normal.
+# Además, a partir del gráfico Q-Q, también se puede obversar que los datos tienden a distribuirse de forma normal.
 
 # Cuarto, verificar la condición de homocedasticidad (tienen la misma varianza) en los grupos para poder aplicar el ANOVA.
 
@@ -141,7 +141,7 @@ leveneTest(pesos ~ alimentos)
 
 # En este caso, el valor p obtenido por la prueba de Levene es de 1, mayor al nivel de 
 # significancia 0.05, por lo que indica que no se puede rechazar la hipótesis nula de que las 
-# varianzas son iguales en los grupos, de esta manera, cumpliendo con la condicion de homocedasticidad.
+# varianzas son iguales en los grupos, de esta manera, cumpliendo con la condición de homocedasticidad.
 
 # Finalmente, los datos cumplen las cuatro condiciones para realizar una prueba ANOVA.
 
@@ -173,7 +173,7 @@ summary(modelo_anova)
 # 4. El equipo determina correctamente si corresponde o no hacer un an?lisis post-hoc en cada caso, el que
 # aplica de forma correcta y completa (cuando corresponda).
 
-# En este caso, el p-valor de la prueba ANOVA fue 0.879, que es mayor que 0.05. 
+# En este caso, el p-valor de la prueba ANOVA fue 0.879, mayor que 0.05. 
 # Esto significa que no se rechaza la hipótesis nula de que no hay diferencias significativas 
 # entre las medias de los grupos. Por lo tanto, no será necesario realizar un análisis post-hoc
 # porque no se ha encontrado diferencias significativas entre los grupos en el ANOVA.

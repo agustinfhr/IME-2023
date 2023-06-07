@@ -70,7 +70,7 @@ library(rcompanion)
 
 # ------------------------------- DATOS ----------------------------------------
 
-dir <- "C:/Users/rowin/OneDrive/Escritorio/modelos estadistico/grupo_3.2/EP10"
+dir <- "C:/Users/agust/Desktop/Repo IME/IME-2023/EP10"
 basename <- "EP10 Datos.csv"
 file <- file.path(dir, basename)
 poblacion <- read.csv2(file = file)
@@ -88,6 +88,12 @@ poblacion <- read.csv2(file = file)
 # jugaron con un orco como personaje
 # H1: Hay diferencia en la puntuacion dada a las dimensiones de estética y usabilidad entre los usuarios que
 # jugaron con un orco como personaje
+
+# Formulación Matemática
+
+# H0: mu_1 = mu_2
+
+# H1: mu_1 != mu_2 
 
 orcos <- poblacion %>% filter(Personaje == "Orco")
 
@@ -134,3 +140,45 @@ print(prueba)
 
 # 2. ¿Existe diferencia en el tiempo que tardan los usuarios que jugaron con los diferentes tipos de personaje en
 # completar el nivel 30? De ser así, ¿entre qué tipos de personaje existen diferencias?
+
+# Formula con claridad y explícitamente hipótesis nulas y alternativas no paramétricas adecuadas para responder 
+# la pregunta planteada.
+
+# H0: No hay diferencia en el tiempo que tardan los usuarios que jugaron con los diferentes tipos 
+# de personaje en completar el nivel 30.
+
+# H1: Existe al menos una diferencia en el tiempo que tardan los usuarios que jugaron con 
+# los diferentes tipos de personaje en completar el nivel 30.
+
+# Formulación Matemática
+
+# H0: mu_1 = mu_2 = mu_3 = mu_4 = mu_5 = mu_6
+
+# H1: mu_i != mu_j
+
+# Comprobación de normalidad para cada tipo de personaje
+grupos_personaje <- split(poblacion$Nivel_30, poblacion$Personaje)
+lapply(grupos_personaje, shapiro.test)
+
+# Todos los grupos de datos tienen un valor p menos a 0.05, 
+# no siguen una ditribución normal, por lo tanto, se utilizará la 
+# prueba de Kruskal-Wallis
+
+kruskal_test <- kruskal.test(Nivel_30 ~ Personaje, data = poblacion)
+print(kruskal_test)
+
+# En este caso, el p-valor de la prueba ANOVA fue 0.2298, mayor que 0.05. 
+# Esto significa que no se rechaza la hipótesis nula de que no hay diferencias significativas 
+# entre las medias de los grupos. Por lo tanto, no será necesario realizar un análisis post-hoc
+# porque no se ha encontrado diferencias significativas entre los grupos en la prueba kruskal.
+
+
+
+
+
+
+
+
+
+
+
