@@ -110,7 +110,7 @@ alfa <- 0.05
 shapiro.test(orcos$Estetica)
 shapiro.test(orcos$Usabilidad)
 
-# Grafico Q-Q, para visualizar la distribución no normal. 
+# Gráfico Q-Q, para visualizar la distribución no normal. 
 qqnorm(orcos$Estetica)
 qqline(orcos$Estetica)
 
@@ -119,7 +119,7 @@ qqline(orcos$Usabilidad)
 
 # Por el valor p obtenido en los test de Shapiro-Wilk, el problema no cumple las condiciones de prueba paramétrica,
 # pues el valor de p en cada muestra es menor al alfa definido (p < alfa). Por esta razón, se usa la prueba de 
-# rangos con signo de Wilcoxon, que es el equivalente no paramétrico a la prueba t de student para meustras pareadas.
+# rangos con signo de Wilcoxon, que es el equivalente no paramétrico a la prueba t de student para muestras pareadas.
 
 # Se comprueban las condiciones para esta prueba.
 # 1. Las observaciones de usuarios pareadas son independientes entre sí.
