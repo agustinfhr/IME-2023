@@ -167,7 +167,7 @@ lapply(grupos_personaje, shapiro.test)
 kruskal_test <- kruskal.test(Nivel_30 ~ Personaje, data = poblacion)
 print(kruskal_test)
 
-# En este caso, el p-valor de la prueba ANOVA fue 0.2298, mayor que 0.05. 
+# En este caso, el p-valor de la prueba fue 0.2298, mayor que 0.05. 
 # Esto significa que no se rechaza la hipótesis nula de que no hay diferencias significativas 
 # entre las medias de los grupos. Por lo tanto, no será necesario realizar un análisis post-hoc
 # porque no se ha encontrado diferencias significativas entre los grupos en la prueba kruskal.
