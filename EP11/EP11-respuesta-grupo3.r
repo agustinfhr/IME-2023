@@ -43,7 +43,7 @@ library(ggpubr)
 
 # ------------------------------- DATOS ----------------------------------------
 
-dir <- "C:/Users/rowin/OneDrive/Escritorio/modelos estadistico/grupo_3.2/EP11"
+dir <- "C:/Users/agust/Desktop/Repo IME/IME-2023/EP11"
 basename <- "EP11 Datos.csv"
 file <- file.path(dir, basename)
 poblacion <- read.csv2(file = file)
@@ -304,3 +304,187 @@ contrastar_hipotesis_permutaciones(a, b, repeticiones = R,
 # seleccionen una muestra aleatoria de hogares (400 < n < 600) y respondan la pregunta propuesta utilizando
 # bootstrapping. Solo por ejercicio académico, aplique un análisis post-hoc con bootstrapping aunque este no
 # sea necesario.
+
+
+if (!require(boot)) {
+  install.packages("boot", dependencies = TRUE )
+  require (boot)
+}
+if (!require(simpleboot)) {
+  install.packages("simpleboot", dependencies = TRUE )
+  require (simpleboot)
+}
+
+# Se quiere realizar un estudio, donde se desea saber si promedio de los ingresos (ytot)  
+# es igual según el nivel de estudios que tenga la población
+# (Nivel Enseñanza Media, Nivel Técnico y Nivel Profesional o Superior)
+
+# Hipótesis a Contrastar:
+# H0: El promedio de los ingresos de la población es el mismo para cada uno de los
+#     Niveles de educación (Media, Técnico y Profesional)
+
+# H0: El promedio de los ingresos es diferente en al menos uno de los niveles de 
+#     educación (Media, Técnico y Profesional).
+
+# Formulación Matemática
+
+# H0: mu_1 = mu_2 = mu_3
+
+# H1: mu_1 != mu_2 o mu_1 != mu_3 o mu_2 != mu_3  
+
+
+set.seed(1784)
+n <- 500
+Ingresos_Media <- select(poblacion %>% filter(educ == "M. Hum. Completa"), contains("ytot"))
+Ingresos_Tecnico <- select(poblacion %>% filter(educ == "Tecnico Nivel Superior Completo"), contains("ytot") )
+Ingresos_Profesional <- select(poblacion %>% filter(educ == "Profesional Completo"), contains("ytot"))
+
+#Se muestrean los ingresos según el nivel de estudios
+m_Media <- sample(Ingresos_Media$ytotcorh, n)
+m_Tecnico <- sample(Ingresos_Tecnico$ytotcorh, n)
+m_Profesional <- sample(Ingresos_Profesional$ytotcorh, n)
+
+# Comprobar normalidad de las muestras .
+print (shapiro.test(m_Media))
+print (shapiro.test(m_Tecnico))
+print (shapiro.test(m_Profesional))
+
+# Al observar los resultados de las pruebas de normalidad para cada muestra,
+# se puede notar que el valor p en todos los casos es extremadamente pequeño.
+# Estos valores son incluso inferiores a un nivel de significancia de 0.01. 
+# Esto sugiere que nuestras muestras se desvían significativamente de una distribución normal.
+# Por lo que se decide usar Bootstrap para realizar la prueba de hipótesis
+
+educ <- c ( rep("Media", n), rep("Tecnico",n), rep("Profesional", n))
+Ingresos <- c(m_Media, m_Tecnico, m_Profesional)
+datos <- data.frame(Ingresos, educ)
+
+# Calcular la diferencia observada entre las medias muestrales.
+media_Media <- mean(m_Media)
+media_Tecnico <- mean(m_Tecnico)
+media_Profesional <- mean(m_Profesional)
+
+cat ("diferencia Media - Tecnico:", media_Media - media_Tecnico, "\n\n" )
+cat ("diferencia Media - Profesional:", media_Media - media_Profesional, "\n\n" )
+cat ("diferencia Tecnico - Profesional:", media_Tecnico - media_Profesional, "\n\n" )
+
+# Establecer el nivel de significación.
+alfa <- 0.05
+
+# Crear la distribución Bootstrap.
+B <- 9999
+
+# Distribución Bootstrap entre el nivel de educación Media y Técnico.
+distribucion_bootstrap_Media_Tecnico <- two.boot(m_Media, m_Tecnico, FUN = mean, R = B)
+valores <- data.frame(distribucion_bootstrap_Media_Tecnico$t)
+colnames(valores) <- "valores"
+graficar_distribucion(valores$valores)
+cat("Distribución bootstrap:\n")
+cat("\tMedia:", mean(valores$valores), "\n")
+cat("\tDesviación estándar:", sd(valores$valores), "\n\n")
+#Construir el intervalo de confianza.
+intervalo_M_T <- boot.ci(distribucion_bootstrap_Media_Tecnico, conf = 1-alfa,
+                         type = "bca")
+print(intervalo_M_T)
+
+
+# Distribución Bootstrap entre el nivel de educación Media y Profesional.
+distribucion_bootstrap_Media_Profesional <- two.boot(m_Media, m_Profesional, FUN = mean, R = B)
+valores <- data.frame(distribucion_bootstrap_Media_Profesional$t)
+colnames(valores) <- "valores"
+graficar_distribucion(valores$valores)
+cat("Distribución bootstrap:\n" )
+cat("\tMedia:", mean(valores$valores), "\n")
+cat("\tDesviación estándar:", sd(valores$valores), "\n\n")
+#Construir el intervalo de confianza.
+intervalo_M_P <- boot.ci(distribucion_bootstrap_Media_Profesional, conf = 1-alfa,
+                         type = "bca")
+print (intervalo_M_P)
+
+# Distribución Bootstrap entre el nivel de educación Técnico y Profesional.
+distribucion_bootstrap_Tecnico_Profesional <- two.boot(m_Tecnico, m_Profesional, FUN = mean, R = B)
+valores <- data.frame(distribucion_bootstrap_Tecnico_Profesional$t)
+colnames(valores) <- "valores"
+graficar_distribucion(valores$valores)
+cat("Distribución bootstrap:\n" )
+cat("\tMedia:", mean(valores$valores), "\n")
+cat("\tDesviación estándar:", sd(valores$valores), "\n\n")
+#Construir el intervalo de confianza.
+intervalo_T_P <- boot.ci(distribucion_bootstrap_Tecnico_Profesional, conf = 1-alfa,
+                         type = "bca")
+print(intervalo_T_P)
+
+#Intervalos de confianza para cada una de las distribuciones Bootstrap
+print("Intervalos de confianza:")
+print(intervalo_M_T)
+print(intervalo_M_P)
+print(intervalo_T_P)
+
+# Conclusión:
+# Como se vio en las diferencias de las medias muestrales observadas que hay 
+# diferencias notables entre las medias de los ingresos según su nivel de educación, 
+# sin embargo las muestras no tienen una distribución normal por lo que se decidio utilizar
+# Bootstrap obteniendo como resultado los intervalos de confianza de las diferencias 
+# de las medias según cada nivel de educación. A partir de estos resultados es posible 
+# concluir que: en promedio la población con un nivel de educación técnico tiene 
+# mayores ingresos que la población con un nivel de educación media con una diferencia 
+# entre 212419 y 463055. también se puede decir que en promedio la población con un nivel 
+# de educación profesional tiene mayores ingresos que la población con un nivel de 
+# educación media con una diferencia entre 837759 y 1153109. Y por último se concluye que 
+# en promedio la población con un nivel de educación profesional tiene mayores ingresos que 
+# la población con un nivel de educación técnica con una diferencia entre 502681 y 814756.
+# Por lo que la hipótesis nula es rechazada concluyendo así que el promedio de los ingresos
+# es diferente según el nivel de educación que se tenga.
+
+# Análisis post - hoc .
+# Función para calcular la media de las diferencias para dos columnas de una
+# matriz de datos en formato ancho .
+media_diferencias <- function(datos , columna_1 , columna_2) {
+  media <- mean(datos[[columna_1]] - datos[[ columna_2]])
+  return ( media )
+}
+
+# Función para generar la distribuciones de la diferencia de medias a
+# partir de las permutaciones .
+distribucion_diferencias <- function ( permutaciones , columna_1, columna_2, n) {
+  R <- n
+  distribucion <- c ()
+  
+  for ( i in 1: R ) {
+    datos <- permutaciones[i,]
+    diferencia <- media_diferencias(datos, columna_1, columna_2)
+    distribucion <- c(distribucion, diferencia )
+  }
+  
+  return ( distribucion )
+}
+
+if (!require(tidyverse ) ) {
+  install.packages("tidyverse ", dependencies = TRUE )
+  require (tidyverse )
+}
+
+Instancia <- factor (1:n)
+datos_anchos <- data.frame(Instancia, Media = m_Media, Tecnico = m_Tecnico, Profesional = m_Profesional)
+
+datos_largos <- datos_anchos %>% pivot_longer(c("Media", "Tecnico" ,
+                                                "Profesional"),
+                                              names_to = "Educación" ,
+                                              values_to = "Ingresos" )
+
+datos_largos[["Educación"]] <- factor(datos_largos[["Educación" ]])
+n<- nrow(datos_anchos)
+dif_Media_Tecnico <- distribucion_diferencias(datos_anchos, "Media", "Tecnico", n)
+dif_Media_Profesional <- distribucion_diferencias(datos_anchos, "Media" , "Profesional", n)
+dif_Tecnico_Profesional <- distribucion_diferencias(datos_anchos, "Tecnico", "Profesional", n)
+
+# A través de un análisis post-hoc detallado, pudimos contrastar las diferencias en las medias de los ingresos 
+# entre los diferentes niveles de educación: Media, Técnico y Profesional. Los resultados obtenidos indican una 
+# diferencia estadísticamente significativa en los ingresos promedio entre estos niveles de educación.
+# 
+# En particular, hemos identificado que los ingresos promedio de las personas con nivel de educación Media 
+# son significativamente diferentes a los de las personas con nivel de educación Técnico y Profesional.
+# Además, existe una diferencia notable entre los ingresos promedio de las personas con educación Técnica y Profesional.
+# 
+# Estos hallazgos sugieren que el nivel de educación tiene un impacto importante y estadísticamente 
+# significativo en los ingresos de las personas.
