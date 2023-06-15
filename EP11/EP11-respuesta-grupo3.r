@@ -127,7 +127,7 @@ poblacion <- read.csv2(file = file)
 # H0: no hay relación causal entre las variables o no hay diferencias significativas entre grupos
 # H1: hay relación causal o hay diferencias significativas entre grupos
 
-# --------- FUNCIONES PARA USAR
+# ---------------------------------
 
 # Un estudio de la Universidad de Santiago de Chile desea comprobar si el nivel
 # de observación propia sobre el estado de salud de habitantes mayores a 25 años de dos
@@ -142,6 +142,8 @@ poblacion <- read.csv2(file = file)
 # no es el mismo en la región del Biobio y en la Región Metropolitana.
 # H1: µa - µb =! 0
 
+# Se define un valor alfa igual a 0,05
+alfa <- 0.05
 
 # Definición de Funciones
 
@@ -260,14 +262,20 @@ set.seed(486)
 n <- 250
 region_biobio <- poblacion %>% filter(region == "Region del Biobio", edad > 25, s13 != "NA", s13 != 9, s13 !="No sabe")
 s13_region_biobio <- sample(region_biobio$s13, n)
-a <- as.numeric(s13_region_biobio)
+s13_region_biobio_1 <- gsub('7. Muy Bien','7',s13_region_biobio)
+s13_region_biobio_2 <- gsub('1. Muy mal','1',s13_region_biobio_1)
+a <- as.numeric(s13_region_biobio_2)
 
 region_metropolitana <- poblacion %>% filter(region == "Region Metropolitana de Santiago", edad > 25, s13 != "NA", s13 != 9, , s13 !="No sabe")
 s13_region_metropolitana <- sample(region_metropolitana$s13, n)
-b <- as.numeric(s13_region_metropolitana)
+s13_region_metropolitana_1 <- gsub('7. Muy Bien','7',s13_region_metropolitana)
+s13_region_metropolitana_2 <- gsub('1. Muy mal','1',s13_region_metropolitana_1)
+b <- as.numeric(s13_region_metropolitana_2)
+
 
 print(shapiro.test(a))
 print(shapiro.test(b))
+
 # Para ambas muestras, el valor p es menor que alfa establecido, no cumpliendo con la normalidad.
 # Por lo que se emplea prueba de permutaciones.
 
@@ -283,12 +291,11 @@ contrastar_hipotesis_permutaciones(a, b, repeticiones = R,
 
 
 # Conclusión:
-# Con respecto a la prueba realizada y utilizando para ello una simulación de
-# Monte Carlo, el resultado del valor p obtenido de 0.0001666667, inferior a un
-# nivel de significación de 0.05, por lo que se rechaza la hipótesis nula a favor 
-# de la hipótesis alternativa, de esta manera se concluye con 95% de confianza que
-# el promedio del nivel de escolaridad de los habitantes mayores a 30 años es 
-# distinto en la región metropolitana y en la Región del Maule.
+# Se puede observar a partir del valor p obtenido para la simulación Monte Carlo que p = 0.0168
+# es menor al valor alfa, por lo que se rechaza la hipótesis nula a favor de la hipótesis alternativa,
+# que significa que con un nivel de confianza de 95% que el promedio de la percepción propia del
+# estado de salud los habitantes mayores a 25 años no es el mismo en la región del Biobio y en
+# la Región Metropolitana.
 
 # ------------------------------------------------------------------------------
 
