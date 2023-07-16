@@ -122,10 +122,6 @@ muestras <- data.frame(calidad, densidad)
 modelo <- lm(calidad~densidad, data = muestras)
 print(summary(modelo))
 
-# solo para mantener el resultado
-variables2 <-  c("densidad", "acidez.fija", "acido.citrico", "cloruros", 
-               "dioxido.azufre.libre", "dioxido.azufre.total")
-
 p <- ggscatter(muestras, x = "densidad", y = "calidad", color = "blue", fill = "blue",
                xlab = "Densidad total [g/L]", ylab = "Calidad del vino")
 p <- p + geom_smooth(method = lm, se = FALSE, colour = "red")
@@ -157,12 +153,12 @@ print(shapiro.test(modelo$residuals))
 # variables <- c(variables, "calidad")
 # print(variables)
 
-# 7.	Usando herramientas para la exploración de modelos del entorno R, escoger entre dos 
+# -- 7. Usando herramientas para la exploración de modelos del entorno R, escoger entre dos 
 # y cinco predictores de entre las variables presentes en el conjunto obtenido en el paso anterior
 # para construir un modelo de regresión lineal múltiple.
 
 # Creamos la formula para el modelo. Esta formula representa 'calidad ~ predictor1 + predictor2 + ... + predictorN'
-f <- as.formula(paste("calidad", paste(c("densidad", variables2), collapse = "+"), sep = " ~ "))
+f <- as.formula(paste("calidad", paste(c("densidad", variables), collapse = "+"), sep = " ~ "))
 
 print(f)
 
@@ -252,8 +248,46 @@ print(prueba.durbin)
 #    R: Como observamos en los resultados, el supuesto se cumple
 
 datos_PR <- select(muestra, densidad, dioxido.azufre.libre, acido.citrico)
-correlacion <- round(cor(datos_PR), 2)
+datos_PR$log_densidad <- log(datos_PR$densidad)
+correlacion <- round(cor(datos_PR$log_densidad), 2)
 correlacion
 corrplot(correlacion, method="number", type="upper")
 
+
 # -- 9.	Evaluar el poder predictivo del modelo en datos no utilizados para construirlo (o utilizando validación cruzada).
+
+# Crear conjuntos de entrenamiento y prueba .
+n <- nrow(muestra)
+n_entrenamiento <- floor(0.7 * n)
+muestra_sample <- sample.int(n = n, size = n_entrenamiento, replace = FALSE)
+entrenamiento <- muestra[muestra_sample, ]
+prueba <- muestra[-muestra_sample, ]
+
+# Ajustar modelo con el conjunto de entrenamiento.
+modelo_model <- lm(calidad ~ densidad, data = entrenamiento)
+print(summary(modelo))
+
+# Calcular error cuadrado promedio para el conjunto de entrenamiento.
+mse_entrenamiento <- mean (modelo_model$residuals ** 2)
+cat("MSE para el conjunto de entrenamiento: ", mse_entrenamiento, "\n")
+
+# Hacer predicciones para el conjunto de prueba.
+predicciones <- predict(modelo_model, prueba)
+
+# Calcular error cuadrado promedio para el conjunto de prueba.
+error <- sapply(prueba[["calidad"]],as.double) - predicciones
+mse_prueba <- mean(error ** 2)
+cat("MSE para el conjunto de prueba: ", mse_prueba)
+# 
+# El coeficiente de "densidad" es -101.85, lo que indica que hay una relación negativa entre "densidad" y "calidad". 
+# Esto significa que a medida que aumenta la densidad, se espera que la calidad disminuya (según este modelo).
+
+
+
+
+
+
+
+
+
+
